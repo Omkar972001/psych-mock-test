@@ -551,7 +551,234 @@ body {
     color: var(--primary);
 }
 
+/* ... previous CSS ... */
+
 .score-circle .total {
     font-size: 0.9rem;
     color: var(--text-muted);
+}
+
+
+/* ===========================
+   Responsive / Mobile Styles
+   =========================== */
+
+/* Hide mobile elements by default on desktop */
+.mobile-header,
+.close-sidebar,
+.palette-toggle-btn,
+.mobile-only,
+.close-palette,
+.palette-header-mobile {
+    display: none;
+}
+
+/* Desktop Only Helper */
+.desktop-only {
+    display: flex;
+    /* or block depending on context, handled by media query overrides if needed */
+}
+
+@media (max-width: 768px) {
+
+    /* Layout */
+    .app-container {
+        flex-direction: column;
+        height: auto;
+        /* Allow scroll on body for mobile */
+        overflow: auto;
+    }
+
+    body {
+        overflow: auto;
+        /* Enable native scroll */
+    }
+
+    /* Mobile Header */
+    .mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        background: var(--bg-sidebar);
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+    }
+
+    .menu-toggle {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .logo-area-mobile {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .logo-icon-sm {
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    /* Sidebar (Drawer) */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Hidden */
+        width: 85%;
+        height: 100vh;
+        z-index: 100;
+        transition: left 0.3s ease;
+        box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    .close-sidebar {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    /* Main Content */
+    .main-content {
+        padding: 1rem;
+        height: auto;
+        overflow: visible;
+    }
+
+    /* Dashboard */
+    .desktop-only {
+        display: none !important;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .tests-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Test Interface */
+    .test-header {
+        padding: 0.75rem 1rem;
+        justify-content: space-between;
+        position: sticky;
+        top: 60px;
+        /* Below mobile header */
+    }
+
+    .test-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .question-container {
+        padding: 1rem 0;
+    }
+
+    .question-box {
+        padding: 1.25rem;
+        margin-bottom: 4rem;
+        /* Space for mobile actions */
+    }
+
+    .q-text {
+        font-size: 1rem;
+    }
+
+    /* Palette (Modal/Overlay on Mobile) */
+    .question-palette {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 85%;
+        height: 100vh;
+        z-index: 110;
+        transition: right 0.3s ease;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .question-palette.active {
+        right: 0;
+    }
+
+    .palette-header-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .close-palette {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .palette-toggle-btn {
+        display: block;
+        background: #e2e8f0;
+        border: 1px solid #cbd5e1;
+        padding: 0.25rem 0.75rem;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .header-actions {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .timer {
+        font-size: 1.1rem;
+    }
+
+    .back-btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    h2#currentTestTitle {
+        font-size: 0.9rem;
+        max-width: 120px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }

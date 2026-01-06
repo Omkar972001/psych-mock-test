@@ -15,8 +15,18 @@
 
 <body>
     <div class="app-container">
+        <!-- Mobile Header (Visible only on mobile) -->
+        <header class="mobile-header">
+            <button class="menu-toggle" onclick="app.toggleSidebar()">☰</button>
+            <div class="logo-area-mobile">
+                <div class="logo-icon-sm">Ψ</div>
+                <h1>PsychPrep</h1>
+            </div>
+        </header>
+
         <!-- Sidebar Navigation -->
-        <aside class="sidebar">
+        <aside class="sidebar" id="mainSidebar">
+            <button class="close-sidebar" onclick="app.toggleSidebar()">×</button>
             <div class="logo-area">
                 <div class="logo-icon">Ψ</div>
                 <h1>PsychPrep</h1>
@@ -24,7 +34,7 @@
 
             <nav class="nav-menu">
                 <div class="nav-header">Mock Tests</div>
-                <button class="nav-item active" onclick="app.loadDashboard()">
+                <button class="nav-item active" onclick="app.loadDashboard(); app.toggleSidebar(false)">
                     <span class="icon">📊</span> Dashboard
                 </button>
                 <div class="test-list" id="testList">
@@ -48,7 +58,7 @@
 
             <!-- Default Dashboard View -->
             <div class="dashboard-view" id="dashboardView">
-                <header class="top-bar">
+                <header class="top-bar desktop-only">
                     <div class="welcome-text">
                         <h2>Welcome back!</h2>
                         <p>Ready to practice today?</p>
@@ -80,8 +90,13 @@
                 <header class="test-header">
                     <button class="back-btn" onclick="app.loadDashboard()">← Exit</button>
                     <h2 id="currentTestTitle">Mock Test 1</h2>
-                    <div class="timer" id="timer">02:00:00</div>
-                    <button class="submit-btn" onclick="app.submitTest()">Submit Test</button>
+
+                    <div class="header-actions">
+                        <div class="timer" id="timer">02:00:00</div>
+                        <button class="palette-toggle-btn" onclick="app.togglePalette()">Grid</button>
+                    </div>
+
+                    <button class="submit-btn desktop-only" onclick="app.submitTest()">Submit Test</button>
                 </header>
 
                 <div class="test-layout">
@@ -107,12 +122,20 @@
                                 <button class="nav-btn prev" onclick="app.prevQuestion()">Previous</button>
                                 <button class="nav-btn next" onclick="app.nextQuestion()">Next</button>
                             </div>
+
+                            <!-- Mobile Submit Button (at bottom of question) -->
+                            <button class="submit-btn mobile-only" style="margin-top: 2rem; width: 100%;"
+                                onclick="app.submitTest()">Submit Test</button>
                         </div>
                     </div>
 
                     <!-- Question Palette -->
-                    <aside class="question-palette">
-                        <h3>Overview</h3>
+                    <aside class="question-palette" id="questionPalette">
+                        <div class="palette-header-mobile">
+                            <h3>Overview</h3>
+                            <button class="close-palette" onclick="app.togglePalette()">×</button>
+                        </div>
+
                         <div class="palette-grid" id="paletteGrid">
                             <!-- 1-100 Bubbles -->
                         </div>

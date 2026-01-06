@@ -350,6 +350,21 @@ const app = {
         document.getElementById('resultsView').classList.remove('hidden');
     },
 
+    toggleSidebar: (forceState) => {
+        const sidebar = document.getElementById('mainSidebar');
+        if (typeof forceState === 'boolean') {
+            if (forceState) sidebar.classList.add('active');
+            else sidebar.classList.remove('active');
+        } else {
+            sidebar.classList.toggle('active');
+        }
+    },
+
+    togglePalette: () => {
+        const palette = document.getElementById('questionPalette');
+        palette.classList.toggle('active');
+    },
+
     retakeTest: () => {
         if (!app.state.currentTestId) return;
         if (confirm("This will clear your previous progress and score. Are you sure you want to retake the test?")) {

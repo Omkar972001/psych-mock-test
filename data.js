@@ -1,0 +1,1102 @@
+window.RAW_MCQ_DATA = [
+    {
+        "id": 1,
+        "question": "The term 'integral yoga' is popularized by:",
+        "options": [
+            "(A) Panini",
+            "(B) Patanjali",
+            "(C) Sri Aurobindo",
+            "(D) Ramakrishna Paramahansa"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following correlation coefficient represents the variables with the weakest degree of relationship?",
+        "options": [
+            "(A) - . 84",
+            "(B) - . 56",
+            "(C) + . 75",
+            "(D) + . 08"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 3,
+        "question": "If observers disagree 15 times out of 75, then the inter-rater reliability is:",
+        "options": [
+            "(A) 50%",
+            "(B) 80%",
+            "(C) 20%",
+            "(D) 60%"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 4,
+        "question": "If a student scored 12 on a test, of which the mean is 16 and the standard deviation is 4, what is his Z-score?",
+        "options": [
+            "(A) - 1.0",
+            "(B) + 1.0",
+            "(C) + 3.0",
+            "(D) 0.0"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 5,
+        "question": "Which one is the correct formula for variance?",
+        "options": [
+            "(A) Variance = (∑ X−∑ X)2 / N",
+            "(B) Variance = ∑(X−X)2 / N",
+            "(C) Variance = (∑ X−X)2 / N2",
+            "(D) Variance = (∑ X2−X2) / N"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "A researcher is interested in testing the effectiveness of Pre-post intervention on a single group. The statistical test that could be used is:",
+        "options": [
+            "(A) Correlation",
+            "(B) Chi square",
+            "(C) ANOVA",
+            "(D) ‘t’ test"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is correct?",
+        "options": [
+            "(A) Test-retest reliability is determined by assessing the degree of relationship...",
+            "(B) Alternate forms reliability is determined by assessing the degree of relationship between scores on two different equivalent tests.",
+            "(C) Split-half reliability is determined by assessing the degree of relationship...",
+            "(D) Internal reliability is the extent to which the effect of the dependent variable..."
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Cog-screen, a computer assisted tool, has been used in the selection of ________",
+        "options": [
+            "(A) Human Resource Managers",
+            "(B) Doctors",
+            "(C) Airline pilots",
+            "(D) Electronic Media journalists"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 9,
+        "question": "Utility of Semantic differential scale is not contingent upon:",
+        "options": [
+            "(A) Finding appropriate adjective pairs",
+            "(B) Meaning of the words",
+            "(C) Length of the items in the scale",
+            "(D) Contextual reference of the items"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 10,
+        "question": "Which structure of the Limbic system is mostly responsible for controlling the emotional behaviour of fear?",
+        "options": [
+            "(A) Amygdala",
+            "(B) Hippocampus",
+            "(C) Cingulate gyrus",
+            "(D) Mammilary bodies"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "REM sleep is characterized by one of the following conditions.",
+        "options": [
+            "(A) PGO waves",
+            "(B) ULPA",
+            "(C) Flip-flop",
+            "(D) Histamine"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 12,
+        "question": "Class is to the ________ property of measurement as time is to the ______ property of measurement",
+        "options": [
+            "(A) Magnitude, Identity",
+            "(B) Equal unit size, magnitude",
+            "(C) Identity, absolute zero",
+            "(D) Absolute zero, equal unit size"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 13,
+        "question": "A genetic inability to metabolize amino acid phenylalanine leads to one of the following Conditions.",
+        "options": [
+            "(A) Down's syndrome",
+            "(B) Autism",
+            "(C) Cerebral Palsy",
+            "(D) PKU"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "A person who had experienced an intensive negative emotion fails to recollect the emotional event. This is known as:",
+        "options": [
+            "(A) Forgetting due to interference",
+            "(B) Retrieval failure",
+            "(C) Motivated Forgetting",
+            "(D) Forgetting due to decay"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "The tendency of a consumer to decide on buying a product that was repeatedly appearing on T.V. screen is attributed to",
+        "options": [
+            "(A) Effectiveness of the product",
+            "(B) Price of the product",
+            "(C) Subliminal perception",
+            "(D) Utility of the product"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 16,
+        "question": "Brain lesions of sub cortical regions produced by passing electrical current through an insulated electrode is called:",
+        "options": [
+            "(A) Excitotoxic lesions",
+            "(B) Radio frequency lesions",
+            "(C) Sham lesions",
+            "(D) Excitatory lesions"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "A person dressed in a gorilla suit walked unnoticed through a group of students playing basket ball. How can this phenomenon be described?",
+        "options": [
+            "(A) Change of attention",
+            "(B) Attention loss",
+            "(C) Inattention blindness",
+            "(D) Attention lapse"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "The light sensation from the left and right visual field travels to the visual cortex through:",
+        "options": [
+            "(A) Lateral geniculate nucleus",
+            "(B) Superior colliculus",
+            "(C) Optic radiations",
+            "(D) Pulvinar nucleus"
+        ],
+        "answer": "A, C"
+    },
+    {
+        "id": 19,
+        "question": "Step by step interaction of operating a mechanical gadget is an example of :",
+        "options": [
+            "(A) Trouble shooting",
+            "(B) Algorithm",
+            "(C) Heuristic approach",
+            "(D) Means-end analysis"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 20,
+        "question": "Making a reference to a respected person believed to be well informed, when one's own logic or reasoning is called:",
+        "options": [
+            "(A) Arguing in circles",
+            "(B) False Analogy",
+            "(C) Appeal to authority",
+            "(D) Overgeneralization"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 21,
+        "question": "When a person who needs to use a tool in a novel way but cannot do, it is attributed to:",
+        "options": [
+            "(A) Lack of interest",
+            "(B) Lack of motor skill",
+            "(C) Functional fixedness",
+            "(D) Lack of motivation"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 22,
+        "question": "Which of the following examines information processing approach to intelligence?",
+        "options": [
+            "(A) Overall success in living",
+            "(B) Structure of intelligence",
+            "(C) Functions of intelligence",
+            "(D) Processes underlying intelligent behaviour"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "In the Drive Reduction Theory given by Hull, SHR stands for:",
+        "options": [
+            "(A) Excitatory potential",
+            "(B) Drive reduction",
+            "(C) Habit strength",
+            "(D) Inhibitory potential"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 24,
+        "question": "Which of the following attributions indicate an optimistic explanatory style in the face of Stress?",
+        "options": [
+            "(A) Internal cause, specific impact and unstable outcome",
+            "(B) External cause, specific impact and unstable outcome",
+            "(C) Internal cause, global impact and unstable outcome",
+            "(D) Internal cause, global impact and stable outcome"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 25,
+        "question": "An individual encountering prolonged stress is prone to suffer from skin infection because:",
+        "options": [
+            "(A) Corticotropin Releasing Factor (CRF) flows...",
+            "(B) Adrenalin released into blood absorbs the vitamin B...",
+            "(C) Cortisol released into blood causes damage to the T and B cells in the WBC",
+            "(D) Corticosteroids get deposited in the skin due to stress"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 26,
+        "question": "Hardiness is a combination of three cognitive factors involved in the interpretation of life events. Find out from the following which is not correct for hardy personality.",
+        "options": [
+            "(A) Control",
+            "(B) Coping",
+            "(C) Challenge",
+            "(D) Commitment"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 27,
+        "question": "Cognitive dissonance theory explains that attitude change occurs as a result of :",
+        "options": [
+            "(A) Distance between one's belief and behaviour",
+            "(B) Reduction of the unpleasant arousal people experience while they engage in a behavior that conflicts with their attitude.",
+            "(C) A resolution of conflict by a neutral third party...",
+            "(D) A strategy in which people create obstacles to success..."
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 28,
+        "question": "Social loafing is defined as:",
+        "options": [
+            "(A) Personal characteristics that others view as insurmountable handicaps...",
+            "(B) The tendency by group members to slack off and reduce their effort on additive tasks...",
+            "(C) The set of interpersonal relationships associated with the social position...",
+            "(D) Individuals' concept of self in specific social roles."
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 29,
+        "question": "Which of the following is a group decision-making technique?",
+        "options": [
+            "(A) Brainstorming",
+            "(B) Ordinal group technique",
+            "(C) Risky shift",
+            "(D) Random shift"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "Which of the following is correct about the result of Milgram's study?",
+        "options": [
+            "(A) In the real word, most people will refuse to follow orders...",
+            "(B) Many people will obey an authority figure even if innocent people get hurt",
+            "(C) Most people are willing to give obviously wrong answers...",
+            "(D) Most people stick to their own judgement..."
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 31,
+        "question": "Which of the following definitions is not correct according to Gestalt therapy?",
+        "options": [
+            "(A) Introjection refers to the internalized rules...",
+            "(B) Retroflection refers to the process whereby we do to ourselves...",
+            "(C) Confluence refers to the style of relating to other people...",
+            "(D) Deflection refers to the process of attributing aspects of ourselves to other people"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 32,
+        "question": "The counsellor can use the following formula for a rough assessment of severity of client's problem, prescribed by Mehrabian and Reed (1969).",
+        "options": [
+            "(A) Distress+ Uncontrollability + Frequency",
+            "(B) Distress + Uncontrollability - Frequency",
+            "(C) Distress × uncontrollability × frequency",
+            "(D) (Distress + controllability) × Frequency"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 33,
+        "question": "Which of the following name is associated with Play Therapy ?",
+        "options": [
+            "(A) Eric Berne",
+            "(B) Elizabeth Hurlock",
+            "(C) Gerard Egan",
+            "(D) Virginia Axline"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 34,
+        "question": "In REBT, treatment is based on:",
+        "options": [
+            "(A) Assessment of goals and activating events only",
+            "(B) Diagnostic categories, beliefs and consequences",
+            "(C) Believes and consequences only",
+            "(D) Assessment of goals, activating events, believes and consequences"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 35,
+        "question": "Transactional analysis is concerned with four major areas of analysis. Which out of the following does not come under this ?",
+        "options": [
+            "(A) Structural analysis",
+            "(B) Hypnotic analysis",
+            "(C) Ground analysis",
+            "(D) Game analysis"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 36,
+        "question": "Which of the following is not relevant to a cardiac patient's behaviour of adherence to treatment?",
+        "options": [
+            "(A) Self-efficacy",
+            "(B) Perception about how serious is the condition",
+            "(C) Sense of humour",
+            "(D) Perception of how much control one can exercise on health"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 37,
+        "question": "Which of the following is not a risk factor for hypertension ?",
+        "options": [
+            "(A) Obesity",
+            "(B) Atherosclerosis",
+            "(C) Multiple Sclerosis",
+            "(D) Exposure to stress"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 38,
+        "question": "Actions taken to identify and treat an illness or injury early with an aim of stopping or reversing the problem comes under",
+        "options": [
+            "(A) Primary prevention",
+            "(B) Secondary prevention",
+            "(C) Tertiary prevention",
+            "(D) Protection prevention"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 39,
+        "question": "In the context of health behaviour, Matarazzo (1984) claims:",
+        "options": [
+            "(A) Behaviour that protects health as 'behavioural immunogenes’...",
+            "(B) Behaviour that protects health as 'behavioural immunogenes’ and that puts health at risk as 'Behavioural pathogens'",
+            "(C) Behaviour that protects health as 'psycho immunogenes'...",
+            "(D) Behaviour that protects health as 'Immunological behaviour'..."
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "Martin Seligman proposed a theory of authentic happiness and well being which contains five elements. Which of the following does not come under Seligman's theory?",
+        "options": [
+            "(A) Positive emotion",
+            "(B) Meaning that defines authentic happiness",
+            "(C) Resilience",
+            "(D) Accomplishment"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 41,
+        "question": "Which of the following is correct about cognitive perspective? (a) Thinking and understanding about the world (b) Information processing (c) Overt behaviour only (d) Similarity of thinking and working of a computer Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (d) only",
+            "(B) (c) and (d) only",
+            "(C) (a), (b) and (d) only",
+            "(D) (a) and (b) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 42,
+        "question": "According to Indian concept of Self, elements of Psychological self include: (a) Manas (b) Buddhi (c) Anthakarna (d) Dhyana. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (d) only",
+            "(B) (b), (c) and (d) only",
+            "(C) (a), (c) and (d) only",
+            "(D) (a), (b) and (c) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 43,
+        "question": "Which of the following can be used to determine the number of factors to be extracted in factor analysis? (a) Scree-plot (b) Orthogonal rotation (c) Eigen value (d) Factor Loading. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) only",
+            "(B) (b) and (c) only",
+            "(C) (c) only",
+            "(D) (a) and (c) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 44,
+        "question": "Which of the following are the types of probability sample? (a) Simple Random sampling (b) Proportionate stratified sampling (c) Disproportionate stratified sampling (d) Saturation sampling Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (b), (c) and (d) only",
+            "(C) (a), (c) and (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 45,
+        "question": "Which of the following statements are true of aptitude? (a) They are acquired (b) They are innate (c) Training ensures optimal performance (d) Aptitudes and interests are positively related. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (b) and (c) only",
+            "(C) (a), (b) and (c) only",
+            "(D) (c) and (d) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 46,
+        "question": "What is true about norm in Psychological Test? (a) Norm helps as comparative device (b) 'Percentage' is a type of norm used by some psychometricians (c) T-score is a type of standard score norm (d) Raw score is converted to derived score for norm interpretation. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (d) only",
+            "(B) (a), (b) and (d) only",
+            "(C) (a), (c) and (d) only",
+            "(D) (a), (b) and (c) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 47,
+        "question": "True description about Differential Aptitude Test (DAT) are: (a) It has eight sub tests (b) Meant for students from grade 8 to grade 12 (c) Meant for students in the age of 8 to 12 years (d) It has also been adapted by Indian Psychologists. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (a) and (c) only",
+            "(C) (b), (c) and (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 48,
+        "question": "Which of the following domains are assessed by Neuropsychological tests? (a) Language (b) Opinion (c) Memory (d) Executive Functioning (e) Reaction Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (b), (c) and (e) only",
+            "(B) (a), (c) and (d) only",
+            "(C) (c), (d) and (e) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 49,
+        "question": "Which of the following statements are True of Biofeedback? (a) It is accurate (b) Behaviour can be modified through biofeedback (c) It helps in bringing involuntary actions to voluntary actions (d) It is one of the components of polygraphy. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (a) and (b) only",
+            "(C) (c) and (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 50,
+        "question": "Which of the following are the motivating factors in learning: (a) Intelligence (b) Nature of task (c) Knowledge of result (d) Reinforcement Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (b), (c) and (d) only",
+            "(C) (b) and (c) only",
+            "(D) (a) and (c) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 51,
+        "question": "Which one is not correct about classical conditioning (a) Classical conditioning is also known as respondent conditioning. (b) ... (c) ... (d) Classical Conditioning is also known as Instrumental Conditioning. (e) In Classical conditioning there is no association between stimulus and response Choose the correct answer from the options given below :",
+        "options": [
+            "(A) (a) and (d) only",
+            "(B) (a), (c) and (d) only",
+            "(C) (b), (c), (d) only",
+            "(D) (d) and (e) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 52,
+        "question": "Which of the following are true of perceptual constancy? (a) Shape (b) Illumination (c) Colour (d) Distance Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (c) only",
+            "(B) (a) and (b) only",
+            "(C) (b) and (c) only",
+            "(D) (b) and (d) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 53,
+        "question": "Which of the following are the types of long term memory? (a) Declarative Memory (b) Flash Bulb memory (c) Episodic memory (d) Sensory Memory Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (b), (c) and (d) only",
+            "(C) (a) and (d) only",
+            "(D) (a) and (c) only"
+        ],
+        "answer": "D, A"
+    },
+    {
+        "id": 54,
+        "question": "Which of the following statements are true? (a) All intelligent persons are creative (b) Creativity is also known as divergent thinking (c) Creativity is genetically determined (d) Research is not conclusive about the relationship between intelligence and creativity. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (b) and (c) only",
+            "(C) (a) and (d) only",
+            "(D) (b) and (d) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 55,
+        "question": "Which of the following indicate aspects of language development? (a) Pragmatics (b) Syntax (c) Imprinting (d) Semantics Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (a) and (b) only",
+            "(C) (a), (b) and (d) only",
+            "(D) (b) and (c) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 56,
+        "question": "Which of the following is true about linguistic-relativity hypothesis? (a) Thought produces language (b) Language shapes perception and understanding (c) Language determines thought (d) Thinking and language interact Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (d) only",
+            "(B) (b) and (c) only",
+            "(C) (a) only",
+            "(D) (b), (c) and (d) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 57,
+        "question": "Which of the following statements related to stress are correct? (a) Anthropogenic stress refers to stressors such as crowding (b) The impact of earth energies on human well being is called 'Geopathic Stress' (c) ... (d) ... Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (b) and (c) only",
+            "(C) (c) and (d) only",
+            "(D) (a) and (d) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 58,
+        "question": "Which of the following is true with reference to psychological stress ? (a) Stress is a temporary phenomenon (b) Stress is a subjective perception (c) Personality and stress are not related (d) A certain degree of stress is needed for optimal performance. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (b), (c) and (d) only",
+            "(C) (a), (c) and (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 59,
+        "question": "Which of the following is true about leadership? (a) Leaders influence followers (b) Situation is not important in leadership (c) All managers are leaders (d) Transactional leaders are different from transformational leaders. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a) and (d) only",
+            "(B) (a), (b) and (d) only",
+            "(C) (a), (c) and (d) only",
+            "(D) (a) and (b) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 60,
+        "question": "Which of the following is applicable to Fiedler's contingency model of leadership effectiveness? (a) The leader's position power (b) The degree of task structure (c) The leader-member relationship (d) The inborn traits of the leader Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (a), (b) and (c) only",
+            "(C) (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 61,
+        "question": "Transactional Analysis refers to the ego states such as: (a) Critical Parent, Adult (b) Parent, Child, Adult (c) Nurturant Parent, Little Professor (d) Adapted child, Deviant child Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b) and (c) only",
+            "(B) (c) and (d) only",
+            "(C) (b), (c) and (d) only",
+            "(D) (a) and (d) only"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 62,
+        "question": "In force-field analysis the counselee analyses: (a) ... (b) The forces that constitute one's resources (c) ... (d) Facilitating factors and restraining factors in the situation. Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) only",
+            "(B) (a) and (c) only",
+            "(C) (b) and (d) only",
+            "(D) (d) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 63,
+        "question": "In counselling, 'advanced empathy' includes: (a) Connecting islands and identifying themes (b) Identifying themes and brain storming (c) Making the implicit explicit and identifying themes (d) Connecting islands and paraphrasing. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (a) and (c) only",
+            "(C) (a) and (d) only",
+            "(D) (a), (b) and (d) only"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 64,
+        "question": "The principle of Classical Conditioning is used in: (a) Token economy (b) Systematic desensitization (c) Electro convulsion therapy (d) Aversion therapy Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a) and (b) only",
+            "(B) (a) and (c) only",
+            "(C) (b) and (c) only",
+            "(D) (b) and (d) only"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 65,
+        "question": "In the Transactional Analysis, Ego State Analysis involves analyzing (a) Id, Ego, Super Ego (b) Alter Ego (c) Parent, Adult, child (d) Voluntary and Involuntary Ego Choose the most appropriate answer from the options given below:",
+        "options": [
+            "(A) (a) and (c) only",
+            "(B) (b) only",
+            "(C) (c) only",
+            "(D) (c) and (d) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 66,
+        "question": "Match List I (Correlation types) with List II (Definitions). (a) Phi-coefficient (IV), (b) Point-biserial (I), (c) Regression (II), (d) Partial correlation (III). Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a)-(IV), (b)-(II), (c)-(III), (d)-(I)",
+            "(B) (a)-(III), (b)-(II), (c)-(IV), (d)-(I)",
+            "(C) (a)-(II), (b)-(IV), (c)-(III), (d)-(I)",
+            "(D) (a)-(IV), (b)-(I), (c)-(II), (d)-(III)"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 67,
+        "question": "Match List I with List II: (a) Phenomenology - (III) Eidectic variation, (b) Narrative analysis - (I) Constructionist, (c) Grounded theory - (IV) Theoretical coding, (d) Netnographic - (II) Social media. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a)-(I), (b)-(III), (c)-(IV), (d)-(II)",
+            "(B) (a)-(II), (b)-(IV), (c)-(III), (d)-(I)",
+            "(C) (a)-(III), (b)-(I), (c)-(IV), (d)-(II)",
+            "(D) (a)-(IV), (b)-(I), (c)-(III), (d)-(II)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 68,
+        "question": "Match List I (Non-parametric tests) with List II. (a) Kruskal Wallis (III), (b) Mann-Whitney (I), (c) Wilcoxon (II), (d) Friedman's (IV). Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a)-(III), (b)-(II), (c)-(IV), (d)-(I)",
+            "(B) (a)-(III), (b)-(I), (c)-(II), (d)-(IV)",
+            "(C) (a)-(IV), (b)-(II), (c)-(III), (d)-(I)",
+            "(D) (a)-(I), (b)-(II), (c)-(IV), (d)-(III)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 69,
+        "question": "Match List I (Attitude Scales) with List II (Psychologists): (a) Summated Rating - (III) Likert, (b) Semantic differential - (IV) Osgood, (c) Equal Appearing - (I) Thurstone, (d) Cumulative - (II) Guttman. Choose correct answer:",
+        "options": [
+            "(A) (a)-(IV), (b)-(I), (c)-(II), (d)-(III)",
+            "(B) (a)-(III), (b)-(IV), (c)-(I), (d)-(II)",
+            "(C) (a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
+            "(D) (a)-(IV), (b)-(I), (c)-(III), (d)-(II)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 70,
+        "question": "Match List I (Syndromes) with List II (Description): (a) Turner's - (III), (b) Fragile-X - (IV), (c) Down's - (II), (d) Klinefelter - (I). Choose correct answer:",
+        "options": [
+            "(A) (a)-(I), (b)-(III), (c)-(II), (d)-(IV)",
+            "(B) (a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
+            "(C) (a)-(II), (b)-(III), (c)-(I), (d)-(IV)",
+            "(D) (a)-(III), (b)-(II), (c)-(IV), (d)-(I)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 71,
+        "question": "Match List I (Memory Types) with List II: (a) Semantic - (I), (b) Episodic - (IV), (c) Flashbulb - (II), (d) Procedural - (III). Choose correct answer:",
+        "options": [
+            "(A) (a)-(I), (b)-(II), (c)-(IV), (d)-(III)",
+            "(B) (a)-(I), (b)-(II), (c)-(III),(d)-(IV)",
+            "(C) (a)-(II), (b)-(III), (c)-(I), (d)-(IV)",
+            "(D) (a)-(I), (b)-(IV), (c)-(II), (d)-(III)"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 72,
+        "question": "Match List I (Psychologists) with List II (Theories): (a) Thurstone - (II), (b) Gardner - (III), (c) Sternberg - (I), (d) J.P. Das - (IV). Choose correct answer:",
+        "options": [
+            "(A) (a)-(IV), (b)-(I), (c)-(II), (d)-(III)",
+            "(B) (a)-(II), (b)-(I), (c)-(III), (d)-(IV)",
+            "(C) (a)-(II), (b)-(III), (c)-(I), (d)-(IV)",
+            "(D) (a)-(II), (b)-(III), (c)-(IV), (d)-(I)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 73,
+        "question": "Match List I (Reasoning) with List II: (a) Inductive - (III), (b) Deductive - (I), (c) Heuristics - (II), (d) Algorithm - (IV). Choose correct answer:",
+        "options": [
+            "(A) (a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
+            "(B) (a)-(I), (b)-(II), (c)-(IV), (d)-(III)",
+            "(C) (a)-(IV), (b)-(III), (c)-(II), (d)-(I)",
+            "(D) (a)-(III), (b)-(I),(c)-(II), (d)-(IV)"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 74,
+        "question": "Match List I (Emotions) with List II (Theories): (a) Innate - (III), (b) Autonomic - (IV), (c) Two-factor - (II), (d) Sub-cortical - (I). Choose correct answer:",
+        "options": [
+            "(A) (a)-(II), (b)-(I), (c)-(IV), (d)-(III)",
+            "(B) (a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
+            "(C) (a)-(I), (b)-(II), (c)-(III), (d)-(IV)",
+            "(D) (a)-(IV), (b)-(II), (c)-(I), (d)-(III)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 75,
+        "question": "Match List I with List II: (a) Snyder - (III) Hope theory, (b) Diener - (I) Bottom-up vs Top-down, (c) Antonovsky - (IV) Salutogenic, (d) Fredrickson - (II) Broaden and Build. Choose correct answer:",
+        "options": [
+            "(A) (a)-(III), (b)-(I), (c)-(IV), (d)-(II)",
+            "(B) (a)-(III), (b)-(II), (c)-(I), (d)-(IV)",
+            "(C) (a)-(II), (b)-(III), (c)-(IV), (d)-(I)",
+            "(D) (a)-(I), (b)-(III), (c)-(II), (d)-(IV)"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 76,
+        "question": "Arrange in sequence the following scales of measurement Ordinal, Nominal, Ratio and Interval according to properties of scale (a) Identity (b) Identity and Magnitude (c) Identity, magnitude and equal unit size (d) Identity, magnitude, equal unit size and absolute Zero Choose the correct answer:",
+        "options": [
+            "(A) (b),(a), (d), (c)",
+            "(B) (b), (c), (d), (a)",
+            "(C) (a), (b), (d), (c)",
+            "(D) (c), (b), (a), (d)"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 77,
+        "question": "What is the correct sequence in development of a psychological tool? (a) Establishing reliability (b) Item analysis (c) Developing norm (d) Establishing validity. Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (b), (d), (c)",
+            "(B) (b), (a), (d), (c)",
+            "(C) (a), (d), (c), (b)",
+            "(D) (b), (a), (c), (d)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 78,
+        "question": "What is the sequence of steps involved in conducting Radio Frequency lesion by using stereotoxic apparatus? (a) Drill hole (b) Pass current (c) Close hole (d) Fix head (e) Push electrode. Choose correct answer:",
+        "options": [
+            "(A) (a), (b), (d), (e), (c)",
+            "(B) (c), (a), (b), (d), (e)",
+            "(C) (d), (a), (e), (b), (c)",
+            "(D) (b), (d), (a), (c), (e)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 79,
+        "question": "Arrange the following in order of their occurrence in observational learning. (a) Retention (b) Attention (c) Reproduction (d) Motivation Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (d), (b), (a), (c)",
+            "(B) (a), (b), (c), (d)",
+            "(C) (b), (d), (a), (c)",
+            "(D) (b), (a), (c), (d)"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 80,
+        "question": "Arrange the bodily consequences of stress in the order as proposed by Hans Selye (a) Exhaustion (b) Alarm (c) Resistance (d) Hardiness Choose the correct answer:",
+        "options": [
+            "(A) (d), (b), (c), (a)",
+            "(B) (b), (c), (a), (d)",
+            "(C) (b), (c), (a) only",
+            "(D) (b), (c), (d) only"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 81,
+        "question": "The Four Stage theory of creativity was proposed by Joseph Wallas. Arrange these stages in a sequence. (a) Preparation (b) Incubation (c) Illumination (d) Verification Choose the correct answer:",
+        "options": [
+            "(A) (a), (c), (b), (d)",
+            "(B) (a), (b), (c), (d)",
+            "(C) (a), (d), (b), (c)",
+            "(D) (a), (c), (d), (b)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 82,
+        "question": "Arrange in order the Hierarchy of Needs by Maslow. (a) Physiological (b) Esteem (c) Affiliation (d) Safety (e) Self-actualization Choose the correct answer from the options given below:",
+        "options": [
+            "(A) (a), (e), (c), (b), (d)",
+            "(B) (a), (d), (c), (b), (e)",
+            "(C) (a), (b), (d), (c), (e)",
+            "(D) (a), (c), (e), (d), (b)"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 83,
+        "question": "The correct sequence of a person who is hungry in terms of motivational cycle is: (a) Disequilibrium (b) Reaching goal (c) Instrumental behaviour (d) Homeostasis (e) Consumption of food. Choose the correct answer:",
+        "options": [
+            "(A) (a), (c), (b), (e),(d)",
+            "(B) (d), (a), (b), (e), (c)",
+            "(C) (c), (a), (b), (d), (e)",
+            "(D) (e), (d), (a), (c), (b)"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 84,
+        "question": "As per Tuckman's group development model, identify the correct sequence (a) Norming (b) Storming (c) Performing (d) Forming (e) Adjourning Choose correct answer:",
+        "options": [
+            "(A) (a), (c), (b), (d), (e)",
+            "(B) (a), (d), (b), (c), (e)",
+            "(C) (d), (b), (a), (c), (e)",
+            "(D) (d), (a), (b), (c), (e)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 85,
+        "question": "Arrange the following from early to later development (a) Autonomy vs shame (b) Identity vs role confusion (c) Industry vs inferiority (d) Initiative vs guilt Choose correct answer:",
+        "options": [
+            "(A) (a), (c), (d), (b)",
+            "(B) (d), (c), (a), (b)",
+            "(C) (c), (d), (a), (b)",
+            "(D) (a), (d), (c), (b)"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 86,
+        "question": "Assertion (A): Effectiveness of psychological research increases if multiple methods are used. Reason (R): Triangulation helps in relating information to arrive at meaningful inference. Choose appropriate answer:",
+        "options": [
+            "(A) Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+            "(B) Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+            "(C) (A) is true but (R) is false",
+            "(D) (A) is false but (R) is true"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 87,
+        "question": "Statement (I): Posterior of pituitary gland secretes antidiuretic hormone... Statement (II): Cortex of adrenal glands located on the top of Kidneys helps in uterine contraction... Choose appropriate answer:",
+        "options": [
+            "(A) Both statement (I) and Statement (II) are true",
+            "(B) Both Statement (I) and Statement (II) are false",
+            "(C) Statement (I) is true but Statement (II) is false",
+            "(D) Statement (I) is false but Statement (II) is true"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 88,
+        "question": "Statement (I): In a figure-ground perception, the region seen as figure contains the object of interest... Statement (II): Figure-ground perception can be ambiguous. Choose appropriate answer:",
+        "options": [
+            "(A) Both statement (I) and Statement (II) are correct",
+            "(B) Both Statement (I) and Statement (II) are incorrect",
+            "(C) Statement (I) is correct but Statement (II) is incorrect",
+            "(D) Statement (I) is incorrect but Statement (II) is correct"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 89,
+        "question": "Assertion-(A): Monthly salary of Government employees can be termed as a reinforcement at workplace. Reason-(R): Variable ratio leads to higher rate of responses. Choose appropriate answer:",
+        "options": [
+            "(A) Both (A) and (R) are true and (R) is the explanation of (A)",
+            "(B) Both (A) and (R) are true but (R) is NOT the explanation of (A)",
+            "(C) (A) is true but (R) is false",
+            "(D) (A) is false but (R) is true"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 90,
+        "question": "Assertion-(A): A person who has type A personality experiences high stress. Reason-(R): Research shows evidence for correlation between personality and stress. Choose appropriate answer:",
+        "options": [
+            "(A) Both (A) and (R) are true and (R) is the explanation of (A)",
+            "(B) Both (A) and (R) are true but (R) is NOT the explanation of (A)",
+            "(C) (A) is true but (R) is false",
+            "(D) (A) is false but (R) is true"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 91,
+        "question": "[Passage: Piaget experiment] The children who answered the Aeroplane-elephant question correctly come under the stage of:",
+        "options": [
+            "(A) Concrete operational stage",
+            "(B) Intuitive Operational Stage",
+            "(C) Formal Operational stage",
+            "(D) Preoperational Stage"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 92,
+        "question": "The clay ball experiment measures children's ability of",
+        "options": [
+            "(A) Object Permanence",
+            "(B) Egocentrism",
+            "(C) Conservation",
+            "(D) Animism"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 93,
+        "question": "The psychologist associated with the above experiment:",
+        "options": [
+            "(A) Vygotsky",
+            "(B) Piaget",
+            "(C) Bruner",
+            "(D) Bandura"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 94,
+        "question": "In which stage of development are the children who answered that the flattened ball contained more clay?",
+        "options": [
+            "(A) Formal operational stage",
+            "(B) Preoperational stage",
+            "(C) Sensori Motor stage",
+            "(D) Concrete operational stage"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 95,
+        "question": "The theory underlining the above study is:",
+        "options": [
+            "(A) Psychodynamic theory",
+            "(B) Social observational learning",
+            "(C) Cognitive development theory",
+            "(D) Cognitive dynamic behaviour theory"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 96,
+        "question": "[Passage: Gender and Social Support study] What design was used in the above experiment?",
+        "options": [
+            "(A) Between Group Design",
+            "(B) Within group design",
+            "(C) Correlational design",
+            "(D) Factorial design"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 97,
+        "question": "What sampling was used in the study?",
+        "options": [
+            "(A) Quota sampling",
+            "(B) Purposive sampling",
+            "(C) Cluster sampling",
+            "(D) Stratified sampling"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 98,
+        "question": "What type of variable was gender in the study?",
+        "options": [
+            "(A) Predictive Variable",
+            "(B) Criterion variable",
+            "(C) Mediation variable",
+            "(D) Moderation variable"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 99,
+        "question": "The interpretation of the result the experiment made was:",
+        "options": [
+            "(A) P < .05",
+            "(B) P <.01",
+            "(C) P < .001",
+            "(D) P >.05"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 100,
+        "question": "Which type of statistical analysis was used?",
+        "options": [
+            "(A) Simple linear regression",
+            "(B) Biserial correlation",
+            "(C) Multiple regression",
+            "(D) Log linear correlation"
+        ],
+        "answer": "C"
+    }
+];

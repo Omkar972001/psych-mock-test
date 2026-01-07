@@ -13,17 +13,18 @@ const app = {
         visited: new Set(),
         currentQIndex: 0,
         timeLeft: 7200, // 2 hours in seconds
-        timerId: null,
-        isReviewMode: false,
-        lastScore: 0
+        timerId: null, // Legacy support, now using app.timerId
     },
+
+    timerId: null, // App-level timer reference
+    isLoading: false,
 
     init: () => {
         app.renderDashboard();
     },
 
     loadDashboard: () => {
-        clearInterval(app.state.timerId);
+        if (app.timerId) clearInterval(app.timerId);
         document.getElementById('dashboardView').classList.remove('hidden');
         document.getElementById('testInterface').classList.add('hidden');
         document.getElementById('resultsView').classList.add('hidden');
@@ -72,21 +73,30 @@ const app = {
         const list = document.getElementById('testList');
         list.innerHTML = app.tests.map(t => `
             <button class="nav-item" onclick="app.startTest(${t.id})">
-                <span class="icon">📝</span> Option ${t.id}
+                <span class="icon">📝</span> ${t.title}
             </button>
         `).join('');
     },
 
     startTest: async (id) => {
-        const test = app.tests.find(t => t.id === id);
-        if (!test) return;
+        if (app.isLoading) return; // Prevent double clicks
+        app.isLoading = true;
 
-        // Load Persisted State if exists
+        const test = app.tests.find(t => t.id === id);
+        if (!test) { app.isLoading = false; return; }
+
+        // Load Persisted State
         const savedKey = `psych_test_${id}_state`;
         const savedRaw = localStorage.getItem(savedKey);
         let saved = savedRaw ? JSON.parse(savedRaw) : null;
 
         const isCompleted = saved?.completed;
+
+        // Cleanup any existing timer violently
+        if (app.timerId) {
+            clearInterval(app.timerId);
+            app.timerId = null;
+        }
 
         // Reset State
         app.state = {
@@ -97,7 +107,7 @@ const app = {
             visited: new Set(saved?.visited || []),
             currentQIndex: 0,
             timeLeft: saved?.timeLeft || 7200,
-            timerId: null,
+            timerId: null, // Legacy
             isReviewMode: isCompleted,
             lastScore: saved?.score || 0
         };
@@ -110,17 +120,19 @@ const app = {
         document.getElementById('qText').innerText = "Loading Test Data...";
         document.getElementById('optionsList').innerHTML = "";
 
-        // Adjust UI for Review Mode
-        const submitBtn = document.querySelector('.submit-btn');
-        if (isCompleted) {
-            submitBtn.innerText = "Back to Results";
-            submitBtn.onclick = app.showResults;
-            document.getElementById('timer').style.display = 'none';
-        } else {
-            submitBtn.innerText = "Submit Test";
-            submitBtn.onclick = app.submitTest;
-            document.getElementById('timer').style.display = 'block';
-        }
+        // Adjust UI for Review Mode (Apply to ALL buttons)
+        const submitBtns = document.querySelectorAll('.submit-btn');
+        submitBtns.forEach(btn => {
+            if (isCompleted) {
+                btn.innerText = "Back to Results";
+                btn.onclick = app.showResults;
+                document.getElementById('timer').style.display = 'none';
+            } else {
+                btn.innerText = "Submit Test";
+                btn.onclick = app.submitTest;
+                document.getElementById('timer').style.display = 'block';
+            }
+        });
 
         // Fetch Data
         try {
@@ -142,28 +154,47 @@ const app = {
             console.error(e);
             alert("Error loading test data: " + e.message);
             app.loadDashboard();
+        } finally {
+            app.isLoading = false;
         }
     },
 
     startTimer: () => {
         const display = document.getElementById('timer');
+        console.log("Starting Timer...");
 
         // Clear existing to avoid dupes
-        if (app.state.timerId) clearInterval(app.state.timerId);
+        if (app.timerId) {
+            console.log("Clearing existing timer", app.timerId);
+            clearInterval(app.timerId);
+            app.timerId = null;
+        }
 
-        app.state.timerId = setInterval(() => {
-            app.state.timeLeft--;
+        // Use Date.now() for accurate timing
+        // If restarting, use current timeLeft. 
+        // Note: timeLeft is in seconds.
+        const endTime = Date.now() + (app.state.timeLeft * 1000);
 
-            // Persist every 5 secs (Optimization)
-            if (app.state.timeLeft % 5 === 0) app.persistState();
+        app.timerId = setInterval(() => {
+            const now = Date.now();
+            const remaining = Math.round((endTime - now) / 1000);
 
-            if (app.state.timeLeft <= 0) {
+            app.state.timeLeft = remaining;
+
+            // Persist every 5 secs
+            if (remaining % 5 === 0) app.persistState();
+
+            if (remaining <= 0) {
+                app.state.timeLeft = 0;
+                display.innerText = "00:00:00";
+                clearInterval(app.timerId);
                 app.submitTest();
+                return;
             }
 
-            const hours = Math.floor(app.state.timeLeft / 3600);
-            const mins = Math.floor((app.state.timeLeft % 3600) / 60);
-            const secs = app.state.timeLeft % 60;
+            const hours = Math.floor(remaining / 3600);
+            const mins = Math.floor((remaining % 3600) / 60);
+            const secs = remaining % 60;
             display.innerText = `${pad(hours)}:${pad(mins)}:${pad(secs)}`;
         }, 1000);
 
@@ -192,7 +223,44 @@ const app = {
 
         // Update UI
         document.getElementById('qNum').innerText = q.id;
-        document.getElementById('qText').innerText = q.question;
+
+        // Match List Parsing
+        let qContent = q.question;
+        const matchData = app.parseMatchQuestion(q.question);
+
+        if (matchData) {
+            const list1Html = matchData.list1.map(item => `
+                <div class="match-item">
+                    <span class="match-label">(${item.label})</span>
+                    <span class="match-content">${item.text}</span>
+                </div>
+            `).join('');
+
+            const list2Html = matchData.list2.map(item => `
+                <div class="match-item">
+                    <span class="match-label">(${item.label})</span>
+                    <span class="match-content">${item.text}</span>
+                </div>
+            `).join('');
+
+            qContent = `
+                <div>${matchData.header}</div>
+                <div class="match-list-grid">
+                    <div class="match-col">
+                        <h4>List I</h4>
+                        ${list1Html}
+                    </div>
+                    <div class="match-col">
+                        <h4>List II</h4>
+                        ${list2Html}
+                    </div>
+                </div>
+                <div style="margin-top: 1rem; font-weight: 500;">${matchData.footer}</div>
+            `;
+            document.getElementById('qText').innerHTML = qContent;
+        } else {
+            document.getElementById('qText').innerText = q.question;
+        }
 
         // Options
         const optsContainer = document.getElementById('optionsList');
@@ -300,13 +368,15 @@ const app = {
     },
 
     submitTest: () => {
+        console.log("Submit Test Clicked");
         if (confirm("Are you sure you want to submit?")) {
+            console.log("User confirmed submission");
             app.processResults();
         }
     },
 
     processResults: () => {
-        clearInterval(app.state.timerId);
+        if (app.timerId) clearInterval(app.timerId);
 
         let correct = 0;
         let incorrect = 0;
@@ -372,6 +442,85 @@ const app = {
             const key = `psych_test_${id}_state`;
             localStorage.removeItem(key);
             app.startTest(id);
+        }
+    },
+
+    parseMatchQuestion: (text) => {
+        // Basic check if it looks like a Match List question
+        if (!text.includes("List I") || !text.includes("List II")) return null;
+
+        try {
+            // Regex to find the lists section. 
+            // It assumes "List I" and "List II" headers exist.
+            // Items are like (a) ... (I) ...
+
+            // Extract Header (text before List I)
+            const headerMatch = text.match(/^(.*?)List I/i);
+            const header = headerMatch ? headerMatch[1].trim() : "Match List I with List II";
+
+            // Extract Footer (usually "Choose the correct...")
+            const footerMatch = text.match(/(Choose the correct answer.*)$/i);
+            const footer = footerMatch ? footerMatch[1].trim() : "";
+
+            // Parsing pairs
+            // Strategy: Look for pattern (a) ... (I) ... (b) ... (II) ...
+            // We'll iterate through the text extracting these blocks.
+
+            const list1 = [];
+            const list2 = [];
+
+            // Normalize spaces
+            const cleanText = text.replace(/\s+/g, ' ');
+
+            // Regex for items: (a) Text (I) Text (b)...
+            // We look for (char) text ... (Roman/Num) text
+
+            // Let's split by List I item markers (a), (b), (c)...
+            const parts = cleanText.split(/\(([a-e])\)/);
+            // parts[0] is header garbage
+            // parts[1] is 'a', parts[2] is content...
+
+            if (parts.length < 3) return null; // Not enough parts
+
+            for (let i = 1; i < parts.length; i += 2) {
+                const label1 = parts[i]; // a, b, c
+                let contentChunk = parts[i + 1]; // Text (I) Text... or last bit
+
+                // Inside contentChunk, find the List II marker (I), (II)...
+                const split2 = contentChunk.split(/\(([IVX]+|\d+)\)/);
+
+                if (split2.length >= 3) {
+                    const text1 = split2[0].trim();
+                    const label2 = split2[1]; // I, II..
+
+                    // The text2 is the rest, but we need to stop before the next List I marker which split removed
+                    // Actually split removed the next marker? No, split consumed it.
+                    // Wait, the main split split by (a). So contentChunk ends where next (b) began.
+                    // So contentChunk contains: "  Text for a   (I)  Text for I " 
+
+                    let text2 = split2.slice(2).join('(').trim(); // Rejoin if multiple parens inside text
+
+                    // Clean up footer from the last item
+                    if (i + 2 >= parts.length) {
+                        const fIndex = text2.indexOf("Choose the correct");
+                        if (fIndex > -1) text2 = text2.substring(0, fIndex).trim();
+                    }
+
+                    list1.push({ label: label1, text: text1 });
+                    list2.push({ label: label2, text: text2 });
+                } else {
+                    // Render failure
+                    return null;
+                }
+            }
+
+            if (list1.length === 0) return null;
+
+            return { header, list1, list2, footer };
+
+        } catch (e) {
+            console.error("Parse Match Error", e);
+            return null; // Fallback to raw text
         }
     }
 };

@@ -782,3 +782,49 @@ body {
         text-overflow: ellipsis;
     }
 }
+/* Match the List Styles */
+.match-list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.match-col h4 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    color: #475569;
+    font-size: 0.95rem;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 0.5rem;
+}
+
+.match-item {
+    display: flex;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.match-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    min-width: 25px;
+    color: #3b82f6;
+}
+
+.match-content {
+    color: #334155;
+}
+
+@media (max-width: 600px) {
+    .match-list-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+

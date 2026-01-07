@@ -902,7 +902,7 @@
         "(a)-(II), (b)-(III), (c)-(IV), (d)-(I)",
         "(a)-(I), (b)-(III), (c)-(II), (d)-(IV)"
       ],
-      "answer": null,
+      "answer": "A",
       "passage": null
     },
     {
@@ -914,7 +914,7 @@
         "(a), (b), (d), (c)",
         "(c), (b), (a), (d)"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null
     },
     {
@@ -926,7 +926,7 @@
         "(a), (d), (c), (b)",
         "(b), (a), (c), (d)"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null
     },
     {
@@ -938,7 +938,7 @@
         "(d), (a), (e), (b), (c)",
         "(b), (d), (a), (c), (e)"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null
     },
     {
@@ -950,7 +950,7 @@
         "(b), (d), (a), (c)",
         "(b), (a), (c), (d)"
       ],
-      "answer": null,
+      "answer": "D",
       "passage": null
     },
     {
@@ -962,7 +962,7 @@
         "(b), (c), (a)",
         "(b), (c), (d)"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null
     },
     {
@@ -974,7 +974,7 @@
         "(a), (d), (b), (c)",
         "(a), (c), (d), (b)"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null
     },
     {
@@ -986,7 +986,7 @@
         "(a), (b), (d), (c), (e)",
         "(a), (c), (e), (d), (b)"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null
     },
     {
@@ -998,7 +998,7 @@
         "(c), (a), (b), (d), (e)",
         "(e), (d), (a), (c), (b)"
       ],
-      "answer": null,
+      "answer": "A",
       "passage": null
     },
     {
@@ -1010,7 +1010,7 @@
         "(d), (b), (a), (c), (e)",
         "(d), (a), (b), (c), (e)"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null
     },
     {
@@ -1022,7 +1022,7 @@
         "(c), (d), (a), (b)",
         "(a), (d), (c), (b)"
       ],
-      "answer": null,
+      "answer": "D",
       "passage": null
     },
     {
@@ -1034,7 +1034,7 @@
         "Both",
         "and (R) are correct and (R) is the correct explanation of"
       ],
-      "answer": null,
+      "answer": "A",
       "passage": null
     },
     {
@@ -1046,7 +1046,7 @@
         "Statement (I) is true but Statement (II) is false",
         "Statement (I) is false but Statement (II) is true"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null
     },
     {
@@ -1058,7 +1058,7 @@
         "Statement (I) is correct but Statement (II) is incorrect",
         "Statement (I) is incorrect but Statement (II) is correct"
       ],
-      "answer": null,
+      "answer": "A",
       "passage": null
     },
     {
@@ -1070,7 +1070,7 @@
         "Both",
         "and (R) are true and (R) is the correct explanation of"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null
     },
     {
@@ -1082,7 +1082,7 @@
         "Both",
         "and (R) are true and (R) is the correct explanation of"
       ],
-      "answer": null,
+      "answer": "A",
       "passage": null
     },
     {
@@ -1094,7 +1094,7 @@
         "Formal Operational stage",
         "Preoperational Stage"
       ],
-      "answer": null,
+      "answer": "D",
       "passage": null,
       "passageId": "passage_1"
     },
@@ -1107,7 +1107,7 @@
         "Conservation",
         "Animism"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null,
       "passageId": "passage_1"
     },
@@ -1120,7 +1120,7 @@
         "Bruner",
         "Bandura"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null,
       "passageId": "passage_1"
     },
@@ -1133,7 +1133,7 @@
         "Sensori Motor stage",
         "Concrete operational stage"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null,
       "passageId": "passage_1"
     },
@@ -1144,9 +1144,9 @@
         "Psychodynamic theory",
         "Social observational learning",
         "Cognitive development theory",
-        "Cognitive dynamic behaviour theory Read the following passage and answer the questions. An experimenter conducted a study to see the effect of social support on well being. He recruited a group of students from a school where he was working. Later he decided to see the role of gender on the relation between social support and well being. He formulated a hypothesis taking all these variables into account. The hypothesis was that the strength of the relationship between social support and well being would change when the gender variable is included. After collecting the data, normal distribution of scores was confirmed. The result was not in accordance with the hypothesis. Later the experimenter interpreted the result of the study."
+        "Cognitive dynamic behaviour theory"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null,
       "passageId": "passage_1"
     },
@@ -1159,7 +1159,7 @@
         "Correlational design",
         "Factorial design"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null,
       "passageId": "passage_2"
     },
@@ -1172,7 +1172,7 @@
         "Cluster sampling",
         "Stratified sampling"
       ],
-      "answer": null,
+      "answer": "B",
       "passage": null,
       "passageId": "passage_2"
     },
@@ -1185,7 +1185,7 @@
         "Mediation variable",
         "Moderation variable"
       ],
-      "answer": null,
+      "answer": "D",
       "passage": null,
       "passageId": "passage_2"
     },
@@ -1198,7 +1198,7 @@
         "P < .001",
         "P >.05"
       ],
-      "answer": null,
+      "answer": "D",
       "passage": null,
       "passageId": "passage_2"
     },
@@ -1211,7 +1211,7 @@
         "Multiple regression",
         "Log linear correlation"
       ],
-      "answer": null,
+      "answer": "C",
       "passage": null,
       "passageId": "passage_2"
     }

@@ -14,7 +14,7 @@
         "The magnitude of response increases irrespective of stimulus intensity decrease/increase",
         "The magnitude of response decreases irrespective of stimulus intensity decrease/increase"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -27,7 +27,7 @@
         "a, d and e only",
         "b, c and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -40,7 +40,7 @@
         "A is true but R is false",
         "A is false but R is true"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -53,7 +53,7 @@
         "Ontology",
         "Scientific realism"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -66,7 +66,7 @@
         "Conformity",
         "Inequality"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -79,7 +79,7 @@
         "GABA",
         "Dopamine"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -92,7 +92,7 @@
         "c , d , b , a",
         "d , c , a , b"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -105,7 +105,7 @@
         "b and c only",
         "a , c and d only"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -118,7 +118,7 @@
         "Stapel scale",
         "Semantic differential scale"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -131,7 +131,7 @@
         "A is correct but R is not correct",
         "A is not correct but R is correct"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -144,7 +144,7 @@
         "Choose one: Active - Trusting",
         "Active ... Neutral...Passive"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -157,7 +157,7 @@
         "a , b , c , d",
         "c , a , b , d"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -170,7 +170,7 @@
         "a , d , c , b , e",
         "c , a , d , b , e"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -183,7 +183,7 @@
         "a , b and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -196,7 +196,7 @@
         "a , c and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -209,7 +209,7 @@
         "c and d only",
         "a , c and d only"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -222,7 +222,7 @@
         "a , c. and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -235,7 +235,7 @@
         "a , b and c only",
         "a , b , c and d"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -248,7 +248,7 @@
         "a , c and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -261,7 +261,7 @@
         "Tactics based on friendship or liking",
         "Tactics based on scarcity"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -274,7 +274,7 @@
         "Endogenous attention",
         "Exogenous attention"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -287,7 +287,7 @@
         "a - ii , b - iii c - i , d - iv",
         "a - iii , b - i , c - iv , d – ii"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -300,7 +300,7 @@
         "a , b and d o nly",
         "a , b an d c only"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -313,7 +313,7 @@
         "a - i , b - ii , c - iii , d - iv",
         "a - ii , b - i , c - iii , d - iv"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -326,7 +326,7 @@
         "It is the most modifiable response",
         "It is conditioned hostility"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -339,7 +339,7 @@
         "a - ii , b - iv , c - iii , d - i",
         "a - i , b - iv , c - ii , d - iii"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -352,7 +352,7 @@
         "a and b only",
         "a , b and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -365,7 +365,7 @@
         "a - iii , b - iv , c - i , d - ii",
         "a - iii , b - iv , c - ii , d - i"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -378,7 +378,7 @@
         "Encourages to understand the feelings",
         "Refle ction of feelings"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -391,7 +391,7 @@
         "Electroconvulsive Therapy (ECT)",
         "Vagus Nerve Stimulation (VNS)"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -404,7 +404,7 @@
         "a and c only",
         "c and d only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -417,7 +417,7 @@
         "b , d and e only",
         "a , c and e only"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -430,7 +430,7 @@
         "Mo re than two goals; one having negative aspects and others having positive valences",
         "Mo re than two goals; at least one having positive aspects while others may have neg ative Aspects."
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -443,7 +443,7 @@
         "0.5",
         "0.3"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -456,7 +456,7 @@
         "b , c and d only",
         "c and d only"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -469,7 +469,7 @@
         "a, b and d only",
         "a, and c only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -482,7 +482,7 @@
         "Vygotsky",
         "Kohlberg"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -495,7 +495,7 @@
         "c , d , b , a , e",
         "a, c , d , b , e"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -508,7 +508,7 @@
         "A is correct but R is not correct",
         "A is not correct but R is correct"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -521,7 +521,7 @@
         "Gestalt Qualitaten",
         "Conarium"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -534,7 +534,7 @@
         "b and d only",
         "c and d only"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -547,7 +547,7 @@
         "Poverty in terms of absolute level of unemployment",
         "Basic minimum calorie requirement"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -560,7 +560,7 @@
         "a and c only",
         "c only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -573,7 +573,7 @@
         "A is correct but R is not correct",
         "A is not correct but R is correct"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -586,7 +586,7 @@
         "a and d only",
         "b and d only"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -599,7 +599,7 @@
         "a , b and c only",
         "a , b and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -612,7 +612,7 @@
         "a , b , c and d only",
         "b , c , d and e only"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -620,7 +620,7 @@
       "id": 48,
       "question": "A researcher is studying group process of software start up developers by staying with them and like them for six months. Which of the following is used by her? a) Grounded theory b) Ethonography c) Narrative analysis d) Phenomenological research",
       "options": [],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -633,7 +633,7 @@
         "a - iv , b - iii , c - ii , d - i",
         "a - ii , b - i , c - iv , d - iii"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -646,7 +646,7 @@
         "Gestalt approach",
         "Behaviourist approach"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -659,7 +659,7 @@
         "Three - dimensional images",
         "Four - dimensional images"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -672,7 +672,7 @@
         "a - i , b - ii , c - iii , d - iv",
         "a - ii , b - iii , c - iv , d - i (Drop p ed)"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -685,7 +685,7 @@
         "Friedrick Nietzsche",
         "Jean Paul Sartre"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -693,7 +693,7 @@
       "id": 54,
       "question": "Which one of the following is the correct description of Old Fashioned Racism? ( A ) A contemporary form of antagonism towards a racial group based on prejudice and values rather than on self - interest",
       "options": [],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -706,7 +706,7 @@
         "a - iii , b - iv , c - ii , d - i",
         "a - iv , b - i , c - ii , d - iii"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -719,7 +719,7 @@
         "a - iii , b - iv , c - i , d - ii",
         "a - iv , b - iii , c - ii , d - i"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -732,7 +732,7 @@
         "Duhem - Quine thesis",
         "lncom m ensurability"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -745,7 +745,7 @@
         "Both cognitive appraisal and physiological arousal",
         "Both cognitive and social appraisal"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -758,7 +758,7 @@
         "a and b only",
         "b and c only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -771,7 +771,7 @@
         "Difference between poverty line and actual income level of all those living below that line",
         "Gap in the infrastructure facilities between developed nations"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -784,7 +784,7 @@
         "To understand group differences in intelligence",
         "To understand the role of genetics in intelligence"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -797,7 +797,7 @@
         "d , a , b , c",
         "a , d , b , c"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -810,7 +810,7 @@
         "Explicit memory",
         "Semantic memory"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -823,7 +823,7 @@
         "b , c , a, d",
         "b , c , d , a"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -836,7 +836,7 @@
         "Wallach and Kogan",
         "Sternberg"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -849,7 +849,7 @@
         "a , c and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -862,7 +862,7 @@
         "b , c and d only",
         "a , b and d only"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -875,7 +875,7 @@
         "PET",
         "CT"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -888,7 +888,7 @@
         "a , d and e only",
         "a , c , d and e only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -901,7 +901,7 @@
         "A is correct but R is not correct",
         "A is not correct but R is correct"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -914,7 +914,7 @@
         "a and b only",
         "b only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -927,7 +927,7 @@
         "Atkinson and Shiffrin model",
         "Hunt's model"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -940,7 +940,7 @@
         "Heuristics",
         "Mental set"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -953,7 +953,7 @@
         "Exo system",
         "Macro system"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -966,7 +966,7 @@
         "59",
         "58"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -979,7 +979,7 @@
         "c - d - b - a - e",
         "b - c - a - e – d"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -992,7 +992,7 @@
         "Anterior pituitary",
         "Posterior pituitary"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1005,7 +1005,7 @@
         "Madhyamikavada",
         "Sarvastivadin"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1018,7 +1018,7 @@
         "c - b - a - e - d",
         "b - c - d - a – e"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -1031,7 +1031,7 @@
         "Social and situational cues",
         "Cognitive appraisal"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1044,7 +1044,7 @@
         "HDL + LDL + 10% of VLDL",
         "HDL + LDL + 20% of Triglycerides"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1057,7 +1057,7 @@
         "Milgram",
         "Cialdini"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -1070,7 +1070,7 @@
         "a , b , d , c",
         "b , a , d , c"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -1083,7 +1083,7 @@
         "Integrity",
         "Confidentiality"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": null,
       "passage": null
     },
@@ -1096,7 +1096,7 @@
         "Summated ratings",
         "Successive intervals"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -1109,7 +1109,7 @@
         "a , b and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -1122,7 +1122,7 @@
         "a , b , c , d , e",
         "a , c , d , b , e"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": null,
       "passage": null
     },
@@ -1135,7 +1135,7 @@
         "a - iii , b - iv , c - i , d - ii",
         "a - iv , b - iii , c - ii , d - i"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1148,7 +1148,7 @@
         "a - iv , b - ii , c - iii , d - i",
         "a - i , b - ii , c - iii , d - iv ( Dropped)"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": null,
       "passage": null
     },
@@ -1161,7 +1161,7 @@
         "Resting state",
         "Active state S=91 - 97); Comprehension: Read the given passage and answer the five questions which follow A researcher wanted to predict academic achievement using Intelligence Test - A (IT - A), Intelligence Test - B (IT - B), Type of school (rural/urban), and conscientiousness as predictors. She used multiple regression analysis. She collected data on 200 students on all variables. The OLS estimator was used. The f ;8.9, p<.01 for the entire model. In individual predictor analysis, IT - B was the insignificant pr edictor. The suitable test indicated homoscedasticity. The model R2 ;0.64 and adjusted R2; 0.59. Both intelligence tests are significantly correlated with the criterion variable and with each other."
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": null,
       "passage": null
     },
@@ -1174,7 +1174,7 @@
         "32% variance is explained",
         "36% variance is explained"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": "passage_1",
       "passage": null
     },
@@ -1187,7 +1187,7 @@
         "Dummy variable",
         "Quasi - continous variable"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": "passage_1",
       "passage": null
     },
@@ -1200,7 +1200,7 @@
         "4 ;195",
         "3 ;199"
       ],
-      "answer": null,
+      "answer": "A,C",
       "passageId": "passage_1",
       "passage": null
     },
@@ -1213,7 +1213,7 @@
         "It is systematically distributed",
         "It is randomly distributed"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": "passage_1",
       "passage": null
     },
@@ -1226,7 +1226,7 @@
         "Small sample size",
         "Multicolinearity"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": "passage_1",
       "passage": null
     },
@@ -1239,7 +1239,7 @@
         "65.6",
         "72.0"
       ],
-      "answer": null,
+      "answer": "B",
       "passageId": "passage_2",
       "passage": null
     },
@@ -1252,7 +1252,7 @@
         "2",
         "3 (Dropped)"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": "passage_2",
       "passage": null
     },
@@ -1265,7 +1265,7 @@
         "a and d only",
         "b , c and d only"
       ],
-      "answer": null,
+      "answer": "C",
       "passageId": "passage_2",
       "passage": null
     },
@@ -1278,7 +1278,7 @@
         "Sample correlation matrix is not an identity matrix",
         "Sample correlation matrix is an identity matrix"
       ],
-      "answer": null,
+      "answer": "A",
       "passageId": "passage_2",
       "passage": null
     },
@@ -1291,7 +1291,7 @@
         "The scale has poor reliabi lity",
         "They should not be retained in the final scale"
       ],
-      "answer": null,
+      "answer": "D",
       "passageId": "passage_2",
       "passage": null
     }

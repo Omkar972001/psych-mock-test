@@ -279,14 +279,14 @@ const app = {
 
             if (app.state.isReviewMode) {
                 clickHandler = ""; // Disable click
-                const correctAns = q.answer ? q.answer.trim() : null;
+                const correctAnswers = q.answer ? q.answer.split(',').map(s => s.trim()) : [];
                 // Highlight Correct Answer
-                if (label === correctAns) {
+                if (correctAnswers.includes(label)) {
                     reviewClass = "correct-opt";
                     correctIcon = "✅";
                 }
                 // Highlight Wrong Selection
-                if (isSelected && label !== correctAns) {
+                if (isSelected && !correctAnswers.includes(label)) {
                     reviewClass = "wrong-opt";
                     correctIcon = "❌";
                 }
@@ -351,10 +351,10 @@ const app = {
             // Review Mode Coloring
             if (app.state.isReviewMode) {
                 const userAns = app.state.answers[q.id];
-                const correctAns = q.answer ? q.answer.trim() : null;
+                const correctAnswers = q.answer ? q.answer.split(',').map(s => s.trim()) : [];
 
                 if (userAns) {
-                    if (userAns === correctAns) el.classList.add('p-correct');
+                    if (correctAnswers.includes(userAns)) el.classList.add('p-correct');
                     else el.classList.add('p-wrong');
                 } else if (userAns === undefined && app.state.visited.has(q.id)) {
                     // Visited but not answered in review?
@@ -387,10 +387,13 @@ const app = {
 
             if (!userAns) {
                 unanswered++;
-            } else if (q.answer && userAns === q.answer.trim()) {
-                correct++;
             } else {
-                incorrect++;
+                const correctAnswers = q.answer ? q.answer.split(',').map(s => s.trim()) : [];
+                if (correctAnswers.includes(userAns)) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
             }
         });
 

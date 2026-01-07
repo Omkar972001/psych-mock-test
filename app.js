@@ -438,6 +438,12 @@ const app = {
         palette.classList.toggle('active');
     },
 
+    reviewTest: () => {
+        document.getElementById('resultsView').classList.add('hidden');
+        document.getElementById('testInterface').classList.remove('hidden');
+        app.loadQuestion(0);
+    },
+
     retakeTest: () => {
         if (!app.state.currentTestId) return;
         if (confirm("This will clear your previous progress and score. Are you sure you want to retake the test?")) {

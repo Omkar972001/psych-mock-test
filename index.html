@@ -11,6 +11,10 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" href="icons/icon-192.png">
+    <meta name="theme-color" content="#4f46e5">
 </head>
 
 <body>
@@ -34,12 +38,12 @@
 
             <nav class="nav-menu">
                 <div class="nav-header">Mock Tests</div>
-                <button class="nav-item active" onclick="app.loadDashboard(); app.toggleSidebar(false)">
+                <button class="nav-item active" onclick="app.goToDashboard(); app.toggleSidebar(false)">
                     <span class="icon">📊</span> Dashboard
                 </button>
-                <div class="test-list" id="testList">
-                    <!-- Populated by JS -->
-                </div>
+                <button class="nav-item" onclick="app.goToHistory(); app.toggleSidebar(false)">
+                    <span class="icon">📜</span> History
+                </button>
             </nav>
 
             <div class="user-profile">
@@ -81,7 +85,7 @@
             <!-- Test Interface View (Hidden by default) -->
             <div class="test-interface hidden" id="testInterface">
                 <header class="test-header">
-                    <button class="back-btn" onclick="app.loadDashboard()">← Exit</button>
+                    <button class="back-btn" onclick="app.goToDashboard();">← Exit</button>
                     <h2 id="currentTestTitle">Mock Test 1</h2>
 
                     <div class="header-actions">
@@ -113,6 +117,8 @@
 
                             <div class="q-actions">
                                 <button class="nav-btn prev" onclick="app.prevQuestion()">Previous</button>
+                                <button class="nav-btn" id="markBtn" style="color: #64748b; border-color: #94a3b8;"
+                                    onclick="app.toggleMark()">Mark for Review</button>
                                 <button class="nav-btn next" onclick="app.nextQuestion()">Next</button>
                             </div>
 
@@ -133,9 +139,14 @@
                             <!-- 1-100 Bubbles -->
                         </div>
                         <div class="palette-legend">
-                            <span class="legend-item"><span class="dot answer"></span> Answered</span>
-                            <span class="legend-item"><span class="dot visited"></span> Visited</span>
-                            <span class="legend-item"><span class="dot"></span> Not Visited</span>
+                            <span class="legend-item"><span class="dot answered"></span> Answered (Green)</span>
+                            <span class="legend-item"><span class="dot marked-answered"
+                                    style="background: conic-gradient(#a855f7 0% 50%, #22c55e 50% 100%);"></span> Marked
+                                & Ans</span>
+                            <span class="legend-item"><span class="dot marked" style="background: #a855f7;"></span>
+                                Marked (Purple)</span>
+                            <span class="legend-item"><span class="dot visited"></span> Visited (Red)</span>
+                            <span class="legend-item"><span class="dot"></span> Not Visited (Grey)</span>
                         </div>
                     </aside>
                 </div>
@@ -144,7 +155,7 @@
             <!-- Results View -->
             <div class="results-view hidden" id="resultsView">
                 <header class="top-bar">
-                    <button class="back-btn" onclick="app.loadDashboard()">← Back to Dashboard</button>
+                    <button class="back-btn" onclick="app.goToDashboard();">← Back to Dashboard</button>
                     <h2>Test Results</h2>
                 </header>
                 <div class="score-card">
@@ -165,10 +176,51 @@
                 <!-- Detailed Analysis could go here -->
             </div>
 
+            <!-- History View -->
+            <div class="history-view hidden" id="historyView">
+                <header class="top-bar">
+                    <h2>Attempt History</h2>
+                </header>
+                <div class="history-list" id="historyList">
+                    <!-- Populated by JS -->
+                    <div style="text-align:center; color:#94a3b8; padding:2rem;">Loading history...</div>
+                </div>
+            </div>
+
         </main>
     </div>
 
+    <div id="offlineIndicator" class="hidden"
+        style="position:fixed; bottom:0; left:0; right:0; background:#334155; color:white; text-align:center; padding:0.5rem; font-size:0.9rem; z-index:9999;">
+        You are offline. Offline mode active. 📡
+    </div>
+
+    <script src="storage.js"></script>
     <script src="app.js"></script>
+    <script>
+        // PWA Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .then(reg => console.log('SW registered:', reg))
+                    .catch(err => console.log('SW registration failed:', err));
+            });
+        }
+
+        // Offline Detection
+        function updateOnlineStatus() {
+            const indicator = document.getElementById('offlineIndicator');
+            if (navigator.onLine) {
+                indicator.classList.add('hidden');
+            } else {
+                indicator.classList.remove('hidden');
+            }
+        }
+
+        window.addEventListener('online', updateOnlineStatus);
+        window.addEventListener('offline', updateOnlineStatus);
+        updateOnlineStatus(); // Check on load
+    </script>
 </body>
 
 </html>

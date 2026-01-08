@@ -1,9 +1,10 @@
 const app = {
     tests: [
-        { id: 1, file: 'psych_test_01.json', title: 'Mock Test 1 (March 2023)', questions: 100 },
-        { id: 2, file: 'psych_test_02.json', title: 'Mock Test 2 ("SEPTEMBER 2022 SHIFT I")', questions: 100 },
-        { id: 3, file: 'psych_test_03.json', title: 'Mock Test 3 (June 2019)', questions: 100 },
-        { id: 4, file: 'psych_test_04.json', title: 'Mock Test 4 (Dec 2018)', questions: 100 }
+        { id: 1, file: 'psych_test_01.json', title: 'Mock Test 1 (DEC 2024 SHIFT II)', questions: 100 },
+        { id: 2, file: 'psych_test_02.json', title: 'Mock Test 2 (March 2023)', questions: 100 },
+        { id: 3, file: 'psych_test_03.json', title: 'Mock Test 3 ("SEPTEMBER 2022 SHIFT I")', questions: 100 },
+        { id: 4, file: 'psych_test_04.json', title: 'Mock Test 4 (June 2019)', questions: 100 },
+        { id: 5, file: 'psych_test_05.json', title: 'Mock Test 5 (Dec 2018)', questions: 100 }
     ],
     state: {
         currentTestId: null,

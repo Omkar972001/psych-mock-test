@@ -1,5 +1,5 @@
 {
-    "testName": "Mock Test 4",
+    "testName": "Mock Test 3",
     "passages": {
         "passage_1": "",
         "passage_2": ""
@@ -7,25 +7,25 @@
     "questions": [
         {
             "id": 1,
-            "question": "Teplov while discussing the strong/weak nervous systems believed that the point of ·transmarginal i nhibition' is the point belong which:",
+            "question": "When a target is defined by just one distinctive feature which is available on its feature map and it calls attention to itself is known as: -",
             "options": [
-                "The magnitude of response decreases as stimulus intensity decreases",
-                "The magnitude of response increases as stimulus intensity decreases",
-                "The magnitude of response increases irrespective of stimulus intensity decrease/increase",
-                "The magnitude of response decreases irrespective of stimulus intensity decrease/increase"
+                "Binding effect",
+                "Pop-out effect",
+                "Conjunction effect",
+                "Orienting effect"
             ],
-            "answer": "A",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 2,
-            "question": "Which of the following is true about Hypo volemia? a) It causes thirst b) It increases the blood pressure c) Angiotensin is released during this condition d) The volume of blood increases e) Blood pressure reduces Choose the correct answer from the options given below:",
+            "question": "The tendency to believe that a task will take less time than it really will, is known as: -",
             "options": [
-                "a, b and c only",
-                "a, c and e only",
-                "a, d and e only",
-                "b, c and d only"
+                "Magical thinking",
+                "Planning Fallacy",
+                "Optimistic Bias",
+                "Fundamental Attribution Error"
             ],
             "answer": "B",
             "passageId": null,
@@ -33,51 +33,51 @@
         },
         {
             "id": 3,
-            "question": "Given below two statements, one is labelled as Assertion A and the other is labelled as Reason R Assertion A: Schertzer and Stone (1974) specified that acceptance requires respect for the individual as a person of warmth Reason R: Therapists relate to their patients/clients in a non-judge mental, non-critical and non-punitive way In light of the above statements, choose the correct answer from the options given below:",
+            "question": "Interscorer reliability is relevant in: -",
             "options": [
-                "Both A and R are true and R is correct explanation of A",
-                "Both A and R are true but R is NOT the correct explanation of A JUNE 2020",
-                "A is true but R is false",
-                "A is false but R is true"
-            ],
-            "answer": "A",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 4,
-            "question": "Which one of the following branc hes of philosophy of science deals with the question of existence?",
-            "options": [
-                "Post - positivism",
-                "Structuralism",
-                "Ontology",
-                "Scientific realism"
+                "projective tests of personality",
+                "achievement tests with short answers",
+                "achievement tests with essay type questions",
+                "self–report personality inventories Choose the correct answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 5,
-            "question": "Which of the following is the correct explanation of \"An intolerance for weakness, a punitive attitude and submissive res pect for their ingroup authorities as reflected in their agreement\"?",
+            "id": 4,
+            "question": "Give the correct sequence of stages in the relationship maintenance as suggested by Thibaut and Kelly (1959) in their Social Exchange Theory:",
             "options": [
-                "Social Dominance Orientation",
-                "Ethnocentrism",
-                "Conformity",
-                "Inequality"
+                "Bargaining",
+                "Commitment",
+                "Sampling",
+                "Institutionalization Choose the correct answer from the options given below:"
             ],
             "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 6,
-            "question": "Which neurotransmitter is helpful in synaptic plasticity?",
+            "id": 5,
+            "question": "Persons inclined to be verbally aggressive have: -",
             "options": [
-                "Acetylcholine",
-                "Glutamate",
-                "GABA",
-                "Dopamine"
+                "low threshold for Behaviour Activation system",
+                "low threshold for Flight–Fight system",
+                "high threshold for Behaviour Inhibition system",
+                "high threshold for Behaviour Activation system"
+            ],
+            "answer": "A,B,C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 6,
+            "question": "New Mood Therapy: -",
+            "options": [
+                "is a cognitive therapy",
+                "is meant for treatment of depression",
+                "involves many behavioural interventions",
+                "was originated by Ellis (E) is action commitment therapy Choose the correct answer from the options given below: -"
             ],
             "answer": "B",
             "passageId": null,
@@ -85,116 +85,116 @@
         },
         {
             "id": 7,
-            "question": "Arrange the pairings of US and CS in classical conditioning in terms of onset of US in relation to CS starting from the earliest a) Backward b) Simultaneous c) Delayed d) Trace Choose the correct answer from the options given below:",
+            "question": "Which of the following are correctly described influences of Behaviourism?",
             "options": [
-                "a. , b , c , d",
-                "d , b , c , a",
-                "c , d , b , a",
-                "d , c , a , b"
-            ],
-            "answer": "A",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 8,
-            "question": "Which of the following are considered in favour of scientific realism? a) A Corroboration b) Empiricism c) Miracle argument d) Selective optimism Choose the correct answer from the options given below:",
-            "options": [
-                "a and b only",
-                "b and d only",
-                "b and c only",
-                "a , c and d only"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 9,
-            "question": "Which of the following is an attitude measure that places a single adjective in the centre of an even number of numerical values?",
-            "options": [
-                "Edward scale",
-                "Thurst one scale",
-                "Stapel scale",
-                "Semantic differential scale"
+                "Watson’s scientific psychology was designed to predict and control human behaviour",
+                "Mary Cover Jones studied the effectiveness of counter conditioning",
+                "Skinner claimed to have introduced the term ‘Behaviour therapy’ and is also credited for it",
+                "Lazarus emphasised the extension of Thorndike’s Law of effect Choose the correct answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 10,
-            "question": "Given below two statements, one is labelled as Assertion A and the other is labelled as Reason R Assertion A: According to Classical Test Theory (CTT) total variance is equal to the sum of true variance and error variance Reason R: Error variance and tru e variance are independent of each other as per CTT In light of the above statements, choose the most appropriate answer from the options given below:",
+            "id": 8,
+            "question": "Which of the following are the correct differences between Parkinson’s disease and Huntington’s disease?",
             "options": [
-                "Both A and R are correct and R is correct explanation of A",
-                "Both A and R are correct but R is NOT the correct explanation of A",
-                "A is correct but R is not correct",
-                "A is not correct but R is correct"
-            ],
-            "answer": "A",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 11,
-            "question": "Which of the following is the correct response pattern for the semantic differential test to measure a trait 'active'?",
-            "options": [
-                "I am active: SA AN D SD",
-                "I am active: True/False",
-                "Choose one: Active - Trusting",
-                "Active ... Neutral...Passive"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 12,
-            "question": "What is the correct sequence of Decision Making Perspective of Pro - social behaviour to help a person in distress? a) Taking personal responsibility b) Weighing the cost and b enefits c) Perceived a need d) Deciding how to help Choose the correct answer from the options given below:",
-            "options": [
-                "a , c , b , d",
-                "b , a , c , d",
-                "a , b , c , d",
-                "c , a , b , d"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 13,
-            "question": "What is the correct sequence of transformation in integral yoga? a) Transformation of physical b) Transformation of sub conscient c) Transformation of mind d) Transformation of vital e) Transformation of in conscient Choose the correct answer from the options given below:",
-            "options": [
-                "c , d , a , b , e",
-                "a , c , d , b , e",
-                "a , d , c , b , e",
-                "c , a , d , b , e"
-            ],
-            "answer": "A",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 14,
-            "question": "Which of the following are involved in decreased food intake and weight loss? a) Insulin b) Leptin c) Cholecystokinin d) Orexin Choose the correct answer from the options given below:",
-            "options": [
-                "a and b only",
-                "a , b and c only",
-                "a , b and d only",
-                "b , c and d only"
+                "Parkinson’s disease is a disorder of middle and old age while Huntington’s disease is a disorder of young.",
+                "Parkinson’s disease is a movement disorder while Huntington’s disease is an emotional disorder.",
+                "Unlike Parkinson’s disease, Huntington’s disease has a strong genetic base.",
+                "Parkinson’s disease is not associated with severe dementia while Huntington’s disease is. Choose the correct answer from the options given below: -"
             ],
             "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 15,
-            "question": "Which of the following are the parts of mental logic theories of reasoning? a) A set of interference schemas b) Accumulation of concepts c) A reasoning program d) A set of pragmatic principles Choose the correct answer from the options given below:",
+            "id": 9,
+            "question": "Arrange the following as per the Yogic Concept of Cognition.",
             "options": [
-                "a , b and c only",
-                "a , b and d only",
-                "a , c and d only",
-                "b , c and d only"
+                "Sensorial transformation is attended by manas",
+                "Reaction by budhi to the object of cognition",
+                "Registration of external object on mind",
+                "Assimilation and discrimination by manas (E) Information to Ahamkara Choose the correct answer from the options given below:"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 10,
+            "question": "Which theory determines poverty as a psychological problem of separated classes in society?",
+            "options": [
+                "Attribution theory",
+                "Depletable self–control theory",
+                "Distancing theory",
+                "Multiple factor theory of poverty"
+            ],
+            "answer": "C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 11,
+            "question": "A person’s chronological Age is 20 years, and mental age is 16 years. What would be his IQ?",
+            "options": [
+                "120",
+                "100",
+                "80",
+                "110"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 12,
+            "question": "What are the characteristics of ‘Emerging persons’ in Rogerian approach?",
+            "options": [
+                "Honest and open",
+                "Indifferent to material comforts and rewards",
+                "Caring",
+                "Having profound trust in authority Choose the most appropriate answer from the options given below: -"
+            ],
+            "answer": "C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 13,
+            "question": "Which of the following is correct for the Pheromones?",
+            "options": [
+                "Biochemicals found within the brain which effect a person’s behaviour",
+                "Biochemials which play an important role in transmitting information from neuron to neuron",
+                "Chemical messengers found in the Central Nervous System",
+                "Chemical substances emitted by the person into the environment affecting the behaviour of others"
+            ],
+            "answer": "D",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 14,
+            "question": "Ethological approach to motivation mainly explains",
+            "options": [
+                "biological aspects of behaviour.",
+                "evolutionary history of behaviour.",
+                "causation of behaviour in terms of stimulus, hormonal and neurobiological events.",
+                "proximal determinants of behaviour. Choose the most appropriate answer from the options given below:"
+            ],
+            "answer": "C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 15,
+            "question": "Match List I with List II: List I - Concept List II - Description",
+            "options": [
+                "Situational Poverty (I) Not equipped with tools to move out",
+                "Generational Poverty (II) Not able to meet the average standard of society",
+                "Relative Poverty (III) Scarcity of necessities like shelter, running water and food",
+                "Absolute Poverty (IV) Caused by environmental disasters, divorce and other issues like poor health etc Choose the correct answer from the options given below:"
             ],
             "answer": "C",
             "passageId": null,
@@ -202,38 +202,38 @@
         },
         {
             "id": 16,
-            "question": "Adult neurons rely heavily on which of the following? a) Glucose b) Protein c) Potassium d) Sodium Choose the correct answer from the options given below:",
+            "question": "The person’s failure to respond to the second stimulus while continuing to respond to the first stimulus is because of: -",
             "options": [
-                "a only",
-                "a and b only",
-                "c and d only",
-                "a , c and d only"
+                "Event Related Potential (ERP)",
+                "Psychological Refractory Period (PRP)",
+                "Priming effect",
+                "Excessive mental effort"
             ],
-            "answer": "A",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 17,
-            "question": "Which of the following are comprised in executive functions? a) Planning b) Attention c) Set shifting d) Declarative memory Choose the correct answer from the options given below:",
+            "question": "Given below are two statements: One is labelled as Assertion and the other is labelled as \nReason (R): Assertion (A): Lewin asserted that avoidance – avoidance conflicts are relatively more stable Reason (R): Opposing forces tend to remain in a state of disequilibrium. \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
             "options": [
-                "a, b and c only",
-                "a , b and d only",
-                "a , c. and d only",
-                "b , c and d only"
+                "(A) Both (A) and (R) are true and (R) is the correct explanation of (A)",
+                "(B) Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+                "(C) (A) is true but (R) is false",
+                "(D) (A) is false but (R) is true"
             ],
-            "answer": "A",
+            "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
             "id": 18,
-            "question": "Which of the following internal roadblocks to effective listening is exemplified by the statement \"We have never done it that way before\"? a) Resistance to change b) Halo Effect c) Stereotyping d) Hearing only, not feeling Choose the correct answer from the options given below:",
+            "question": "Communication of the understanding of the ‘internal frame of reference’ to client by a therapist pertains to which type of counseling skills?",
             "options": [
-                "a only",
-                "a and b only",
-                "a , b and c only",
-                "a , b , c and d"
+                "Reflection",
+                "Focusing",
+                "Empathy",
+                "Social influencer"
             ],
             "answer": "A",
             "passageId": null,
@@ -241,25 +241,25 @@
         },
         {
             "id": 19,
-            "question": "Johnson - Laird (1995) has some contingencies in the scientific study of logic, which comprise: a) Relational inferences b) Propositional inferences c) Focus gambling d) Syllogisms Choose the correct answer from the options given below:",
+            "question": "Which of the following categories were given by Skinner for different verbal responses in terms of how they are reinforced?",
             "options": [
-                "a , b and c only",
-                "a , b and d only",
-                "a , c and d only",
-                "b , c and d only"
+                "Mand",
+                "Tact",
+                "Echoic Behaviour",
+                "Autoclitic Behaviour Choose the correct answer from the options given below: -"
             ],
-            "answer": "B",
+            "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
             "id": 20,
-            "question": "The Door in the Face Technique is based on which tactics of compliance?",
+            "question": "Match List I with List II: List I - Indices List II - Test",
             "options": [
-                "Tactics based on reciprocity",
-                "Tactics based on commitme nt or consistency",
-                "Tactics based on friendship or liking",
-                "Tactics based on scarcity"
+                "Universal Index (I) OATB",
+                "Disclosure Index (II) MCMI",
+                "True Response Inconsistency (III) MMPI",
+                "Coping Deficit Index (IV) Rorschach Inkblot Test Choose the correct answer from the options given below:"
             ],
             "answer": "A",
             "passageId": null,
@@ -267,51 +267,51 @@
         },
         {
             "id": 21,
-            "question": "What do you call the attention that is drawn automatically to a stimulus without the in tention of the participant?",
+            "question": "Which of the following tactics for gaining compliance are based on reciprocity?",
             "options": [
-                "Divided attention",
-                "Shadowing",
-                "Endogenous attention",
-                "Exogenous attention"
+                "The Door–in–the – face technique",
+                "“That’s – Not–All” Approach",
+                "Playing hard to get",
+                "Foot–in–the Door Technique Choose the correct answer from the options given below: -"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 22,
-            "question": "Match List I with List 11 List I List II Sources of Personal Efficacy by Bandura Therapeutic processes a) Performance accomplishment i) Live models, symbolic modelling b) Vicarious experiences ii) Attribution, Relaxation biofeedback, symbolic desensitisation c) Verbal persuasion iii) Participant modelling, Performance exposure d) Emotional arousal iv) Suggestion, exhortation, self instruction Choose the correct answer from the options given below:",
+            "question": "Which of the following are true regarding Broca’s area?",
             "options": [
-                "a - iii , b - ii , c - iv , d - i",
-                "a - i , b - iii , c - ii , d - iv",
-                "a - ii , b - iii c - i , d - iv",
-                "a - iii , b - i , c - iv , d – ii"
+                "It is located in the frontal lobe.",
+                "Its function is speech production.",
+                "Understanding and processing aspects of language are associated with it.",
+                "It helps people using sign language. Choose the correct answer from the options given below:-"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 23,
-            "question": "Which of the following is useful for testing univariate normality of distribution? a) Q - Qplot b) Shapiro - Wilk test c) Jarque - Beratest d) Scatter plot Choose the correct answer from the options given below:",
+            "question": "Some people are able to draw an object, match similar objects and describe the component parts but they fail to recognize the objects that they had just seen or drawn. Which of the following describes this phenomena?",
             "options": [
-                "a and b only",
-                "b an d d only",
-                "a , b and d o nly",
-                "a , b an d c only"
+                "Associative Agnosia",
+                "Apperceptive Agnosia",
+                "Visual Neglect",
+                "Form Agnosia"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 24,
-            "question": "Match List I with List 11 List I List II a) Aggression i) Aggression that is permissible according to the norms of the individual's social group b) Anti - Social Aggression ii) Aggressive acts that support commonly accepted social norms c) Prosocial Aggression iii) Any action intended to hurt another person d) Sanctioned Aggression iv) Aggressive acts that violate commonly accepted social norms Choose the correct answer from the options given below:",
+            "question": "Loftus and Pickrell (1995) asked people to read and think about events which had happened to them in childhood and also instructed to write a description of one event which was actually fictitious. About one third of the participants described the fictitious events as having really happened to them. This is called: -",
             "options": [
-                "a - iv , b - ii , c - iii , d - i",
-                "a - iii , b - iv , c - i , d - ii",
-                "a - i , b - ii , c - iii , d - iv",
-                "a - ii , b - i , c - iii , d - iv"
+                "Eyewitness memory",
+                "False memory",
+                "Flash bulb memory",
+                "Autobiographical memory Choose the correct answer from the options given below: -"
             ],
             "answer": "B",
             "passageId": null,
@@ -319,77 +319,77 @@
         },
         {
             "id": 25,
-            "question": "A harsh father always restricts the curiosity motive of his son and the son develops a general hostility towards his superiors. Which of the following is correct about this?",
+            "question": "Match List I with List II: List I - Concept List II - Description",
             "options": [
-                "The father represses the curiosity",
-                "Such change is permanent",
-                "It is the most modifiable response",
-                "It is conditioned hostility"
+                "Turiyavastha (I) Transcognitive",
+                "Aparvidya (II) Highest state of consciousness",
+                "Paravidya (III) Transcendental knowledge",
+                "Nididhasan (IV) Empirical knowledge Choose the correct answer from the options given below:"
             ],
-            "answer": "D",
+            "answer": "A,B,C,D",
             "passageId": null,
             "passage": null
         },
         {
             "id": 26,
-            "question": "Match List I with List II List I List II a) Pratibha i) Samkhya philosophy b) Prajma ii ) Nyaya Vaisesika c) Vak iii ) Tantrik tradition d) Bhavas iv ) Patanjali Yoga system Choose the correct answer from the options given below:",
+            "question": "Projective measures, particularly inkblot tests, index which of the following?",
             "options": [
-                "a - i , b - ii , c - iv , d - iii",
-                "a - ii , b - iv , c - i , d - iii",
-                "a - ii , b - iv , c - iii , d - i",
-                "a - i , b - iv , c - ii , d - iii"
-            ],
-            "answer": "C",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 27,
-            "question": "Which of the following characterise the hardy person? a) He is high on sense of commitment b) He is more likely to act to 'cover - up· c) He doesn't avoid problems, yet he is often angry d) He is always under the control of his life and events Choose the correct answer from the options given below:",
-            "options": [
-                "a a nd c only",
-                "a and d only",
-                "a and b only",
-                "a , b and d only"
+                "Novelty context of creativity",
+                "Meaning context of creativity",
+                "Domain specific creativity",
+                "General creative potential"
             ],
             "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 28,
-            "question": "Match List I with List II List I List II 'Types of Reliability' 'Source of Error Variance' a) Test - retest i) Content heterogeneity b) Alternate Form (delayed) ii) Inter - scorer differences c) Coefficient alpha iii) Time sampling d) Kohen's Kappa iv) Content sampling and time sampling Choose the correct answer from the options given below:",
+            "id": 27,
+            "question": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R: Assertion",
             "options": [
-                "a - iv , b - ii , c - i , d - iii",
-                "a - iv , b - i , c - ii , d - iii",
-                "a - iii , b - iv , c - i , d - ii",
-                "a - iii , b - iv , c - ii , d - i"
-            ],
-            "answer": "C",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 29,
-            "question": "Client: (Silent and shifting nervously in her chair. She is facing the counselo r, but her eyes scan anxiously about) Counselor: It must be difficult for you to decide what you are going to do here with me This response is an example of:",
-            "options": [
-                "Dealing with content speculated to be motivating for non - verbal behaviour by the counselor",
-                "Encourages to deal with nonverbal behaviour",
-                "Encourages to understand the feelings",
-                "Refle ction of feelings"
+                ": Chances of inheriting the dominant genes are twice in females as compared to males Reason (R): Females in comparison to males have two ‘X’ chromosomes In the light of the above statements, choose the most appropriate answer from the options given below:",
+                "Both",
+                "and (R) are correct and (R) is the correct explanation of",
+                ""
             ],
             "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 30,
-            "question": "What do you call the neurological procedure involving the implantation of a medical device under the skin in the chest that sends electrical impulses to electrodes surgically placed in the specific location in the brain?",
+            "id": 28,
+            "question": "Which of the following characterizes Cognitive Dissonance?",
             "options": [
-                "Deep Brain Stimulation (DBS)",
-                "Repetitive Transmagnetic Stimulation (r TMS)",
-                "Electroconvulsive Therapy (ECT)",
-                "Vagus Nerve Stimulation (VNS)"
+                "Dissonance often occurs in situations involving forced compliance",
+                "Attempts to resolve dissonance are reflected in increased cortical activity",
+                "Dissonance cannot be reduced directly but only by adding cognitions that justify our behaviours",
+                "Dissonance is stronger when we have little justification for our attitude – inconsistent behaviour Choose the correct answer from the options given below: -"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 29,
+            "question": "Which of the following statements describe the term ‘Diffusion of Responsibility?",
+            "options": [
+                "People help others in order to reduce their emotional discomfort",
+                "Greater the number of witnesses to an emergency, the less likely the victims are to receive help",
+                "Helping others is a means of increasing one’s own status and reputation",
+                "Prosocial acts are motivated solely by the desire to help someone in need"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 30,
+            "question": "Match List I with List II: List I - Tests List II - Psychologists",
+            "options": [
+                "Creative Achievement Questionnaire (I) Carson-Peterson- Higgins",
+                "Ideational Behaviour Scale (II) Runco",
+                "Preference for Active Divergence Scale (III) Basadur",
+                "Consensual Assessment Technique (IV) Amabile Choose the correct answer from the options given below:"
             ],
             "answer": "A",
             "passageId": null,
@@ -397,12 +397,12 @@
         },
         {
             "id": 31,
-            "question": "Which is true about coefficient alpha? a) It is a lower bound of a test of parallel items b) It is an upper bound of a test of parallel items c) It is an average of all combination of split - half reliabilities d) It is independent of inter - item correlations Choose the correct answer from the options given below:",
+            "question": "Which one of the following is a nearest parametric alternative to Kruskal–Wallis test?",
             "options": [
-                "c only",
-                "a and b only",
-                "a and c only",
-                "c and d only"
+                "Independent samples t test",
+                "Paired samples t test",
+                "One–way ANOVA for independent groups",
+                "One–way ANOVA for repeated measures"
             ],
             "answer": "C",
             "passageId": null,
@@ -410,38 +410,38 @@
         },
         {
             "id": 32,
-            "question": "Which of th e following dimensions are essential to be mastered in multicultural counseling, as per McFadden's transcultural perspective? a) Cultural - Historical b) Historical hostility management c) Scientific - Ideological d) Minority identity management e) Social Choose the correc t answer from the options given below:",
+            "question": "Who among the following proposed that different emotional stimuli induce different patterns of ANS activity and that these different patterns produce different emotional experiences?",
             "options": [
-                "a , e and b onl y",
-                "b , d and a only",
-                "b , d and e only",
-                "a , c and e only"
+                "James–Lange",
+                "Cannon–Bard",
+                "Singer–Schachter",
+                "Plutchik"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 33,
-            "question": "In multiple approach - avoidance conflict, one has to choose between which of the following?",
+            "question": "Arrange in correct sequence, the first five intelligences given by Gardner:",
             "options": [
-                "Two goals possessing both negative and positive aspects",
-                "Mo re than two goals; each having both positive and negative aspects",
-                "Mo re than two goals; one having negative aspects and others having positive valences",
-                "Mo re than two goals; at least one having positive aspects while others may have neg ative Aspects."
+                "Linguistic Intelligence",
+                "Logico-mathematical Intelligence",
+                "Spatial Intelligence",
+                "Kinesthetic Intelligence (E) Natural intelligence Choose the correct answer from the options given below:"
             ],
-            "answer": "B",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 34,
-            "question": "For an intelligence test in an educational setting, which of the following difficulty value shows maximum discrimination?",
+            "question": "Which of the following are considered as projective tests of personality?",
             "options": [
-                "0.8",
-                "0.6",
-                "0.5",
-                "0.3"
+                "Thematic Apperception Test (TAT)",
+                "Rotter’s Incomplete Sentences Blank (RISB)",
+                "Guttman’s Scalogram Analysis",
+                "Kent–Rosenoff Free Association Test Choose the correct answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
@@ -449,25 +449,25 @@
         },
         {
             "id": 35,
-            "question": "The cognitive theory contends dependency behaviours to be arising, from and being maintained by cognitive distort ions and maladaptive thought processes. Which of the following are associated with cognitive distortions? a) Availability b) Hindsight bias c) Flexible attribution d) Illusion of control Choose the correct answer from the options given below:",
+            "question": "Cattell proposed his theory of fluid and crystallized intelligences on the basis of which of the following?",
             "options": [
-                "a , b , c and d only",
-                "a , b and c only",
-                "b , c and d only",
-                "c and d only"
+                "First order factors of abilities",
+                "Second order factors of abilities",
+                "Third order factors of abilities",
+                "Higher order factors of abilities"
             ],
-            "answer": "A",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 36,
-            "question": "Which of the following character strengths are included in the VIA classification of strengths? a) A Creativity b) Forgiveness c) Resilience d) Prudence C hoose the correct answer from the options given below:",
+            "question": "Which of the following is/are correctly associated with Plato’s idea of ‘Chariot that is pulled by two horses’?",
             "options": [
-                "a, b and c only",
-                "d , c and a only",
-                "a, b and d only",
-                "a, and c only"
+                "Desiring soul is the charioteer.",
+                "Rational soul is located in the head.",
+                "Rational soul is governed by restraint and modesty.",
+                "Spirited soul knows the honour. Choose the correct answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
@@ -475,90 +475,90 @@
         },
         {
             "id": 37,
-            "question": "Who among the following has laid emphasis on examining the relationship of culturally specific practices with development?",
+            "question": "Who of the following emphasised nomothetic approach in personality research?",
             "options": [
-                "Piaget",
-                "Fodor",
-                "Vygotsky",
-                "Kohlberg"
+                "Allport",
+                "Eysenk",
+                "Jung",
+                "Galton"
             ],
-            "answer": "C",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 38,
-            "question": "Arrange the following in sequence as per the Extinction Transfer Theory of Aggression a) Frustration b) Residual Arousal c) Arousing Events d) Increased Arousal e) Arousal attributed to Frustration Choose the correct ans wer from the options given below:",
+            "question": "Arrange the first five elements of ‘Flow’ in correct sequence:",
             "options": [
-                "a, c , b , d , e",
-                "d , b , c , a , e",
-                "c , d , b , a , e",
-                "a, c , d , b , e"
+                "Clarity of Goals",
+                "Immediate Feedback of Actions",
+                "Balance between challenges and skills",
+                "Merger of awareness and actions (E) Exclusion of distractions from consciousness Choose the correct answer from the options given below:"
             ],
-            "answer": "C",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 39,
-            "question": "Given below two statements, one is labelled as Assertion A and the other is labelled as Reason R Assertion A: The NEO - PI - R does not have a response style scale Reason R: NEO - PI - R developers argued that adjustment of social desirability leads to a reduction in validity I n light of the above statements, choose the most appropriate answer from the options given below:",
+            "question": "Which among these is correct for Cyber bullying?",
             "options": [
-                "Both A and R are correct and R is correct explanation of A",
-                "Both A and R are correct and R is NOT the correct explanation of A",
-                "A is correct but R is not correct",
-                "A is not correct but R is correct"
+                "It involves disinhibition",
+                "Lesser role of Bystanders",
+                "Ability of targets to retaliate is more",
+                "No evidence left behind Choose the correct answer from the options given below: -"
             ],
-            "answer": "A",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 40,
-            "question": "Which one of the following terms denotes that there are qualities of exper ience that cannot be explained in terms of combinations of traditional kinds of sensations?",
+            "question": "Match List I with List II: List I - Social Concepts List II - Explanations",
             "options": [
-                "Zeitgeist",
-                "Tropism",
-                "Gestalt Qualitaten",
-                "Conarium"
-            ],
-            "answer": "C",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 41,
-            "question": "In the independent groups' design, selective subject loss occurs because of which of the following? a) Subjects are lost differently across conditions b) Subject characteristics are responsible for subject loss c) Subjects are lost uniformly across conditions d) Subject characteristics are independent of subject loss Choose the correct answer from the options given below:",
-            "options": [
-                "a and b only",
-                "a and c only",
-                "b and d only",
-                "c and d only"
-            ],
-            "answer": "A",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 42,
-            "question": "What does 'Absolute Poverty' mean?",
-            "options": [
-                "Poverty in terms of absolute number of people",
-                "Poverty in terms of prevailing price level",
-                "Poverty in terms of absolute level of unemployment",
-                "Basic minimum calorie requirement"
+                "Elaboration Likelihood Model (I) Gender stereotypes",
+                "Realistic Conflict Theory (II) Central and peripheral route to persuasion",
+                "Glass Cliff (III) Idealogical change in core aspect of a group",
+                "Schism (IV) Intergroup competition as a source of prejudice Choose the correct answer from the options given below:"
             ],
             "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 43,
-            "question": "A teacher engages students in hands - on, inquiry - based and relevant learning activities in his class. What does this illustrate? a) Application of the law of exercise b) Application of the law of effect c) Creating intrinsic motivat ion d) Creating extrinsic motivation Choose the correct answer from the options given below:",
+            "id": 41,
+            "question": "Arrange in a sequence the Stop-start Relapse Cycle of Internet Addiction:",
             "options": [
-                "b only",
-                "b and c only",
-                "a and c only",
-                "c only"
+                "Regret",
+                "Rationalization",
+                "Relapse",
+                "Abstinence Choose the correct answer from the options given below:"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 42,
+            "question": "Given below are two statements: One is labelled as Assertion and the other is labelled as \nReason (R): Assertion (A): Cattell incorporated factors Q1, Q2, Q3 and Q4 in 16 PF Reason (R): Some factors appeared only in L –data not in Q and T-data \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+            "options": [
+                "(A) Both (A) and (R) are true and (R) is the correct explanation of (A)",
+                "(B) Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+                "(C) (A) is true but (R) is false",
+                "(D) (A) is false but (R) is true"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 43,
+            "question": "Arrange the Nafs (Self in Sufism) from lower to higher self:",
+            "options": [
+                "The self pleasing to God",
+                "The pure self",
+                "Inspired self",
+                "Serene self (E) The pleased self Choose the correct answer from the options given below:"
             ],
             "answer": "B",
             "passageId": null,
@@ -566,124 +566,129 @@
         },
         {
             "id": 44,
-            "question": "Given below two statements, one is labelled as Assertion A and the other is labelled as Reason R Assertion A: Obtained t - valve will follow theoretical distribution if underlying assumptions are fulfilled Reason R: The application oft - test makes an assumption of heterogeneity of variance In light of the above statements, choose the most appropriate answer from the options given below:",
+            "question": "Which of the following in learning environment are considered to be true about school success?",
             "options": [
-                "Both A and R are correct and R is correct explanation of A",
-                "Both A and R are correct but R is NOT the correct explanation of A",
-                "A is correct but R is not correct",
-                "A is not correct but R is correct"
+                "The self image is vital to learning",
+                "Very high goal setting is necessary to motivate and study",
+                "Success experience is a function of challenge more than repetition",
+                "Child’s spiritual identity is vital to learning Choose the correct answer from the options given below: -"
             ],
-            "answer": "C",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 45,
-            "question": "Which of the following statements are true about Unity Thema? a) It is a compound of interrelated needs linked to press b) It is a compound of conflicting needs linked to press c) It operates largely as an unconscious force d) It operates largely as a conscious force Choose the correct answer from the options given below:",
+            "question": "As per Socrates’ Greek Philosophy, Which of the following is NOT true about eudaemonia?",
             "options": [
-                "a , b and c only",
-                "a and c only",
-                "a and d only",
-                "b and d only"
+                "It means living well or flourishing",
+                "It is more than merely attaining pleasure",
+                "Being virtuous is almost identical to eudaemonia",
+                "Being virtuous does not guarantee eudaemonia"
             ],
-            "answer": "A",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 46,
-            "question": "Which of the following are the components of Metacognition? a) Metacognition knowledge b) Metacognition experience c) Metacognition control d) Metacognition regulation Choose the correct answer from the options given below:",
+            "question": "In the two group design with a continuous dependent variable, which of the following measures of effect size can be employed?",
             "options": [
-                "a and b only",
-                "a and d only",
-                "a , b and c only",
-                "a , b and d only"
+                "Cohen’s d",
+                "Point biserial correlation",
+                "Eta square",
+                "Partial eta square Choose the most appropriate answer from the options given below: -"
             ],
-            "answer": "B",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 47,
-            "question": "Which of the following are associated with the Path in Sufism? a) Establishing self and assertion b) Repentance c) Renu nciation d) Poverty e) Annihilation Choose the correct answer from the options given below:",
+            "question": "In which phase of Enright’s model of psychological forgiveness, individual gains a cognitive understanding of the offender in a new light that brings a positive change in view about the offender, self and the relationship?",
             "options": [
-                "b , c and e only",
-                "a , b and d only",
-                "a , b , c and d only",
-                "b , c , d and e only"
+                "Uncovering phase",
+                "Decision phase",
+                "Work phase",
+                "Deepening phase"
             ],
-            "answer": "D",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 48,
-            "question": "A researcher is studying group process of software start up developers by staying with them and like them for six months. Which of the following is used by her? a) Grounded theory b) Ethonography c) Narrative analysis d) Phenomenological research",
-            "options": [],
-            "answer": "B",
+            "question": "Pattern of familial transmission of intelligence from one generation to other is investigated in which of the following?",
+            "options": [
+                "Linkage analysis studies",
+                "Adoption studies",
+                "Association studies",
+                "Segregation analysis Studies"
+            ],
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 49,
-            "question": "Match List I with List 11 List I List II a) Happiness results from experiences of personal expressiveness i) Rayan & Deci b) Happiness is self - realization, meaning the expression and fulfilment of inner potentials ii) Diener c) Happiness reflects an individual's own judgement about the quality of his or her life iii) Aristotle d) Happiness result from the fulfilment of three basic psychological needs: autonomy, competence and relatedness iv) Waterman Choose the correct answer from the options given below:",
+            "question": "The evolution of the various explanations or models of memory occur in the following sequence:",
             "options": [
-                "a - i , b - ii , c - iii , d - iv",
-                "a - iii , b - iv , c - i , d - ii",
-                "a - iv , b - iii , c - ii , d - i",
-                "a - ii , b - i , c - iv , d - iii"
+                "Multistore",
+                "Working memory",
+                "Level of processing",
+                "Interference Choose the correct answer from the options given below:"
             ],
-            "answer": "C",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 50,
-            "question": "Which approach focussed on the nature of a task and its influence on a person's ability in solving problems?",
+            "question": "In which schools of Indian thought about yoga, ‘Prakrti’ remains isolated as a principle of ultimate reality into self and is active only in the presence and service of ‘Purusa’?",
             "options": [
-                "Association is tap proach",
-                "Information processing approach",
-                "Gestalt approach",
-                "Behaviourist approach"
+                "Integral yoga philosophy",
+                "Vedanta",
+                "Samkhya",
+                "Sahaj yoga"
             ],
-            "answer": "C",
+            "answer": null,
             "passageId": null,
             "passage": null
         },
         {
             "id": 51,
-            "question": "In depth percept ion, what kind of images are used?",
+            "question": "Which of the following are correct for the Biopsychosocial Model of health?",
             "options": [
-                "Uni - dimensional image",
-                "Two - dimensional images",
-                "Three - dimensional images",
-                "Four - dimensional images"
-            ],
-            "answer": "C",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 52,
-            "question": "List I List II a) The theory that an individual's self - concept is driven partly from membership in a group i) Realistic group conflict theory b) The theory that pre judice arises from a real conflict of interest between groups ii) Social Dominance theory c) The theory that all societies are organised in group hierarchies and bsustained through discrimination iii) Social Identity theory d) The most important social perspective in social psychology iv) Interdependence theory Choose the correct answer from the options given bel ow:",
-            "options": [
-                "a - ii , b - iii , c - i , d - iv",
-                "a - iii , b - iv , c - ii , d - i",
-                "a - i , b - ii , c - iii , d - iv",
-                "a - ii , b - iii , c - iv , d - i (Drop p ed)"
+                "Close interaction between body and mind, though they are separate entities",
+                "Active participation of the patient",
+                "Health and illness are on the same continuum",
+                "Treatment process involves medication, surgery and radiation Choose the most appropriate answer from the options given below: -"
             ],
             "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 53,
-            "question": "Who believed that meaning in life can be uncovered by creative, experiential and attitudinal values?",
+            "id": 52,
+            "question": "Match List I with List II: List I - Theoretical Perspective List II - Explanation",
             "options": [
-                "Rollo May",
-                "Victor Frankl",
-                "Friedrick Nietzsche",
-                "Jean Paul Sartre"
+                "Encoding Specificity Hypothesis (I) Does not endorse different memory storage",
+                "Retrival induced Forgetting (II) Supress unwanted memories",
+                "Schema Theory of Memory (III) Superiority of recognition over recall",
+                "Level of Processing Theory (IV) Effect of meaning and knowledge on memory Choose the correct answer from the options given below:"
+            ],
+            "answer": "B",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 53,
+            "question": "Which of the following nerves carry the sensory messages from skin, eyes and ears to Central Nervous System?",
+            "options": [
+                "Efferent",
+                "Afferent",
+                "Cranial",
+                "Peripheral"
             ],
             "answer": "B",
             "passageId": null,
@@ -691,46 +696,51 @@
         },
         {
             "id": 54,
-            "question": "Which one of the following is the correct description of Old Fashioned Racism? ( A ) A contemporary form of antagonism towards a racial group based on prejudice and values rather than on self - interest",
-            "options": [],
-            "answer": "B",
+            "question": "Match List I with List II: List I - Variable type List II - Examples",
+            "options": [
+                "Artificially discrete variable (I) Reaction time",
+                "Continuous behavioural variable (II) Gender",
+                "Continuous organismic variable (III) Selection test result interms of selected, Not selected, On waiting list",
+                "Dummy variable (IV) Height Choose the correct answer from the options given below:"
+            ],
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 55,
-            "question": "Match List I with List 11 List I List II a) Efficacy i) Response activated when drugs bind with a receptor b) Tolerance ii) Repeated exposure with less activation of receptors c) Downregulation iii) Compensatory reduction in receptor availability d) Withdrawal iv) Unpleasant physiological responses Choose the correct answer from the options given below:",
+            "question": "Visuospatial sketch pad is a component of which of the following?",
             "options": [
-                "a - i , b - i , c - iii , d - iv",
-                "a - i , b - ii , c - iii , d - iv",
-                "a - iii , b - iv , c - ii , d - i",
-                "a - iv , b - i , c - ii , d - iii"
+                "Long-term memory",
+                "Short-term memory",
+                "Working memory",
+                "Sensory memory"
             ],
-            "answer": "B",
+            "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
             "id": 56,
-            "question": "Match List I with List 11 List I List II Description Type of Reinforcement a) A reinforcement that reinforces a response at unpredictable time intervals i) Fixed - ratio schedule b) A reinforcement that reinforces a response only after a specified time has lapsed ii) Variable - ratio schedule c) A reinforcement that reinforces a response after an unpredictable number of responses iii) Fixed - interval schedule d) A reinforcement that reinforces a response only after a specified number of responses iv) Variable - interval schedule Choose the correct answer from the options given below:",
+            "question": "Qualities such as calmness, tolerance, sociability, love of comfort and easy goingness depict, which of the following?",
             "options": [
-                "a - i , b - ii , c - iii , d - iv",
-                "a - ii , b - iii , c - iv , d - i",
-                "a - iii , b - iv , c - i , d - ii",
-                "a - iv , b - iii , c - ii , d - i"
+                "Viscertonia",
+                "Somatotonia",
+                "Cerebrotonia",
+                "Ectomorphia"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 57,
-            "question": "Testing the scientific hypothesis is impossible due to the need of auxiliary assumptions. What is this associated with?",
+            "question": "The following statement is characteristic of which stage of Moral Development according to Kohlberg?",
             "options": [
-                "Occam's razor",
-                "Logical empiricism",
-                "Duhem - Quine thesis",
-                "lncom m ensurability"
+                "Social contract orientation",
+                "Morality of Interpersonal Cooperation",
+                "Social order maintaining orientation",
+                "Universal Ethical principle orientation"
             ],
             "answer": "C",
             "passageId": null,
@@ -738,38 +748,38 @@
         },
         {
             "id": 58,
-            "question": "In the famous experiment by Schacter and Singer involving epinephrine, what was found to govern the emotions?",
+            "question": "Multivariate Analysis of Variance (MANOVA) is best suited for making groupwise comparisons for several dependent variables. Which of the following are these?",
             "options": [
-                "Perceptual cues only",
-                "Social appraisal only",
-                "Both cognitive appraisal and physiological arousal",
-                "Both cognitive and social appraisal"
+                "Uncorrelated",
+                "Moderately correlated",
+                "Very highly correlated",
+                "Either uncorrelated or have small negative correlations"
             ],
-            "answer": "C",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 59,
-            "question": "The psychosocial s tage of Intimacy v/s Isolation is preceded and succeeded by which of the following? a) Generativity v/s Stagnation b) Identity v/s Identity confusion c) Industry v/s Diffusion Choose the correct answer from the options given below:",
+            "question": "Memory that is thought to contain knowledge, facts, information, ideas that can be recalled or described in words, pictures, or symbols is called: -",
             "options": [
-                "a only",
-                "a and c only",
-                "a and b only",
-                "b and c only"
+                "Procedural memory",
+                "Episodic memory",
+                "Semantic memory",
+                "Declarative memory"
             ],
-            "answer": "C",
+            "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
             "id": 60,
-            "question": "Which one of the following is considered as correct for Poverty Gap?",
+            "question": "It is possible to accept the world as it is, without experiencing dissatisfaction. This is related to which of the following in Buddhism?",
             "options": [
-                "Gap between Rich and Poor",
-                "Gap between developed and developing nations",
-                "Difference between poverty line and actual income level of all those living below that line",
-                "Gap in the infrastructure facilities between developed nations"
+                "Right thought in eight–fold path",
+                "Right mindfulness in eight-fold path",
+                "Elimination of craving",
+                "Existence of satisfaction/dissatisfaction"
             ],
             "answer": "C",
             "passageId": null,
@@ -777,38 +787,38 @@
         },
         {
             "id": 61,
-            "question": "Jensen put forward the 'Regression· argument to account for which of the following?",
+            "question": "Given below are two statements: Statement (I): Edwards Personality Preference Schedule (EPPS) uses forced choice format. Statement (II): The forced choice format is presumed to prevent socially desirable responding In the light of the above statements, choose the most appropriate answer from the options given below:",
             "options": [
-                "To understand inter - generation changes in intelligence",
-                "To understand intra - generation changes in intelligence",
-                "To understand group differences in intelligence",
-                "To understand the role of genetics in intelligence"
+                "Both Statement (I) and Statement (II) are correct",
+                "Both Statement (I) and Statement (II) are incorrect",
+                "Statement (I) is correct but Statement (II) is incorrect",
+                "Statement (I) is incorrect but Statement (II) is correct"
             ],
-            "answer": "C",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 62,
-            "question": "In which sequence, according to Piaget, the following cognitive milestones are achieved? a) Object permanence b) Reversib ility c) Abstraction d) Centration Choose the correct answer options from the given below:",
+            "question": "Which one of the following is usually not considered an example of the evaluative dimension of the Osgood Semantic Differential?",
             "options": [
-                "a , b , c , d",
-                "c , a , b , d",
-                "d , a , b , c",
-                "a , d , b , c"
+                "Clean –––––––––––– Dirty",
+                "Slow –––––––––––– Fast",
+                "Good –––––––––––– Bad",
+                "Kind –––––––––––– Cruel"
             ],
-            "answer": "D",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 63,
-            "question": "What is the retention without conscious recollection of skills and dispositions called?",
+            "question": "Which of the following statements is wrong?",
             "options": [
-                "Iconic memory",
-                "Implicit memory",
-                "Explicit memory",
-                "Semantic memory"
+                "Body’s requirement of sleep varies with age",
+                "Tertiary prevention is action taken to identify and treat an illness orinjury early with an aim of stopping or reversing the problem",
+                "Endorphins are released during exercise",
+                "Excessive alcohol consumption leads to shrinking of frontal lobe of the brain."
             ],
             "answer": "B",
             "passageId": null,
@@ -816,77 +826,77 @@
         },
         {
             "id": 64,
-            "question": "Arrange the stages of personality development in the theory given by Rollo May a) Innocence b) Rebellion c) Ordinary consciousness of self d) Creative consciousness of self Choose the correct answer from th e options given below:",
+            "question": "Match List I with List II: List I - Type of communication in family therapy List II - Description",
             "options": [
-                "a, c , b , d",
-                "a, b , c , d",
-                "b , c , a, d",
-                "b , c , d , a"
-            ],
-            "answer": "B",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 65,
-            "question": "Who among the following is credited with proposing the investment theory of creativity?",
-            "options": [
-                "Gatzels and Jackson",
-                "Kaufman",
-                "Wallach and Kogan",
-                "Sternberg"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 66,
-            "question": "Several types of heuristics have been identified by researchers. Which of the these are included in it? a) Lexicographic strategy b) Satisficing strategy c) Mental set d) Elimination by aspects Choose the correct answer from the options given below:",
-            "options": [
-                "a , b and c only",
-                "a , b and d onl y",
-                "a , c and d only",
-                "b , c and d only"
-            ],
-            "answer": "B",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 67,
-            "question": "What comprises haptic perception? a) Shape b) Size c) Volume d) Identity Choose the correct answer from the opt ions given below:",
-            "options": [
-                "a , b and c only",
-                "a , c and d only",
-                "b , c and d only",
-                "a , b and d only"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 68,
-            "question": "Which technique of studying the brain involves injecting the patient with radioactive glucose?",
-            "options": [
-                "EEG",
-                "MRI",
-                "PET",
-                "CT"
+                "Congruent (I) Carries an air of self importance",
+                "Placating (II) Placing others above oneself",
+                "Blaming (III) Seeing the world with a lens of objectivity and coolness",
+                "Super reasonable (IV) Reasonably flexible with a sense of connection Choose the correct answer from the options given below:"
             ],
             "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 69,
-            "question": "of the following were considered to be appropriate for psychological study by Wundt? a) Analysis of cultural products b) Higher mental processes c) The totality of psychological phenomena d) Self - observation e) Physiological type of experimentation Choose the correct answer from the options given below:",
+            "id": 65,
+            "question": "Attitudes can be classically conditioned even without our awareness by which of the following?",
             "options": [
-                "b , c and d only",
-                "b , c , d and e only",
-                "a , d and e only",
-                "a , c , d and e only"
+                "Subliminal conditioning",
+                "Observational learning",
+                "Mere exposure",
+                "Social networks Choose the correct answer from the options given below: -"
+            ],
+            "answer": "C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 66,
+            "question": "Arrange the following correlations in ascending order in terms of their strength of relationship",
+            "options": [
+                "– 0.75",
+                "– 0.30",
+                "0.40",
+                "0.68 Choose the correct answer from the options given below:"
+            ],
+            "answer": "A",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 67,
+            "question": "Which among the following does not refer to Social Referencing?",
+            "options": [
+                "Intentional search for information about others’ feelings, to help explain the meaning of uncertain circumstances and events",
+                "It occurs around the age of 2 – 3 years",
+                "Infants make use of facial expressions in social referencing",
+                "Infants need to understand the significance of other’s behavior within the context of a specific situation Choose the most appropriate answer from the options given below: -"
+            ],
+            "answer": "A",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 68,
+            "question": "If a person’s distinctive social category makes him or her vulnerable to stereotyping, it is referred to as: -",
+            "options": [
+                "Token integration",
+                "Neosexism",
+                "Ingratiation",
+                "Token bias"
+            ],
+            "answer": "A",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 69,
+            "question": "Which of the following characteristics are applicable to emotions that are considered to occur as a result of interaction among subjective and environmental factors and neural and hormonal processes?",
+            "options": [
+                "Emotions give rise to hedonic experiences.",
+                "Emotions stimulate to generate cognitive explanations.",
+                "Emotions trigger variety of internal neurobiological changes.",
+                "Emotions always elicit rewarding behaviour. Choose the most appropriate answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
@@ -894,51 +904,51 @@
         },
         {
             "id": 70,
-            "question": "Gi ven below two statements, one is labelled as Assertion A and the other is labelled as Reason R Assertion A: Many companies now enable their employees to share profits or even to participate in company ownership Reason R: Worker's productivity boosts rewards from employers In light of the above statements, choose the most appropriate answer from the options given below:",
+            "question": "Given below are two statements: One is labelled as Assertion and the other is labelled as \nReason (R): Assertion (A): In fixed interval schedule of reinforcement behaviour is reinforced in a fixed time period. Reason (R): When students get feedback intermittently their level of performance increases \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
             "options": [
-                "Both A and R are correct and R is correct explanation of A",
-                "Both A and R are correct and R is NOT the correct explanation of A",
-                "A is correct but R is not correct",
-                "A is not correct but R is correct"
+                "(A) Both (A) and (R) are true and (R) is the correct explanation of (A)",
+                "(B) Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+                "(C) (A) is true but (R) is false",
+                "(D) (A) is false but (R) is true"
             ],
-            "answer": "A",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 71,
-            "question": "Mr A is very good at discriminating between progressive and regressive ways of behaviour. His choices are clearly perceived by him and adequately symbolised. According to Rogers, these are the characteristics of which of the following? a) Individual tendenc y towards ·growth' b) Tendency to self actualise c) His constructive creativity d) His self - affirmation Choose the correct answer from the options given below:",
+            "question": "Integration of cognitive aspects of learning with the emotional aspects of experience and learning is known as:-",
             "options": [
-                "a, and c only",
-                "a , c and d only",
-                "a and b only",
-                "b only"
+                "Integrated approach to learning",
+                "Confluent education",
+                "Feeling class approach to education",
+                "Motivational approach to learning"
             ],
-            "answer": "C",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 72,
-            "question": "Which one of the following models proposes that there are three major functional units of the brain : focussing on sustaining attention; receiving and storing information and planning and self - monitoring?",
+            "question": "A Woman who learns that she has been deprived of promotion to a higher job in a company, may storm into her boss’s office and have temper tentrum. It exemplifies:",
             "options": [
-                "PASS model",
-                "Kar and Parrila's model",
-                "Atkinson and Shiffrin model",
-                "Hunt's model"
+                "Sublimation",
+                "Rationalization",
+                "Reaction Formation",
+                "Regression"
             ],
-            "answer": "A",
+            "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
             "id": 73,
-            "question": "Making decisions by the use of mental short cuts that focus on one aspect of a problem, while ignoring others refers to which one of the following?",
+            "question": "Mayer-Salovey-Caruso Emotional Intelligence Test (MSCEIT) measures: -",
             "options": [
-                "Framing",
-                "Belief perseverance",
-                "Heuristics",
-                "Mental set"
+                "Perceiving emotions",
+                "Using emotions to facilitate thought",
+                "Understanding emotions",
+                "Implicit motivation Choose the correct answer from the options given below:"
             ],
             "answer": "C",
             "passageId": null,
@@ -946,38 +956,38 @@
         },
         {
             "id": 74,
-            "question": "In Bronfenbrenner's model, which one of the following systems is independent of cultural bias?",
+            "question": "Which of the following are the performance subtests of WAIS?",
             "options": [
-                "Micro system",
-                "Meso system",
-                "Exo system",
-                "Macro system"
+                "Digit span",
+                "Similarities",
+                "Digit symbol",
+                "Object assembly Choose the correct answer from the options given below:"
             ],
-            "answer": "D",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 75,
-            "question": "A group of sixty newly diagnosed diabetic patients were tested for anxiety using a standardized inventory. They were retested for anxiety again after months using the same inventory. The mean difference in anxiety was evaluated by a suitable t - test. The degrees of freedom associated with the t - test would be",
+            "question": "Discovery and understanding of our own abilities brings happiness but also brings fear of new responsibilities and duties. It is called: -",
             "options": [
-                "120",
-                "118",
-                "59",
-                "58"
+                "Fear of failure",
+                "Jonah complex",
+                "Motives conflict",
+                "Fear of success"
             ],
-            "answer": "C",
+            "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
             "id": 76,
-            "question": "Arrange in sequence what Yerkes described commonly takes place in \"insight learning\" a) Sharpening and frequent recurrent attention to the goal b) Trial c) Survey/Inspection d) Attitude of concentrated attention e) Critical point Choose the correct answer from the options given below:",
+            "question": "Jensen’s Level I and Level II abilities can be best understood in terms of which of the following?",
             "options": [
-                "b - c - a - d - e",
-                "b - d - c - a - e",
-                "c - d - b - a - e",
-                "b - c - a - e – d"
+                "Difficulty and complexity of tasks",
+                "SES Differences",
+                "Racial Differences",
+                "Gender Differences Choose the most appropriate answer from the options given below: -"
             ],
             "answer": "C",
             "passageId": null,
@@ -985,51 +995,51 @@
         },
         {
             "id": 77,
-            "question": "Antiduretichormone (ADH) is released by which of the following?",
+            "question": "Vouyerstic and exhibitionistic disorders are included in which of the following in DSM-5?",
             "options": [
-                "Adrenal cortex",
-                "Adrenal medulla",
-                "Anterior pituitary",
-                "Posterior pituitary"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 78,
-            "question": "Vaibhasika and Sautrantikaare associated with which of the following?",
-            "options": [
-                "Thera vada",
-                "Cetasikas",
-                "Madhyamikavada",
-                "Sarvastivadin"
-            ],
-            "answer": "D",
-            "passageId": null,
-            "passage": null
-        },
-        {
-            "id": 79,
-            "question": "In cognitive therapy by El is, arrange the sequence of following after recognising the activating event a) Discriminating the new emotional/behavioural consequences b) Recognising the emotional/behavioural consequences of belief c) Understanding the corresponding beliefs d) Challenging and counteracting these beliefs e) Recognising new feelings Choose the correct answer from the options given below:",
-            "options": [
-                "b - c - a - e - d",
-                "c – b - d - a - e",
-                "c - b - a - e - d",
-                "b - c - d - a – e"
+                "Sexual dysfunctions",
+                "Paraphillic disorders",
+                "Other conditions that focus on clinical attention",
+                "Disruptive impulse control and conduct disorders"
             ],
             "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 80,
-            "question": "According to Lazarus, what comes between the stimulus and emotional response to that stimulus to mediate?",
+            "id": 78,
+            "question": "Behavior is a direct result of behavioral intentions, this is explained by which of the following?",
             "options": [
-                "Physiological reactions",
-                "Labeling",
-                "Social and situational cues",
-                "Cognitive appraisal"
+                "Theory of reasoned action",
+                "Theory of social Impact",
+                "Equity theory",
+                "Correspondent inference theory"
+            ],
+            "answer": "A",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 79,
+            "question": "Give the sequence of Identity Formation in Adolescents.",
+            "options": [
+                "Consolidation",
+                "Exploration",
+                "Rapprochement",
+                "Differentiation Choose the correct answer from the options given below:"
+            ],
+            "answer": "C",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 80,
+            "question": "Which one of the following is considered as a culture-fair test?",
+            "options": [
+                "Bhatia’s Battery of Intelligence",
+                "Kaufman’s Intelligence Tests",
+                "Wechsler’s Adult Intelligence scale",
+                "Naglieri Nonverbal Ability Test"
             ],
             "answer": "D",
             "passageId": null,
@@ -1037,12 +1047,12 @@
         },
         {
             "id": 81,
-            "question": "Total cholesterol is determined by adding which of the following values?",
+            "question": "Which of the following are features of Metacognition?",
             "options": [
-                "HDL + LDL",
-                "HDL + LDL + 30% OF VLDL",
-                "HDL + LDL + 10% of VLDL",
-                "HDL + LDL + 20% of Triglycerides"
+                "Encoding",
+                "Regulation",
+                "Monitoring",
+                "Evaluation Choose the most appropriate answer from the options given below:-"
             ],
             "answer": "D",
             "passageId": null,
@@ -1050,51 +1060,51 @@
         },
         {
             "id": 82,
-            "question": "Who among the following conducted one of the most famous and controversial experiments in the area of obedi ence?",
+            "question": "Which of the following describes the enduring facilitation of synaptic transmission that occurs following activation of synapses by high intensity and high frequency stimulation of pre- synaptic neurons?",
             "options": [
-                "Sherif",
-                "Asch",
-                "Milgram",
-                "Cialdini"
+                "Action potential",
+                "Absolute refractory period",
+                "Relative refractory period",
+                "Long term potentiation"
+            ],
+            "answer": "D",
+            "passageId": null,
+            "passage": null
+        },
+        {
+            "id": 83,
+            "question": "Which of the following type of inversion is observed in reaction formation?",
+            "options": [
+                "Implicit",
+                "Explicit",
+                "Conscious",
+                "Unconscious Choose the correct answer from the options given below:"
             ],
             "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 83,
-            "question": "Which is the correct sequence of speech and language development according to Vygotsky? a) Naive b) Primitive c) Egocentric d) Ingrowth Choose the correct answer from the options give n below:",
+            "id": 84,
+            "question": "Match List I with List II: List I - Depth Cues List II – Explanations",
             "options": [
-                "a , b , c , d",
-                "b , a , c , d",
-                "a , b , d , c",
-                "b , a , d , c"
+                "Motion Parallax (I) Both eyes fixate on the same point in space",
+                "Texture Gradient (II) Partial occlusion of a far object by a near object",
+                "Interposition (III) Graded variation in the shape, size and density of the surface elements",
+                "Convergence (IV) Movement in one part of the image relative to another Choose the correct answer from the options given below:"
             ],
             "answer": "B",
             "passageId": null,
             "passage": null
         },
         {
-            "id": 84,
-            "question": "Which of the following principle is violated when a psychologist intentionally mis represents his research results?",
-            "options": [
-                "Beneficence",
-                "Fidelity and responsibility",
-                "Integrity",
-                "Confidentiality"
-            ],
-            "answer": "C",
-            "passageId": null,
-            "passage": null
-        },
-        {
             "id": 85,
-            "question": "Which one of the following attitude scaling methods is especially unsuitable for scaling a large number of attitude statements?",
+            "question": "Which of the following is involved in Type ‘a’ processes of thinking as described by Wertheimer?",
             "options": [
-                "Paired comparison",
-                "Equal appearing intervals",
-                "Summated ratings",
-                "Successive intervals"
+                "Grouping and reorganization",
+                "Assimilation and conditioning",
+                "Blind trial and error",
+                "Partially productive methods"
             ],
             "answer": "A",
             "passageId": null,
@@ -1102,196 +1112,196 @@
         },
         {
             "id": 86,
-            "question": "Which one of the following personality test/s employ/s a'Lie' scale? a) Rotter's Locus of control scale b) Eysenck Personality Profiler c) Minnesota Multiphasic Personality lnventory - 2 d) Edwards Personal Preference Schedule Choose the correct answer from the options given below:",
+            "question": "After being robbed by a boy recently the shopkeeper says “beware of teenagers in our community”. Which of the following explains his reactions?",
             "options": [
-                "c only",
-                "b and c only",
-                "a , b and d only",
-                "b , c and d only"
+                "Algorithm",
+                "Availability Heuristic",
+                "Representative Heuristic",
+                "Gambler’s fallacy"
             ],
-            "answer": "B",
+            "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
             "id": 87,
-            "question": "The enhancement of dominant responses is strongest when people think they are being evaluated. What is the correct sequence of this theory? a) Evaluation apprehension b) Well learned c) Presence of other d) Increased arousal e) Social facilitation Choose the correct answer from the options given below:",
+            "question": "Young adults who return after leaving home for some period, to live in their middle aged parents home are known as:",
             "options": [
-                "b , a , c , d , e",
-                "c , d , a , b , e",
-                "a , b , c , d , e",
-                "a , c , d , b , e"
+                "Sandwich children",
+                "Benevolent children",
+                "Boomerang children",
+                "Compliant children"
             ],
-            "answer": "B",
+            "answer": "C",
             "passageId": null,
             "passage": null
         },
         {
             "id": 88,
-            "question": "Match List I with List 11 List I List II Description Concept a) A laboratory device for testing depth in infants and young animals i) Perceptual adaptation b) Refers to the differences in two eyes location of corner angles ii) Horizontal disparity c) Refers to two points which fall on non - corresponding retinal posit ions one nearer and t he other farther iii) Vertica I disparity d) Perceptional adaptability to adjust to an artificially displaced visual field iv) Visual cliff Choose the correct answer from the options given below:",
+            "question": "According to Master and Johnson, which of the following is correct sequence of Sexual Response?",
             "options": [
-                "a - i , b - ii , c - iii , d - iv",
-                "a - ii , b - iii , c - iv , d - i",
-                "a - iii , b - iv , c - i , d - ii",
-                "a - iv , b - iii , c - ii , d - i"
+                "Excitement",
+                "Desire",
+                "Plateau",
+                "Orgasm (E) Resolution Choose the correct answer from the options given below:"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 89,
-            "question": "Match List I with List II List I List II a) Cancer that originates in the blood - forming cell such as stem cells i) Carcinoma b) Cancer of the epithelial tissue, cells that line the outer and inner surface of the body such as skin, stomach etc ii) Sarcoma c) Cancer that arises from the cells in connective tissue such as bone, muscles iii) Leukaemia d) Cancer of the sympathetic system which is one of the rare types of cancer iv) Lymphoma Choose the correct answer from the options g iven below:",
+            "question": "Match List I with List II: List I List II",
             "options": [
-                "a - ii , b - iii , c - i , d - iv",
-                "a - i , b - ii , c - iv , d - iii",
-                "a - iv , b - ii , c - iii , d - i",
-                "a - i , b - ii , c - iii , d - iv ( Dropped)"
+                "Cognitive Assessment System (I) Dass",
+                "Hold and Dout Hold Tests (II) Wechsler",
+                "Cognitive Assessment Battery (III) Cattell",
+                "Differential Ability Test (IV) Elliot Choose the correct answer from the options given below:"
             ],
-            "answer": "D",
+            "answer": "A",
             "passageId": null,
             "passage": null
         },
         {
             "id": 90,
-            "question": "Immediately after an action potential, the cell does not produce another action potential due To",
+            "question": "The components of ‘Working Memory’ are: -",
             "options": [
-                "Absolute refractory period",
-                "Relative refractory period",
-                "Resting state",
-                "Active state S=91 - 97); Comprehension: Read the given passage and answer the five questions which follow A researcher wanted to predict academic achievement using Intelligence Test - A (IT - A), Intelligence Test - B (IT - B), Type of school (rural/urban), and conscientiousness as predictors. She used multiple regression analysis. She collected data on 200 students on all variables. The OLS estimator was used. The f ;8.9, p<.01 for the entire model. In individual predictor analysis, IT - B was the insignificant pr edictor. The suitable test indicated homoscedasticity. The model R2 ;0.64 and adjusted R2; 0.59. Both intelligence tests are significantly correlated with the criterion variable and with each other."
+                "Acoustic unit",
+                "Semantic unit",
+                "Central executive",
+                "Episodic buffer Choose the correct answer from the options given below:"
             ],
-            "answer": "A",
+            "answer": "D",
             "passageId": null,
             "passage": null
         },
         {
             "id": 91,
-            "question": "What is indicated by R2 in the passage?",
+            "question": "For computing inter-item correlations, which one of the following is suitable?",
             "options": [
-                "64% variance is explained",
-                "80% variance is explained",
-                "32% variance is explained",
-                "36% variance is explained"
+                "Point biserial correlation",
+                "Biserial correlation",
+                "Rank difference correlation",
+                "Phi-coefficient"
             ],
-            "answer": "A",
+            "answer": "D",
             "passageId": "passage_1",
             "passage": null
         },
         {
             "id": 92,
-            "question": "What kind of a variable is 'type of school' in the passage?",
+            "question": "Item I was passed by 30 subjects in Low scoring group and by 56 subjects in High scoring group. What would be the discrimination index for item I?",
             "options": [
-                "Moderator variable",
-                "Mediator variable",
-                "Dummy variable",
-                "Quasi - continous variable"
+                "0.241",
+                "0.481",
+                "0.556",
+                "0.796"
             ],
-            "answer": "C",
+            "answer": "B",
             "passageId": "passage_1",
             "passage": null
         },
         {
             "id": 93,
-            "question": "Which of the fol lowing is df for F for the entire model?",
+            "question": "Which one of the following test can be used for evaluating statistical significance of the discrimination index?",
             "options": [
-                "4 ;195",
-                "4 ;199",
-                "4 ;195",
-                "3 ;199"
+                "Chi-square test",
+                "t test",
+                "F test",
+                "Mann-Whitney U test"
             ],
-            "answer": "A,C",
+            "answer": "A",
             "passageId": "passage_1",
             "passage": null
         },
         {
             "id": 94,
-            "question": "Which of the following is correct about residual variance in the passage?",
+            "question": "What is the expected Cronbach alpha for the Form A?",
             "options": [
-                "It is correlated with predictor variable",
-                "It is correlated with criterion variable",
-                "It is systematically distributed",
-                "It is randomly distributed"
+                ".474",
+                ".899",
+                ".913",
+                ".947"
             ],
-            "answer": "D",
+            "answer": null,
             "passageId": "passage_1",
             "passage": null
         },
         {
             "id": 95,
-            "question": "Which of the following is the reason for insignificance of IT - B?",
+            "question": "Give below are two statements: One is labelled as Assertion",
             "options": [
-                "Heteroscedasticity",
-                "Poor predictive power",
-                "Small sample size",
-                "Multicolinearity"
+                "and the other is labelled as Reason (R): Assertion",
+                ": It is not possible to compute K-R reliability for the above test, since each item has five alternatives Reason (R): K-R reliability can be computed, when the items can be dichotomously scored In the light of the above statements, choose the most appropriate answer from the options given below:",
+                "Both",
+                "and (R) are correct and (R) is the correct explanation of"
             ],
-            "answer": "D",
+            "answer": null,
             "passageId": "passage_1",
             "passage": null
         },
         {
             "id": 96,
-            "question": "In the above example, what percentage of the varia nce would be explained by the first unrotated factor?",
+            "question": "The above design can best be labelled as:",
             "options": [
-                "9.9",
-                "39.6",
-                "65.6",
-                "72.0"
+                "Randomized 3 × 2 balanced factorial design",
+                "Randomized 3 × 2 balanced factorial design with a covariate",
+                "Randomized 3 × 2 unbalanced factorial design",
+                "Randomized block design"
             ],
-            "answer": "B",
+            "answer": null,
             "passageId": "passage_2",
             "passage": null
         },
         {
             "id": 97,
-            "question": "Using the Kaiser - Guttman criterion, how many factors would be retained in the above study?",
+            "question": "Which one of the following F ratio would be used to evaluate second hypothesis?",
             "options": [
-                "4",
-                "8",
-                "2",
-                "3 (Dropped)"
+                "F = MSA/MSE",
+                "F = MSB/MSE",
+                "F = MSA × B/MSE",
+                "F = MSA /(MSA × B + MSE)"
             ],
-            "answer": "D",
+            "answer": null,
             "passageId": "passage_2",
             "passage": null
         },
         {
             "id": 98,
-            "question": "Which of the following is correct for the Kaiser - Meyer - Olkin test? a) A It is a test of sampling adequacy b) Chi - square test is used to test the significance c) Values smaller than 0.5 are desirable d) Smaller partial correlation leads to high KMO Choose the correct answer from the options given below:",
+            "question": "The above data indicates:",
             "options": [
-                "a o nly",
-                "a and b only",
-                "a and d only",
-                "b , c and d only"
+                "that the assumption of homogeneity of variance is satisfied",
+                "that the assumption of homogeneity of variance is not satisfied",
+                "the absence of information related to the assumption of homogeneity of variance",
+                "the formal test of homogeneity of variance needs to be carried out"
             ],
-            "answer": "C",
+            "answer": null,
             "passageId": "passage_2",
             "passage": null
         },
         {
             "id": 99,
-            "question": "The Bartlett's test results in the above study suggested that",
+            "question": "The above results indicate that:",
             "options": [
-                "Population correlation matrix is not an identity matrix",
-                "Population correlation matrix is an identity matrix",
-                "Sample correlation matrix is not an identity matrix",
-                "Sample correlation matrix is an identity matrix"
+                "the first hypothesis is verified",
+                "the first hypothesis is rejected",
+                "the first hypothesis is partially verified",
+                "the inadequate information for evaluating the first hypothesis"
             ],
-            "answer": "A",
+            "answer": null,
             "passageId": "passage_2",
             "passage": null
         },
         {
             "id": 100,
-            "question": "Which of the following is correct in case of three items having cross - loading?",
+            "question": "The above findings indicate that the post-hoc comparisons are:",
             "options": [
-                "They have excellent validity",
-                "They are conceptually sound items",
-                "The scale has poor reliabi lity",
-                "They should not be retained in the final scale"
+                "Necessary for the effect of stress",
+                "Necessary for the effect of type of material",
+                "Necessary both for the effect of stress and type of material",
+                "Neither necessary for the effect of stress nor the type of material"
             ],
-            "answer": "D",
+            "answer": null,
             "passageId": "passage_2",
             "passage": null
         }

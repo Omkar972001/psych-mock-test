@@ -104,33 +104,14 @@ const app = {
             currentTestId: id,
             currentInfo: test,
             data: null,
+            answers: saved?.answers || {},
+            visited: new Set(saved?.visited || []),
+            currentQIndex: 0,
+            timeLeft: saved?.timeLeft || 7200,
             timerId: null, // Legacy
             isReviewMode: isCompleted,
             lastScore: saved?.score || 0
         };
-
-        if (saved) {
-            app.state.answers = saved.answers || {};
-            app.state.visited = new Set(saved.visited || []);
-            // Load marked. Convert array back to Set if saved as array
-            app.state.marked = new Set(saved.marked || []);
-            // If Resume
-            if (!isCompleted) {
-                app.state.currentQIndex = saved.currentQIndex || 0;
-                app.state.timeLeft = saved.timeLeft || 7200;
-            } else {
-                // If reviewing completed test
-                app.state.currentQIndex = 0;
-                app.state.timeLeft = 0;
-            }
-        } else {
-            // New Test
-            app.state.answers = {};
-            app.state.visited = new Set();
-            app.state.marked = new Set();
-            app.state.currentQIndex = 0;
-            app.state.timeLeft = test.questions * 60 * 1.2; // roughly 2 hours
-        }
 
         // UI Prep
         document.getElementById('dashboardView').classList.add('hidden');
@@ -221,17 +202,17 @@ const app = {
         function pad(n) { return n < 10 ? '0' + n : n; }
     },
 
-    saveState: () => {
+    persistState: () => {
         if (!app.state.currentTestId) return;
-        const stateToSave = {
+        const key = `psych_test_${app.state.currentTestId}_state`;
+        const payload = {
             answers: app.state.answers,
-            visited: Array.from(app.state.visited),
-            marked: Array.from(app.state.marked || []), // Serialize Set to Array
-            currentQIndex: app.state.currentQIndex,
+            visited: Array.from(app.state.visited), // Set to Array
             timeLeft: app.state.timeLeft,
-            completed: false
+            completed: app.state.isReviewMode,
+            score: app.state.lastScore
         };
-        localStorage.setItem(`psych_test_${app.state.currentTestId}_state`, JSON.stringify(stateToSave));
+        localStorage.setItem(key, JSON.stringify(payload));
     },
 
     loadQuestion: (index) => {

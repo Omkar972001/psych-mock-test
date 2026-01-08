@@ -78,95 +78,64 @@
                 </div>
             </div>
 
-            <!-- Test Interface View -->
+            <!-- Test Interface View (Hidden by default) -->
             <div class="test-interface hidden" id="testInterface">
-                <!-- Top Header -->
                 <header class="test-header">
-                    <div style="display:flex; align-items:center; gap:10px;">
-                        <button class="btn btn-outline" onclick="app.loadDashboard()">Quit</button>
-                        <div class="test-title" id="currentTestTitle">Mock Test Title</div>
+                    <button class="back-btn" onclick="app.loadDashboard()">← Exit</button>
+                    <h2 id="currentTestTitle">Mock Test 1</h2>
+
+                    <div class="header-actions">
+                        <div class="timer" id="timer">02:00:00</div>
+                        <button class="palette-toggle-btn" onclick="app.togglePalette()">Grid</button>
                     </div>
 
-                    <div style="display:flex; align-items:center; gap:15px;">
-                        <div class="timer" id="timer">02:00:00</div>
-                        <button class="btn btn-outline palette-toggle" onclick="app.togglePalette()">☰ P</button>
-                        <button class="btn btn-primary desktop-only" onclick="app.submitTest()">Submit</button>
-                    </div>
+                    <button class="submit-btn desktop-only" onclick="app.submitTest()">Submit Test</button>
                 </header>
 
                 <div class="test-layout">
-                    <!-- LEFT: Question Area -->
+                    <!-- Question Area -->
                     <div class="question-container">
-
-                        <!-- Dynamic Question Content -->
-                        <div class="q-box" id="qBox">
-                            <div class="q-header-bar">
-                                <span class="q-num">Question <span id="qNum">1</span></span>
-                                <span class="q-marks">+2.0 / -0.0</span>
-                            </div>
-
-                            <!-- Passage (if any) -->
-                            <div class="passage-box hidden" id="passageBox"
-                                style="background:#fff3cd; padding:15px; margin-bottom:20px; border:1px solid #ffeeba;">
-                                <strong>Passage:</strong>
-                                <div id="passageContent"></div>
-                            </div>
-
-                            <div class="q-content" id="qText">Loading...</div>
-
-                            <div class="options-list" id="optionsList">
-                                <!-- Options injected here -->
-                            </div>
-
-                            <!-- Action Bar -->
-                            <div class="action-bar">
-                                <div>
-                                    <button class="btn btn-outline" onclick="app.markForReview()">Map & Review</button>
-                                    <!-- Mark & Review -->
-                                    <button class="btn btn-clear" onclick="app.clearResponse()">Clear</button>
-                                </div>
-                                <div style="display:flex; gap:10px;">
-                                    <button class="btn btn-outline" onclick="app.prevQuestion()">Previous</button>
-                                    <button class="btn btn-primary" onclick="app.saveAndNext()">Save & Next</button>
-                                </div>
-                            </div>
+                        <!-- Passage Area (Conditional) -->
+                        <div class="passage-box hidden" id="passageBox">
+                            <h3>Passage</h3>
+                            <div class="passage-content" id="passageContent"></div>
                         </div>
 
+                        <div class="question-box">
+                            <div class="q-header">
+                                <span class="q-badge">Question <span id="qNum">1</span></span>
+                                <span class="q-marks">+2 / -0</span>
+                            </div>
+                            <div class="q-text" id="qText">Loading...</div>
+                            <div class="options-list" id="optionsList">
+                                <!-- Options -->
+                            </div>
+
+                            <div class="q-actions">
+                                <button class="nav-btn prev" onclick="app.prevQuestion()">Previous</button>
+                                <button class="nav-btn next" onclick="app.nextQuestion()">Next</button>
+                            </div>
+
+                            <!-- Mobile Submit Button (at bottom of question) -->
+                            <button class="submit-btn mobile-only" style="margin-top: 2rem; width: 100%;"
+                                onclick="app.submitTest()">Submit Test</button>
+                        </div>
                     </div>
 
-                    <!-- RIGHT: Palette (Drawer on Mobile) -->
+                    <!-- Question Palette -->
                     <aside class="question-palette" id="questionPalette">
-                        <div class="mobile-header-bar">
-                            <span>Questions</span>
-                            <button class="close-palette-btn" onclick="app.togglePalette()">×</button>
-                        </div>
-
-                        <div class="palette-header">
-                            User: Candidate
+                        <div class="palette-header-mobile">
+                            <h3>Overview</h3>
+                            <button class="close-palette" onclick="app.togglePalette()">×</button>
                         </div>
 
                         <div class="palette-grid" id="paletteGrid">
-                            <!-- Bubbles -->
+                            <!-- 1-100 Bubbles -->
                         </div>
-
                         <div class="palette-legend">
-                            <div class="legend-item">
-                                <div class="legend-dot" style="background:var(--nta-green)"></div> Ans
-                            </div>
-                            <div class="legend-item">
-                                <div class="legend-dot" style="background:var(--nta-red)"></div> Not Ans
-                            </div>
-                            <div class="legend-item">
-                                <div class="legend-dot" style="background:var(--nta-purple)"></div> Review
-                            </div>
-                            <div class="legend-item">
-                                <div class="legend-dot" style="background:#fff; border:1px solid #ccc"></div> Not Visit
-                            </div>
-                        </div>
-
-                        <div class="mobile-only" style="padding:15px; border-top:1px solid #ddd;">
-                            <button class="btn btn-primary" style="width:100%" onclick="app.submitTest()">Submit
-                                Test</button>
+                            <span class="legend-item"><span class="dot answer"></span> Answered</span>
+                            <span class="legend-item"><span class="dot visited"></span> Visited</span>
+                            <span class="legend-item"><span class="dot"></span> Not Visited</span>
                         </div>
                     </aside>
                 </div>

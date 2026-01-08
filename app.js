@@ -29,9 +29,6 @@ const app = {
         document.getElementById('dashboardView').classList.remove('hidden');
         document.getElementById('testInterface').classList.add('hidden');
         document.getElementById('resultsView').classList.add('hidden');
-        // Restore Sidebar
-        document.getElementById('mainSidebar').style.display = 'flex';
-
         document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
         document.querySelector('.nav-item').classList.add('active'); // Dashboard active
         app.renderDashboard();
@@ -139,9 +136,6 @@ const app = {
         document.getElementById('dashboardView').classList.add('hidden');
         document.getElementById('resultsView').classList.add('hidden');
         document.getElementById('testInterface').classList.remove('hidden');
-        // Hide Main Sidebar for Full Screen
-        document.getElementById('mainSidebar').style.display = 'none';
-
         document.getElementById('currentTestTitle').innerText = test.title + (isCompleted ? " (Review)" : "");
         document.getElementById('qText').innerText = "Loading Test Data...";
         document.getElementById('optionsList').innerHTML = "";

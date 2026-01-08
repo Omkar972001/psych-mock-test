@@ -381,37 +381,6 @@ body {
     border: 1px solid #ccc;
 }
 
-/* ===========================
-   Responsive / Mobile Styles
-   =========================== */
-
-/* Hide mobile elements by default on desktop */
-.mobile-header,
-.close-sidebar,
-.palette-toggle-btn,
-.mobile-only,
-.close-palette-btn,
-.mobile-header-bar,
-.palette-toggle {
-    display: none !important;
-}
-
-/* Ensure Option List is visible */
-.options-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 20px;
-    /* Add padding to prevent cut-off */
-    overflow: visible;
-    /* Ensure content isn't clipped */
-}
-
-/* Desktop Only Helper */
-.desktop-only {
-    display: flex;
-}
-
 /* Mobile Responses */
 @media (max-width: 768px) {
     .test-layout {

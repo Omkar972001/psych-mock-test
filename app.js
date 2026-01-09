@@ -1,10 +1,11 @@
 const app = {
     tests: [
         { id: 1, file: 'psych_test_01.json', title: 'Mock Test 1 (DEC 2024 SHIFT II)', questions: 100 },
-        { id: 2, file: 'psych_test_02.json', title: 'Mock Test 2 (March 2023)', questions: 100 },
-        { id: 3, file: 'psych_test_03.json', title: 'Mock Test 3 ("SEPTEMBER 2022 SHIFT I")', questions: 100 },
-        { id: 4, file: 'psych_test_04.json', title: 'Mock Test 4 (June 2019)', questions: 100 },
-        { id: 5, file: 'psych_test_05.json', title: 'Mock Test 5 (Dec 2018)', questions: 100 }
+        { id: 2, file: 'psych_test_02.json', title: 'Mock Test 2 (JUNE 2024 SHIFT I)', questions: 100 },
+        { id: 3, file: 'psych_test_03.json', title: 'Mock Test 3 (DECEMBER 2023 SHIFT I)', questions: 100 },
+        { id: 4, file: 'psych_test_04.json', title: 'Mock Test 4 (JUNE 2023 SHIFT I)', questions: 100 },
+        { id: 5, file: 'psych_test_05.json', title: 'Mock Test 5 (March 2023)', questions: 100 },
+        { id: 6, file: 'psych_test_06.json', title: 'Mock Test 6 (SEPTEMBER 2022 SHIFT I)', questions: 100 }
     ],
     state: {
         currentTestId: null,
@@ -69,6 +70,7 @@ const app = {
     },
 
     startTest: (id) => {
+        console.log("Start Test requested for ID:", id);
         window.location.hash = `#test/${id}`;
     },
 
@@ -143,11 +145,19 @@ const app = {
     },
 
     loadTest: async (id) => {
-        if (app.isLoading) return;
+        console.log("loadTest called with:", id);
+        if (app.isLoading) {
+            console.warn("loadTest aborted: already loading");
+            return;
+        }
         app.isLoading = true;
 
-        const test = app.tests.find(t => t.id === id);
+        console.log("Loading Test ID:", id, typeof id);
+        const test = app.tests.find(t => t.id == id);
+        console.log("Found Test:", test);
+
         if (!test) {
+            console.error("Test not found in app.tests");
             app.isLoading = false;
             app.goToDashboard();
             return;
@@ -349,8 +359,9 @@ const app = {
         }
 
         // Match List Parsing
-        let qContent = q.question;
-        const matchData = app.parseMatchQuestion(q.question);
+        let questionText = q.question || q.text; // Normalize
+        let qContent = questionText;
+        const matchData = app.parseMatchQuestion(questionText);
 
         if (matchData) {
             const list1Html = matchData.list1.map(item => `
@@ -383,17 +394,25 @@ const app = {
             `;
             document.getElementById('qText').innerHTML = qContent;
         } else {
-            document.getElementById('qText').innerText = q.question;
+            document.getElementById('qText').innerText = questionText;
         }
+
 
         // Options
         const optsContainer = document.getElementById('optionsList');
         const userAns = app.state.answers[q.id];
-
         const labels = ['A', 'B', 'C', 'D'];
 
-        optsContainer.innerHTML = q.options.map((opt, i) => {
-            const label = labels[i] || (i + 1);
+        let optionsArray = [];
+        if (Array.isArray(q.options)) {
+            optionsArray = q.options.map((opt, i) => ({ label: labels[i] || String(i + 1), text: opt }));
+        } else if (typeof q.options === 'object' && q.options !== null) {
+            optionsArray = labels.map(label => ({ label: label, text: q.options[label] })).filter(o => o.text);
+        }
+
+        optsContainer.innerHTML = optionsArray.map((optObj) => {
+            const label = optObj.label;
+            const optText = optObj.text;
             const isSelected = userAns === label;
 
             // Review Styles
@@ -418,7 +437,7 @@ const app = {
 
             return `
                 <div class="option-item ${isSelected ? 'selected' : ''} ${reviewClass}" ${clickHandler}>
-                    <div style="flex:1"><strong>(${label})</strong> <span>${opt}</span></div>
+                    <div style="flex:1"><strong>(${label})</strong> <span>${optText}</span></div>
                     <div>${correctIcon}</div>
                 </div>
             `;
@@ -551,11 +570,19 @@ const app = {
     },
 
     submitTest: () => {
-        console.log("Submit Test Clicked");
-        if (confirm("Are you sure you want to submit?")) {
-            console.log("User confirmed submission");
-            app.processResults();
-        }
+        // Show the custom modal instead of native confirm
+        const modal = document.getElementById('submitModal');
+        modal.classList.remove('hidden');
+    },
+
+    closeModal: () => {
+        const modal = document.getElementById('submitModal');
+        modal.classList.add('hidden');
+    },
+
+    confirmSubmit: () => {
+        app.closeModal();
+        app.processResults();
     },
 
     processResults: () => {
@@ -754,29 +781,27 @@ const app = {
 
     retakeTest: () => {
         if (!app.state.currentTestId) return;
-        if (confirm("This will clear your previous progress and score. Are you sure you want to retake the test?")) {
-            const id = app.state.currentTestId;
-            const key = `psych_test_${id}_state`;
-            localStorage.removeItem(key);
-            app.startTest(id);
-        }
+        const modal = document.getElementById('retakeModal');
+        modal.classList.remove('hidden');
     },
 
-    parseMatchQuestion: (text) => {
-        // ... (existing parseMatchQuestion code) ...
-        // Keeping previous function body implicitly via replace range logic (if I was replacing whole file, but I'm editing specific block)
-        // Actually wait, I need to preserve parseMatchQuestion. The EndLine 600 likely cuts into it. 
-        // I should just ADD renderHistoryView before reviewTest and leave logic alone.
-        // Wait, reviewTest is around line 590 in original.
-        // Let's just insert renderHistoryView before reviewTest.
+    closeRetakeModal: () => {
+        const modal = document.getElementById('retakeModal');
+        modal.classList.add('hidden');
+    },
 
-        // RE-READING: I am replacing lines UP TO reviewTest usually.
-        // The original code has renderResultView around 520, then reviewTest around 585.
-        // Let's insert renderHistoryView above reviewTest.
+    confirmRetake: () => {
+        app.closeRetakeModal();
+        const id = app.state.currentTestId;
+        const key = `psych_test_${id}_state`;
+        localStorage.removeItem(key);
+        app.startTest(id);
     },
 
 
+
     parseMatchQuestion: (text) => {
+        if (!text) return null;
         // Basic check if it looks like a Match List question
         if (!text.includes("List I") || !text.includes("List II")) return null;
 

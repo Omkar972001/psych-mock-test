@@ -1,4 +1,4 @@
-const CACHE_NAME = 'psych-prep-v2';
+const CACHE_NAME = 'psych-prep-v3';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -12,7 +12,8 @@ const ASSETS_TO_CACHE = [
     './psych_test_02.json',
     './psych_test_03.json',
     './psych_test_04.json',
-    './psych_test_05.json'
+    './psych_test_05.json',
+    './psych_test_06.json'
 ];
 
 // Install Event: Cache everything

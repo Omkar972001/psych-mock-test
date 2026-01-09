@@ -189,8 +189,31 @@
         </main>
     </div>
 
-    <div id="offlineIndicator" class="hidden"
-        style="position:fixed; bottom:0; left:0; right:0; background:#334155; color:white; text-align:center; padding:0.5rem; font-size:0.9rem; z-index:9999;">
+    <!-- Submit Confirmation Modal -->
+    <div class="modal-overlay hidden" id="submitModal">
+        <div class="modal-content">
+            <h3>Submit Test?</h3>
+            <p>Are you sure you want to finish the test? You won't be able to change your answers.</p>
+            <div class="modal-actions">
+                <button class="modal-btn cancel" onclick="app.closeModal()">Cancel</button>
+                <button class="modal-btn confirm" onclick="app.confirmSubmit()">Submit Test</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Retake Confirmation Modal -->
+    <div class="modal-overlay hidden" id="retakeModal">
+        <div class="modal-content">
+            <h3>Retake Test?</h3>
+            <p>This will clear your previous progress and score. Are you sure you want to retake the test?</p>
+            <div class="modal-actions">
+                <button class="modal-btn cancel" onclick="app.closeRetakeModal()">Cancel</button>
+                <button class="modal-btn confirm" onclick="app.confirmRetake()">Retake Test</button>
+            </div>
+        </div>
+    </div>
+    <div id="offlineIndicator" class="hidden" style="position:fixed; bottom:0; left:0; right:0; background:#334155; color:white; text-align:center;
+    padding:0.5rem; font-size:0.9rem; z-index:9999;">
         You are offline. Offline mode active. 📡
     </div>
 
@@ -198,7 +221,7 @@
     <script src="app.js"></script>
     <script>
         // PWA Registration
-        if ('serviceWorker' in navigator) {
+        if (false && 'serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./service-worker.js')
                     .then(reg => console.log('SW registered:', reg))

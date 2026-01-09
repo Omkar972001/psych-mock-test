@@ -84,13 +84,11 @@ const app = {
         document.querySelectorAll('.nav-item')[0].classList.add('active'); // Dashboard active (assuming 0)
 
 
-        // Render Streak Info (Optional UI enhancement)
+        // Render Streak Info
         const streak = Storage.getStreak();
-        // Insert streak somewhere if element exists, or just log
-        // For now, let's append it to welcome text if not present
-        const welcome = document.querySelector('.welcome-text p');
-        if (welcome && !welcome.innerText.includes('Streak')) {
-            welcome.innerText += ` 🔥 ${streak} Day Streak!`;
+        const streakEl = document.getElementById('streakValue');
+        if (streakEl) {
+            streakEl.innerText = streak;
         }
 
         app.renderDashboard();

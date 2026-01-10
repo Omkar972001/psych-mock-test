@@ -812,48 +812,150 @@ body {
 }
 
 /* Match the List Styles */
-.match-list-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin: 1rem 0;
-    padding: 1rem;
+
+/* Match List Styles - Table Layout */
+.match-table-container {
     background: #f8fafc;
     border-radius: 8px;
     border: 1px solid #e2e8f0;
+    overflow: hidden;
+    margin: 1rem 0;
 }
 
-.match-col h4 {
-    margin-top: 0;
-    margin-bottom: 0.8rem;
-    color: #475569;
-    font-size: 0.95rem;
-    border-bottom: 2px solid #cbd5e1;
-    padding-bottom: 0.5rem;
-}
-
-.match-item {
+.match-table-header {
     display: flex;
-    margin-bottom: 0.8rem;
-    font-size: 0.9rem;
-    line-height: 1.4;
+    background: #e0f2fe;
+    /* Light Blue */
+    border-bottom: 1px solid #cbd5e1;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.match-th {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+.match-table-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.match-row {
+    display: flex;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.match-row:last-child {
+    border-bottom: none;
+}
+
+.match-row:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.match-row:nth-child(odd) {
+    background-color: #fcfcfc;
+}
+
+.match-cell {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #334155;
+    display: flex;
+    align-items: start;
 }
 
 .match-label {
-    font-weight: bold;
-    margin-right: 0.5rem;
-    min-width: 25px;
+    font-weight: 700;
     color: #3b82f6;
+    /* Blue */
+    margin-right: 0.75rem;
+    min-width: 25px;
+    white-space: nowrap;
 }
 
-.match-content {
-    color: #334155;
-}
-
+/* Mobile Responsive */
+/* Mobile Responsive */
 @media (max-width: 600px) {
-    .match-list-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+    .match-table-container {
+        border: none;
+        background: transparent;
+    }
+
+    .match-table-header {
+        display: none;
+        /* Hide desktop header */
+    }
+
+    .match-table-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .match-row {
+        display: contents;
+        /* Ungroup rows so cells become siblings */
+    }
+
+    .match-cell {
+        display: flex;
+        padding: 0.5rem 0.75rem;
+        background: white;
+        border-bottom: 1px solid #f1f5f9;
+        font-size: 0.9rem;
+    }
+
+    /* Group List I (Left cells) */
+    .match-cell.left {
+        order: 1;
+        background: #f8fafc;
+    }
+
+    /* Group List II (Right cells) */
+    .match-cell.right {
+        order: 2;
+        background: #fff;
+    }
+
+    /* Add Headers using pseudo elements on the first cell of each group */
+    .match-row:first-child .match-cell.left::before {
+        content: "List I";
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        color: #0f172a;
+        border-bottom: 2px solid #cbd5e1;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.25rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+
+    .match-row:first-child .match-cell.right::before {
+        content: "List II";
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        color: #0f172a;
+        border-bottom: 2px solid #cbd5e1;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.25rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+        /* Space before List II starts */
+    }
+
+    /* We need the cell content to wrap under the pseudo-header */
+    .match-cell {
+        flex-wrap: wrap;
     }
 }
 

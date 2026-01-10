@@ -364,32 +364,38 @@ const app = {
         const matchData = app.parseMatchQuestion(questionText);
 
         if (matchData) {
-            const list1Html = matchData.list1.map(item => `
-                <div class="match-item">
-                    <span class="match-label">(${item.label})</span>
-                    <span class="match-content">${item.text}</span>
-                </div>
-            `).join('');
 
-            const list2Html = matchData.list2.map(item => `
-                <div class="match-item">
-                    <span class="match-label">(${item.label})</span>
-                    <span class="match-content">${item.text}</span>
+            // Interleaved Render for Rows
+            // Header is usually "Match List I with List II"
+            // We want a table-like structure:
+            // (a) Item A   (I) Item I
+
+            const rowsHtml = matchData.items.map(item => `
+                <div class="match-row">
+                    <div class="match-cell left">
+                        <span class="match-label">(${item.left.label})</span>
+                        <span class="match-content">${item.left.text}</span>
+                    </div>
+                    <div class="match-cell right">
+                        <span class="match-label">(${item.right.label})</span>
+                        <span class="match-content">${item.right.text}</span>
+                    </div>
                 </div>
             `).join('');
 
             qContent = `
-                <div>${matchData.header}</div>
-                <div class="match-list-grid">
-                    <div class="match-col">
-                        <h4>List I</h4>
-                        ${list1Html}
+                <div style="margin-bottom:1rem; font-weight:600;">${matchData.header}</div>
+                
+                <div class="match-table-container">
+                    <div class="match-table-header">
+                        <div class="match-th">List I</div>
+                        <div class="match-th">List II</div>
                     </div>
-                    <div class="match-col">
-                        <h4>List II</h4>
-                        ${list2Html}
+                    <div class="match-table-body">
+                        ${rowsHtml}
                     </div>
                 </div>
+
                 <div style="margin-top: 1rem; font-weight: 500;">${matchData.footer}</div>
             `;
             document.getElementById('qText').innerHTML = qContent;
@@ -863,8 +869,15 @@ const app = {
                         if (fIndex > -1) text2 = text2.substring(0, fIndex).trim();
                     }
 
-                    list1.push({ label: label1, text: text1 });
-                    list2.push({ label: label2, text: text2 });
+                    // list1.push({ label: label1, text: text1 });
+                    // list2.push({ label: label2, text: text2 });
+
+                    // Push pair
+                    list1.push({
+                        left: { label: label1, text: text1 },
+                        right: { label: label2, text: text2 }
+                    });
+
                 } else {
                     // Render failure
                     return null;
@@ -873,7 +886,7 @@ const app = {
 
             if (list1.length === 0) return null;
 
-            return { header, list1, list2, footer };
+            return { header, items: list1, footer };
 
         } catch (e) {
             console.error("Parse Match Error", e);

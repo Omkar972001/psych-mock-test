@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "text": "Which of the following should be assured before going for parametric analysis of variance?\n(a) Independence of scores of the subjects\n(b) Categorical dependent variable\n(c) Random assignment of subjects to the treatments\n(d) Homogeneity of variance of the subjects' scores\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following should be assured before going for parametric analysis of variance? (a) Independence of scores of the subjects (b) Categorical dependent variable (c) Random assignment of subjects to the treatments (d) Homogeneity of variance of the subjects' scores Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (c), (d) only",
         "B": "(a), (b), (c) only",
@@ -37,18 +37,18 @@
     },
     {
       "id": 4,
-      "text": "What would be the correct order of the steps involved in prosocial behaviour?\n(a) Accept the responsibility for helping\n(b) Noticing something unusual\n(c) decision about possession of required knowledge or skills\n(d) Interpreting the event as emergency\n(e) deciding to actually help\nChoose the correct answer from the options given below:",
+      "text": "What would be the correct order of the steps involved in prosocial behaviour? (a) Accept the responsibility for helping (b) Noticing something unusual (c) decision about possession of required knowledge or skills (d) Interpreting the event as emergency (e) deciding to actually help Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (c), (b), (d), (e)",
         "B": "(b), (d), (a), (c), (e)",
         "C": "(b), (d), (c), (a), (e)",
-        "D": "(e), (b), (d), (c), (a)\n\n-- 76 of 202 --"
+        "D": "(e), (b), (d), (c), (a)"
       },
       "correctAnswer": "B"
     },
     {
       "id": 5,
-      "text": "Arrange 'Pancha Kosha' in order:\n(a) Annamaya Kosha\n(b) Maanomaya Kosha\n(c) Vijnanamaya Kosha\n(d) Pranamaya Kosha\n(e) Anandamaya Kosha\nChoose the correct answer from the options given below:",
+      "text": "Arrange 'Pancha Kosha' in order: (a) Annamaya Kosha (b) Maanomaya Kosha (c) Vijnanamaya Kosha (d) Pranamaya Kosha (e) Anandamaya Kosha Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (e), (b), (d), (c)",
         "B": "(a), (d), (b), (c), (e)",
@@ -59,7 +59,7 @@
     },
     {
       "id": 6,
-      "text": "Correctly arrange the components of emotion as explained in the two-factor theory of Schachter and\nSinger, 1962.\n(a) Stimulus\n(b) Cognitive appraisal of arousal\n(c) General physiological arousal\n(d) Subjective experience of emotion\nChoose the correct answer from the options given below:",
+      "text": "Correctly arrange the components of emotion as explained in the two-factor theory of Schachter and Singer, 1962. (a) Stimulus (b) Cognitive appraisal of arousal (c) General physiological arousal (d) Subjective experience of emotion Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (b), (c), (d)",
         "B": "(a), (c), (b), (d)",
@@ -70,7 +70,7 @@
     },
     {
       "id": 7,
-      "text": "____________ Vidya is the disciplined and systematic knowledge of the self and the environment\nattained through precise observation and critical reasoning.",
+      "text": "____________ Vidya is the disciplined and systematic knowledge of the self and the environment attained through precise observation and critical reasoning.",
       "options": {
         "A": "Adhibhoulika",
         "B": "Adhyatmika",
@@ -97,13 +97,13 @@
         "A": "GAS - General Adjustment Syndrome",
         "B": "GAS - General Adjustment System",
         "C": "GAS - General Adaptation System",
-        "D": "GAS - General Adaptation Syndrome\n\n-- 77 of 202 --"
+        "D": "GAS - General Adaptation Syndrome"
       },
       "correctAnswer": "D"
     },
     {
       "id": 10,
-      "text": "Which of the following is not a chromosomal disorder characterized by subaverage intellectual\nfunctioning?",
+      "text": "Which of the following is not a chromosomal disorder characterized by subaverage intellectual functioning?",
       "options": {
         "A": "Down syndrome",
         "B": "Fragile X syndrome",
@@ -114,7 +114,7 @@
     },
     {
       "id": 11,
-      "text": "\"The present article describes a qualitative study of the career development of 16 prominent, highly\nachieving Indian women across six occupational fields. Our overall aim was to explore critical\ninfluences on the career development of these women, particularly those related to their attainment\nof professional success\".\nThe above mentioned purpose statement indicates a __________",
+      "text": "\"The present article describes a qualitative study of the career development of 16 prominent, highly achieving Indian women across six occupational fields. Our overall aim was to explore critical influences on the career development of these women, particularly those related to their attainment of professional success\". The above mentioned purpose statement indicates a __________",
       "options": {
         "A": "Phenomenological study",
         "B": "Grounded Theory Study",
@@ -125,8 +125,13 @@
     },
     {
       "id": 12,
-      "text": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason\n(R).\nAssertion (A): Project Head start and other preschool quality programme boost children's chances\nof success in future by increasing their school readiness.\nReason (R): Genes and experience together determine cognitive and social skills.\nIn the light of the above statements, choose the most appropriate answer from the options given\nbelow:\n(A) Both (A) and (R) are true and (R) is the correct explanation of (A)\n(B) Both (A) and (R) are true but (R) is not the correct explanation of (A)\n(C) (A) is true but (R) is false\n(D) (A) is false but (R) is true",
-      "options": null,
+      "text": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason (R). \nAssertion (A): Project Head start and other preschool quality programme boost children's chances of success in future by increasing their school readiness. \nReason (R): Genes and experience together determine cognitive and social skills. \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "B": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "C": "(A) is true but (R) is false",
+        "D": "(A) is false but (R) is true"
+      },
       "correctAnswer": "A"
     },
     {
@@ -145,7 +150,7 @@
       "text": "Match List I with List II\nLIST I \tLIST II\n(a) Sigmund Freud \t(I) Genetic view\n(b) B.F. Skinner \t(II) Psychoanalytic view\n(c) Carl Rogers \t(III) Behavioural view\n(d) Hans Eysenck \t(IV) Humanistic view\nChoose the correct answer from the options given below:",
       "options": {
         "A": "(a)-(IV), (b)-(I), (c)-(II), (d)-(III)",
-        "B": "(a)-(II), (b)-(III), (c)-(I), (d)-(IV)\n\n-- 78 of 202 --",
+        "B": "(a)-(II), (b)-(III), (c)-(I), (d)-(IV)",
         "C": "(a)-(II), (b)-(III), (c)-(IV), (d)-(I)",
         "D": "(a)-(I), (b)-(II), (c)-(III), (d)-(IV)"
       },
@@ -153,7 +158,7 @@
     },
     {
       "id": 15,
-      "text": "Which of the following is true about stimulus generalization?\n(a) People's emotional reactions to one stimulus generalize to similar stimuli\n(b) With repeated exposure and reinforcement dogs can differentiate between types of sounds\n(c) Normally desirable foods, such as cakes and pastries are unappealing when shaped to resemble\ndog's feces\n(d) Sudden appearance of forgotten response.\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following is true about stimulus generalization? (a) People's emotional reactions to one stimulus generalize to similar stimuli (b) With repeated exposure and reinforcement dogs can differentiate between types of sounds (c) Normally desirable foods, such as cakes and pastries are unappealing when shaped to resemble dog's feces (d) Sudden appearance of forgotten response. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (d) only",
         "B": "(a), (c) only",
@@ -164,7 +169,7 @@
     },
     {
       "id": 16,
-      "text": "In the context of formula for Cohen's Kappa\n(a) K = 𝑓𝑓𝑜𝑜 −𝑓𝑓𝑐𝑐\nN−𝑓𝑓𝑐𝑐\n(b) fo = observed frequency\n(c) f c = expected frequency\n(d) N = Overall total of data points in the frequency matrix\nChoose the most appropriate answer from the options given below:",
+      "text": "In the context of formula for Cohen's Kappa (a) K = 𝑓𝑓𝑜𝑜 −𝑓𝑓𝑐𝑐 N−𝑓𝑓𝑐𝑐 (b) fo = observed frequency (c) f c = expected frequency (d) N = Overall total of data points in the frequency matrix Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(a), (c) only",
@@ -175,7 +180,7 @@
     },
     {
       "id": 17,
-      "text": "Women are likely to gain more number of valued positions during the time of crisis. This is referred\nas ___________",
+      "text": "Women are likely to gain more number of valued positions during the time of crisis. This is referred as ___________",
       "options": {
         "A": "Glass ceiling effect",
         "B": "Glass-cliff effect",
@@ -197,18 +202,18 @@
     },
     {
       "id": 19,
-      "text": "There are three types of post-modern therapies, Which out of the following is not a part of post-\nmodern therapy.",
+      "text": "There are three types of post-modern therapies, Which out of the following is not a part of post- modern therapy.",
       "options": {
         "A": "Solution focused therapy",
         "B": "Field based therapy",
-        "C": "Narrative therapy\n\n-- 79 of 202 --",
+        "C": "Narrative therapy",
         "D": "Collaborative therapy"
       },
       "correctAnswer": "B"
     },
     {
       "id": 20,
-      "text": "Arrange the following in sequence as per Development model of Counselling\n(a) Identification of blind spots\n(b) Brain storming\n(c) Developing possibilities\n(d) Force-field analysis\nChoose the correct answer from the options given below:",
+      "text": "Arrange the following in sequence as per Development model of Counselling (a) Identification of blind spots (b) Brain storming (c) Developing possibilities (d) Force-field analysis Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (c), (b), (d)",
         "B": "(b), (c), (a), (d)",
@@ -219,7 +224,7 @@
     },
     {
       "id": 21,
-      "text": "Arrange the emergence of following leadership approaches in a chronological order:\n(a) Behavioural approach\n(b) Transformational approach\n(c) Trait approach\n(d) Contingency Approach\nChoose the correct answer from the options given below:",
+      "text": "Arrange the emergence of following leadership approaches in a chronological order: (a) Behavioural approach (b) Transformational approach (c) Trait approach (d) Contingency Approach Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (c), (b), (d)",
         "B": "(a), (c), (d), (b)",
@@ -230,15 +235,20 @@
     },
     {
       "id": 22,
-      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason\n(R)\nAssertion (A): There are five universal human needs according to reality therapy\nReason (R): These needs are - survival, love & belonging, power, freedom and fun\nIn the light of the above statements, choose the most appropriate answer from the options given\nbelow:\n(A) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n(B) Both (A) and (R) are correct but (R) is Not the correct explanation of (A)\n(C) (A) is correct but (R) is not correct\n(D) (A) is not correct but (R) is correct",
-      "options": null,
+      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) \nAssertion (A): There are five universal human needs according to reality therapy \nReason (R): These needs are - survival, love & belonging, power, freedom and fun \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "A": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+        "B": "Both (A) and (R) are correct but (R) is Not the correct explanation of (A)",
+        "C": "(A) is correct but (R) is not correct",
+        "D": "(A) is not correct but (R) is correct"
+      },
       "correctAnswer": "A"
     },
     {
       "id": 23,
-      "text": "Sequentially arrange the sections of the vertebrae of the spinal column from top to bottom.\n(a) Thoracic vertebrae\n(b) Sacral vertebrae\n(c) Cervical vertebrae\n(d) Lumbar vertebrae\nChoose the correct answer from the options given below:",
+      "text": "Sequentially arrange the sections of the vertebrae of the spinal column from top to bottom. (a) Thoracic vertebrae (b) Sacral vertebrae (c) Cervical vertebrae (d) Lumbar vertebrae Choose the correct answer from the options given below:",
       "options": {
-        "A": "(a), (d), (b), (c)\n\n-- 80 of 202 --",
+        "A": "(a), (d), (b), (c)",
         "B": "(c), (a), (d), (b)",
         "C": "(a), (c), (b), (d)",
         "D": "(b), (a), (d), (c)"
@@ -247,7 +257,7 @@
     },
     {
       "id": 24,
-      "text": "Given below are two statements:\nStatement (I): Motivation is a condition that energizes behaviour but gives no direction.\nStatement (II): Motivational States arise only from external incentive factors.\nIn the light of the above statements, choose the most appropriate answer from the options given\nbelow:",
+      "text": "Given below are two statements: \nStatement I: Motivation is a condition that energizes behaviour but gives no direction. \nStatement II: Motivational States arise only from external incentive factors. \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
       "options": {
         "A": "Both Statement (I) and Statement (II) are correct",
         "B": "Both Statement (I) and Statement (II) are incorrect",
@@ -258,7 +268,7 @@
     },
     {
       "id": 25,
-      "text": "The Bhagvadgita has 18 chapters (Adhyaya) named after some form of Yoga. Which is not the\ncorrect adhyaya out of the following?",
+      "text": "The Bhagvadgita has 18 chapters (Adhyaya) named after some form of Yoga. Which is not the correct adhyaya out of the following?",
       "options": {
         "A": "Dhyana Yoga",
         "B": "Aksara-Brahma Yoga",
@@ -269,7 +279,7 @@
     },
     {
       "id": 26,
-      "text": "Late adulthood often involves a gradual withdrawal from the world on physical, psychological and\nsocial levels. Which theory supports this?",
+      "text": "Late adulthood often involves a gradual withdrawal from the world on physical, psychological and social levels. Which theory supports this?",
       "options": {
         "A": "Disengagement Theory",
         "B": "Activity theory",
@@ -280,7 +290,7 @@
     },
     {
       "id": 27,
-      "text": "Arrange Erik Eriksons stages of psychosocial development and basic strengths:\n(a) trust vs mistrust\n(b) Initiative vs guilt\n(c) Industriousness vs inferiority\n(d) Autonomy vs doubt, shame\nChoose the correct answer from the options given below.",
+      "text": "Arrange Erik Eriksons stages of psychosocial development and basic strengths: (a) trust vs mistrust (b) Initiative vs guilt (c) Industriousness vs inferiority (d) Autonomy vs doubt, shame Choose the correct answer from the options given below.",
       "options": {
         "A": "(a), (d), (b), (c)",
         "B": "(a), (c), (b), (d)",
@@ -291,11 +301,11 @@
     },
     {
       "id": 28,
-      "text": "A researcher carried out an analysis in which he looked for underlying theoretical structures in his\nconstruct. Which one of the following design he used?",
+      "text": "A researcher carried out an analysis in which he looked for underlying theoretical structures in his construct. Which one of the following design he used?",
       "options": {
         "A": "Linear Regression",
         "B": "Analysis of variance",
-        "C": "Exploratory factor analysis\n\n-- 81 of 202 --",
+        "C": "Exploratory factor analysis",
         "D": "Confirmatory factor analysis"
       },
       "correctAnswer": "C"
@@ -313,7 +323,7 @@
     },
     {
       "id": 30,
-      "text": "What is meant by bottom-up processing?\n(a) It always distorts our observations\n(b) Sensory analysis that starts at the entry level\n(c) When our experience and expectations guide our perception\n(d) Higher level mental processes are involved\n(e) Helps to detect the lines, angles and colours\nChoose the most appropriate answer from the options given below:",
+      "text": "What is meant by bottom-up processing? (a) It always distorts our observations (b) Sensory analysis that starts at the entry level (c) When our experience and expectations guide our perception (d) Higher level mental processes are involved (e) Helps to detect the lines, angles and colours Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(a), (c), (d) only",
@@ -324,7 +334,7 @@
     },
     {
       "id": 31,
-      "text": "Existentialism is associated with which of the following names.\n(a) Soren Kierkegaard\n(b) Vlademier\n(c) Friedrich Nietzsche\n(d) Husserl\nChoose the most appropriate from the options given below:",
+      "text": "Existentialism is associated with which of the following names. (a) Soren Kierkegaard (b) Vlademier (c) Friedrich Nietzsche (d) Husserl Choose the most appropriate from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(a), (b), (c) only",
@@ -335,7 +345,7 @@
     },
     {
       "id": 32,
-      "text": "The formula used to estimate how many homogeneous test questions should be added to a test to\nraise its reliability to the described level is:",
+      "text": "The formula used to estimate how many homogeneous test questions should be added to a test to raise its reliability to the described level is:",
       "options": {
         "A": "Coefficient alpha",
         "B": "Spearman Brown formula",
@@ -346,8 +356,13 @@
     },
     {
       "id": 33,
-      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason\n(R).\nAssertion (A): Monozygotic twins are called fraternal twins, who share half of their genes. Both\nmembers of the twins may be males or females.\nReason (R): Dizygotic twins develop from two different eggs and share the genes like a brother and\nsister. One of the twins may be a male and the other one may be a female.\n\n-- 82 of 202 --\n\nIn the light of the above statements, choose the most appropriate answer from the options given\nbelow:\n(A) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n(B) Both (A) and (R) are correct but (R) is Not the correct explanation of (A)\n(C) (A) is correct but (R) is not correct\n(D) (A) is not correct but (R) is correct",
-      "options": null,
+      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). \nAssertion (A): Monozygotic twins are called fraternal twins, who share half of their genes. Both members of the twins may be males or females. \nReason (R): Dizygotic twins develop from two different eggs and share the genes like a brother and sister. One of the twins may be a male and the other one may be a female. \nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "A": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+        "B": "Both (A) and (R) are correct but (R) is Not the correct explanation of (A)",
+        "C": "(A) is correct but (R) is not correct",
+        "D": "(A) is not correct but (R) is correct"
+      },
       "correctAnswer": "D"
     },
     {
@@ -363,7 +378,7 @@
     },
     {
       "id": 35,
-      "text": "A specific brain region can be destroyed by some of the following methods, Choose the correct\nanswer.\n(a) Immunocytochemical method\n(b) Radio frequency lesion method\n(c) Extitotoxic lesion method\n(d) Fluorogold method\n(e) experimental ablation method.\nChoose the most appropriate answer from the options given below:",
+      "text": "A specific brain region can be destroyed by some of the following methods, Choose the correct answer. (a) Immunocytochemical method (b) Radio frequency lesion method (c) Extitotoxic lesion method (d) Fluorogold method (e) experimental ablation method. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(b), (c), (e) only",
         "B": "(a), (b), (c) only",
@@ -385,10 +400,10 @@
     },
     {
       "id": 37,
-      "text": "Which of the following is true about negative reinforcement?\n(a) It strengthens a response\n(b) It works by reducing or removing something undesirable or unpleasant\n(c) Fastening a seatbelt in car to turn off beeping sound is an example of negative reinforcement\n(d) It weakens a response\n(e) It works by increasing desirability and pleasantness of a stimulus\nChoose a most appropriate answer from the options given below:",
+      "text": "Which of the following is true about negative reinforcement? (a) It strengthens a response (b) It works by reducing or removing something undesirable or unpleasant (c) Fastening a seatbelt in car to turn off beeping sound is an example of negative reinforcement (d) It weakens a response (e) It works by increasing desirability and pleasantness of a stimulus Choose a most appropriate answer from the options given below:",
       "options": {
         "A": "(d), (b) only",
-        "B": "(a), (b), (c) only\n\n-- 83 of 202 --",
+        "B": "(a), (b), (c) only",
         "C": "(a), (e) only",
         "D": "(d), (b), (c) only"
       },
@@ -407,7 +422,7 @@
     },
     {
       "id": 39,
-      "text": "To conduct a study on Anganwadi workers, the researcher randomly selected five districts out of 30\ndistricts of a state and collected data from each and every Anganwadi worker from these five\ndistricts. This is an example of __________",
+      "text": "To conduct a study on Anganwadi workers, the researcher randomly selected five districts out of 30 districts of a state and collected data from each and every Anganwadi worker from these five districts. This is an example of __________",
       "options": {
         "A": "Stratified sampling",
         "B": "Cluster sampling",
@@ -429,7 +444,7 @@
     },
     {
       "id": 41,
-      "text": "What is meant by theory of mind?\n(a) People's idea about feelings perceptions and thoughts of self and others, and the behaviour these\nmight predict\n(b) A term first coined by Daniel Goleman\n(c) People's ideas about their own and other's mental states\n(d) By the age of six months, children worldwide display an advanced level of theory of mind\nacquisition\n(e) People with autism are said to have an impaired theory of mind.\nChoose the most appropriate answer from the options given below:",
+      "text": "What is meant by theory of mind? (a) People's idea about feelings perceptions and thoughts of self and others, and the behaviour these might predict (b) A term first coined by Daniel Goleman (c) People's ideas about their own and other's mental states (d) By the age of six months, children worldwide display an advanced level of theory of mind acquisition (e) People with autism are said to have an impaired theory of mind. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (c) only",
         "B": "(a), (c), (e) only",
@@ -440,7 +455,7 @@
     },
     {
       "id": 42,
-      "text": "The structural components of the collective unconscious (Jung) are called by different names.\n(a) Archetypes\n(b) Imagoes\n(c) Creative ego\n(d) Libido\n(e) Dominants\nChoose the most appropriate from the options given below:\n\n-- 84 of 202 --",
+      "text": "The structural components of the collective unconscious (Jung) are called by different names. (a) Archetypes (b) Imagoes (c) Creative ego (d) Libido (e) Dominants Choose the most appropriate from the options given below:",
       "options": {
         "A": "(a), (e), (c) only",
         "B": "(b), (c), (d) only",
@@ -473,7 +488,7 @@
     },
     {
       "id": 45,
-      "text": "Arrange the following statements in the correct sequence of the movement of ions during the action\npotential\n(a) Na+ channels open, Na+ begins to enter cell\n(b) K+ continues to leave cell, causes membrane potential to return to resting level\n(c) K+ channels open, K+ begins to leave cell\n(d) K+ channels close, Na+ channels reset\n(e) Na+ channels become refractory, no more Na+ enters the cell\nChoose the correct answer from the options given below:",
+      "text": "Arrange the following statements in the correct sequence of the movement of ions during the action potential (a) Na+ channels open, Na+ begins to enter cell (b) K+ continues to leave cell, causes membrane potential to return to resting level (c) K+ channels open, K+ begins to leave cell (d) K+ channels close, Na+ channels reset (e) Na+ channels become refractory, no more Na+ enters the cell Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (b), (c), (d), (e)",
         "B": "(a), (c), (e), (b), (d)",
@@ -495,7 +510,7 @@
     },
     {
       "id": 47,
-      "text": "The basic aspects of the philosophy of early Buddhism fall into\n(a) Theory of Knowledge\n\n-- 85 of 202 --\n\n(b) Theory of Society\n(c) Theory of Reality\n(d) Theory of Perception\nChoose the most appropriate answer from the options given below:",
+      "text": "The basic aspects of the philosophy of early Buddhism fall into (a) Theory of Knowledge (b) Theory of Society (c) Theory of Reality (d) Theory of Perception Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (d) only",
         "B": "(a), (b), (c) only",
@@ -517,7 +532,7 @@
     },
     {
       "id": 49,
-      "text": "Identify- the components of the 'Ethical Decision Making'\n(a) Moral Awareness\n(b) Moral Anxiety\n(c) Moral Intent\n(d) Moral Judgement\n(e) Moral Context\nChoose the most appropriate answer from the options given below:",
+      "text": "Identify- the components of the 'Ethical Decision Making' (a) Moral Awareness (b) Moral Anxiety (c) Moral Intent (d) Moral Judgement (e) Moral Context Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (c) only",
         "B": "(b), (c), (d) only",
@@ -533,13 +548,13 @@
         "A": "The heritability of a trait refers to differences in percentages of a trait within an individual",
         "B": "Heritability refers to a population not to individual",
         "C": "The heritability of a trait is a single and fixed number",
-        "D": "Heritability tells us about the source of mean differences between groups\n\n-- 86 of 202 --"
+        "D": "Heritability tells us about the source of mean differences between groups"
       },
       "correctAnswer": "B"
     },
     {
       "id": 51,
-      "text": "Which among the following is true about process of extinction of behaviour in classical\nconditioning?",
+      "text": "Which among the following is true about process of extinction of behaviour in classical conditioning?",
       "options": {
         "A": "Increase in magnitude of CR",
         "B": "Gradual diminishing of CR",
@@ -572,7 +587,7 @@
     },
     {
       "id": 54,
-      "text": "Robert Sternberg proposed a triarchic theory of following intelligence types\n(a) Creative\n(b) Analogical\n(c) Analytical\n(d) Emotional\n(e) Practical\nChoose the most appropriate answer from the options given below:",
+      "text": "Robert Sternberg proposed a triarchic theory of following intelligence types (a) Creative (b) Analogical (c) Analytical (d) Emotional (e) Practical Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (c), (e) only",
         "B": "(a), (b), (d) only",
@@ -594,7 +609,7 @@
     },
     {
       "id": 56,
-      "text": "Human personality is analyzed inti five factors as viewed by Buddhism, Choose the correct factors\nincluded in personality\n(a) Material, Perception, Feeling\n(b) Disposition, Consciousness\n(c) Thinking, Belief, Intelligence\n(d) Memory, Attention\n\n-- 87 of 202 --\n\nChoose the most appropriate answer from the options given below:",
+      "text": "Human personality is analyzed inti five factors as viewed by Buddhism, Choose the correct factors included in personality (a) Material, Perception, Feeling (b) Disposition, Consciousness (c) Thinking, Belief, Intelligence (d) Memory, Attention Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(b), (c) only",
@@ -605,13 +620,13 @@
     },
     {
       "id": 57,
-      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason\n(R).\nAssertion (A): To eliminate the impact of an extraneous independent variable, the researcher can\nchoose participants who are homogeneous on that independent variable.\nReason (R): 'Matching' is one of the method to control extraneous variance.\nIn the light of the above statements, choose the most appropriate answer from the options given\nbelow:\n(A) Both (A) and (R) are correct and (R) is the correct explanation of (A)\n(B) Both (A) and (R) are correct but (R) is Not the correct explanation of (A)\n(C) (A) is correct but (R) is not correct\n(D) (A) is not correct but (R) is correct",
+      "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R). \nAssertion (A): To eliminate the impact of an extraneous independent variable, the researcher can choose participants who are homogeneous on that independent variable. \nReason (R): 'Matching' is one of the method to control extraneous variance. \nIn the light of the above statements, choose the most appropriate answer from the options given below: (A) Both (A) and (R) are correct and (R) is the correct explanation of (A) (B) Both (A) and (R) are correct but (R) is Not the correct explanation of (A) (C) (A) is correct but (R) is not correct (D) (A) is not correct but (R) is correct",
       "options": null,
       "correctAnswer": "B"
     },
     {
       "id": 58,
-      "text": "Which of the following are true about Multiple Regression?\n(a) It is linear regression\n(b) There are more than one criterion.\n(c) There are more than one predictor\n(d) It doesn't have intercept constant.\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following are true about Multiple Regression? (a) It is linear regression (b) There are more than one criterion. (c) There are more than one predictor (d) It doesn't have intercept constant. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(b), (c) only",
         "B": "(a), (c) only",
@@ -633,18 +648,18 @@
     },
     {
       "id": 60,
-      "text": "Which therapeutic approach to counselling is based on the premise 'You are the architect of your\nlife'?",
+      "text": "Which therapeutic approach to counselling is based on the premise 'You are the architect of your life'?",
       "options": {
         "A": "Gestalt",
         "B": "Existential",
         "C": "Adlerian",
-        "D": "Reality\n\n-- 88 of 202 --"
+        "D": "Reality"
       },
       "correctAnswer": "B"
     },
     {
       "id": 61,
-      "text": "Prepare the steps involved in Action Research in correct sequence with reference to behavioural\nscience\n(a) Action\n(b) Observation\n(c) Plan\n(d) Reflection\nChoose the correct answer from the options given below:",
+      "text": "Prepare the steps involved in Action Research in correct sequence with reference to behavioural science (a) Action (b) Observation (c) Plan (d) Reflection Choose the correct answer from the options given below:",
       "options": {
         "A": "(a), (b), (c), (d)",
         "B": "(b), (c), (a), (d)",
@@ -677,7 +692,7 @@
     },
     {
       "id": 64,
-      "text": "Match List I with List II\nLIST I \tLIST II\n(a) Pratyahara \t(I) Concentration\n(b) Dharana \t(II) Attaining Oneness or Integration\n(c) Dhyana \t(III) Control over thoughts\n(d) Samadhi \t(IV) Meditation\n\n-- 89 of 202 --\n\nChoose the correct answer from the options given below:",
+      "text": "Match List I with List II\nLIST I \tLIST II\n(a) Pratyahara \t(I) Concentration\n(b) Dharana \t(II) Attaining Oneness or Integration\n(c) Dhyana \t(III) Control over thoughts\n(d) Samadhi \t(IV) Meditation\nChoose the correct answer from the options given below:",
       "options": {
         "A": "(a)-(II), (b)-(I), (c)-(IV), (d)-(III)",
         "B": "(a)-(III), (b)-(II), (c)-(I), (d)-(IV)",
@@ -688,7 +703,7 @@
     },
     {
       "id": 65,
-      "text": "As indicated by reflexes, a new born baby responds to touch around the area of\n(a) Head, Neck and mouth\n(b) Belly, Foot and neck\n(c) Mouth, Calf and head\n(d) Mouth and foot\n(e) Palm\nChoose the most appropriate answer from the options given below:",
+      "text": "As indicated by reflexes, a new born baby responds to touch around the area of (a) Head, Neck and mouth (b) Belly, Foot and neck (c) Mouth, Calf and head (d) Mouth and foot (e) Palm Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(b), (e) only",
@@ -699,7 +714,7 @@
     },
     {
       "id": 66,
-      "text": "Informed consent, as suggested by Diener and Crandall includes the components:\n(a) Voluntarism\n(b) Researcher's competence\n(c) Information\n(d) Comprehension\nChoose the most appropriate answer from the options given below:",
+      "text": "Informed consent, as suggested by Diener and Crandall includes the components: (a) Voluntarism (b) Researcher's competence (c) Information (d) Comprehension Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (c) only",
         "B": "(a), (b), (c) only",
@@ -721,9 +736,9 @@
     },
     {
       "id": 68,
-      "text": "In late adulthood. retirement from job follows specific stages, as per Atchley (1982)\n(a) Honeymoon\n(b) Disenchantment\n(c) Craving for money\n(d) Reorientation\n(e) Social withdrawal\nChoose the most appropriate answer from the options given below:",
+      "text": "In late adulthood. retirement from job follows specific stages, as per Atchley (1982) (a) Honeymoon (b) Disenchantment (c) Craving for money (d) Reorientation (e) Social withdrawal Choose the most appropriate answer from the options given below:",
       "options": {
-        "A": "(a), (b), (e) only\n\n-- 90 of 202 --",
+        "A": "(a), (b), (e) only",
         "B": "(b), (c), (d) only",
         "C": "(c), (d), (e) only",
         "D": "(a), (b), (d) only"
@@ -732,7 +747,7 @@
     },
     {
       "id": 69,
-      "text": "Simple skills develop in infants separately and independently and later develop into more complex\nskills. Which governing principle of growth is applied here?",
+      "text": "Simple skills develop in infants separately and independently and later develop into more complex skills. Which governing principle of growth is applied here?",
       "options": {
         "A": "Proximodistal Principle",
         "B": "Cephalocaudal principle",
@@ -743,7 +758,7 @@
     },
     {
       "id": 70,
-      "text": "Arrange the following physiological response to stress sequentially\n(a) Release of Adrenocorticotropin hormone from pituitary gland\n(b) Release of CRF from hypothalamus\n(c) Perception of stress\n(d) Suppression of immune system functioning\n(e) Glorcocorticoid release from Adrenal gland\nChoose the correct answer from the options given below:",
+      "text": "Arrange the following physiological response to stress sequentially (a) Release of Adrenocorticotropin hormone from pituitary gland (b) Release of CRF from hypothalamus (c) Perception of stress (d) Suppression of immune system functioning (e) Glorcocorticoid release from Adrenal gland Choose the correct answer from the options given below:",
       "options": {
         "A": "(b), (c), (e), (a), (d)",
         "B": "(c), (b), (a), (e), (d)",
@@ -754,7 +769,7 @@
     },
     {
       "id": 71,
-      "text": "Etiological models of psychopathology includes:\n(a) Nervous system going awry\n(b) Social conflicts\n(c) Intrapsychic conflicts\n(d) Learning dysfunctional behaviour\n(e) Indulgence in religion.\nChoose the most appropriate answer from the options given below:",
+      "text": "Etiological models of psychopathology includes: (a) Nervous system going awry (b) Social conflicts (c) Intrapsychic conflicts (d) Learning dysfunctional behaviour (e) Indulgence in religion. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (c) only",
         "B": "(b), (c), (d), (e) only",
@@ -765,7 +780,7 @@
     },
     {
       "id": 72,
-      "text": "Match List I with List II\nLIST I \tLIST II\n(a) Preferred method for determining item bias \t(I) Slope\n(b) Coefficient for correlating two absolutely dichotomous\nvariables\n(II) Intercept\n(c) The place where the regression line crosses the y axis \t(III) Phi coefficient\n(d) The expected change in Y for every one unit change in X\non the regression line\n(IV) Item characteristic\ncurve\n\n-- 91 of 202 --\n\nChoose the correct answer from the options given below:",
+      "text": "Match List I with List II\nLIST I \tLIST II\n(a) Preferred method for determining item bias \t(I) Slope\n(b) Coefficient for correlating two absolutely dichotomous\nvariables\n(II) Intercept\n(c) The place where the regression line crosses the y axis \t(III) Phi coefficient\n(d) The expected change in Y for every one unit change in X\non the regression line\n(IV) Item characteristic\ncurve\nChoose the correct answer from the options given below:",
       "options": {
         "A": "(a)-(IV), (b)-(III), (c)-(II), (d)-(I)",
         "B": "(a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
@@ -776,7 +791,7 @@
     },
     {
       "id": 73,
-      "text": "One sports psychologist wanted to carry out a biographical study by writing and recording the\nexperiences of a hockey legend. This is an example of ___________ approach.",
+      "text": "One sports psychologist wanted to carry out a biographical study by writing and recording the experiences of a hockey legend. This is an example of ___________ approach.",
       "options": {
         "A": "Phenomenology",
         "B": "Ethnography",
@@ -787,7 +802,7 @@
     },
     {
       "id": 74,
-      "text": "Which of the following are true about perceptual constancy?\n(a) It applies to perception of size and colour only\n(b) Many visual illusions may be explained by the various constancies\n(c) Constancies occur in all sensory modalities\n(d) It keeps the appearance of objects the same inspite of large variations in the initial representation\nof the stimuli received by the sense organs that are engendered by various environmental factors.\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following are true about perceptual constancy? (a) It applies to perception of size and colour only (b) Many visual illusions may be explained by the various constancies (c) Constancies occur in all sensory modalities (d) It keeps the appearance of objects the same inspite of large variations in the initial representation of the stimuli received by the sense organs that are engendered by various environmental factors. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (d) only",
         "B": "(b), (c), (d) only",
@@ -798,7 +813,7 @@
     },
     {
       "id": 75,
-      "text": "The emergence of the Oedipus and Castration complexes are the chief events of which stage of\ndevelopment in the Freudian theory.",
+      "text": "The emergence of the Oedipus and Castration complexes are the chief events of which stage of development in the Freudian theory.",
       "options": {
         "A": "Oral stage",
         "B": "Anal stage",
@@ -814,13 +829,13 @@
         "A": "(a)-(I), (b)-(II), (c)-(III), (d)-(IV)",
         "B": "(a)-(II), (b)-(III), (c)-(I), (d)-(IV)",
         "C": "(a)-(III), (b)-(IV), (c)-(I), (d)-(II)",
-        "D": "(a)-(IV), (b)-(II), (c)-(III), (d)-(I)\n\n-- 92 of 202 --"
+        "D": "(a)-(IV), (b)-(II), (c)-(III), (d)-(I)"
       },
       "correctAnswer": "C"
     },
     {
       "id": 77,
-      "text": "Self-determination theory of Deci and Ryan focused on following basic needs to explain well being\nChoose the most appropriate answer from the options given below:\n(a) Creativity\n(b) Engagement\n(c) Competence\n(d) Relatedness\n(e) Autonomy",
+      "text": "Self-determination theory of Deci and Ryan focused on following basic needs to explain well being Choose the most appropriate answer from the options given below: (a) Creativity (b) Engagement (c) Competence (d) Relatedness (e) Autonomy",
       "options": {
         "A": "(a), (b), (c) only",
         "B": "(c), (d), (e) only",
@@ -842,7 +857,7 @@
     },
     {
       "id": 79,
-      "text": "Which of correct about Multitrait - Multimethod design?\n(a) Investigates construct validity\n(b) Associates with Coombs and Holladay\n(c) Associates with Campbell and Fiske\n(d) Investigates Composite reliability\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of correct about Multitrait - Multimethod design? (a) Investigates construct validity (b) Associates with Coombs and Holladay (c) Associates with Campbell and Fiske (d) Investigates Composite reliability Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b) only",
         "B": "(a), (c) only",
@@ -853,7 +868,7 @@
     },
     {
       "id": 80,
-      "text": "Which of the following does not come under the matrix reasoning subtest of WAIS IV\n(a) Visuospatial reasoning\n(b) Psychomotor speed\n(c) Abstract reasoning\n(d) Visual Organization\n(e) Ability to follow directions.\n\n-- 93 of 202 --\n\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following does not come under the matrix reasoning subtest of WAIS IV (a) Visuospatial reasoning (b) Psychomotor speed (c) Abstract reasoning (d) Visual Organization (e) Ability to follow directions. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (c) only",
         "B": "(a), (c), (d) only",
@@ -864,7 +879,7 @@
     },
     {
       "id": 81,
-      "text": "Conflicts are readily kindled and fueled by\n(a) Competition\n(b) Conciliation\n(c) Cooperation\n(d) Misperception\n(e) Social Dilemmas\nChoose the most appropriate answer from the options given below:",
+      "text": "Conflicts are readily kindled and fueled by (a) Competition (b) Conciliation (c) Cooperation (d) Misperception (e) Social Dilemmas Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (b), (c) only",
         "B": "(b), (c), (d) only",
@@ -897,7 +912,7 @@
     },
     {
       "id": 84,
-      "text": "Which of the following is true about a Phoneme?\n(a) It refers to the disrupted language of a patient with aphasia\n(b) Every language has its own set of phonemes\n(c) A phonema is a category of speech sounds\n(d) It is the smallest unit of language that carries meaning.\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following is true about a Phoneme? (a) It refers to the disrupted language of a patient with aphasia (b) Every language has its own set of phonemes (c) A phonema is a category of speech sounds (d) It is the smallest unit of language that carries meaning. Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a) only",
         "B": "(b), (d) only",
@@ -911,7 +926,7 @@
       "text": "Amygdala, part of the Limbic system, is specifically responsible for one of the following functions:",
       "options": {
         "A": "Thinking",
-        "B": "Learning\n\n-- 94 of 202 --",
+        "B": "Learning",
         "C": "Memory",
         "D": "Emotion"
       },
@@ -941,7 +956,7 @@
     },
     {
       "id": 88,
-      "text": "Which of the following is/are related to Developmental screening Tests?\n(a) Gesell Developmental Schedule\n(b) Denver Developmental Screening Test\n(c) Holland Developmental Schedule\n(d) Bruner Developmental Screening Test\nChoose the most appropriate answer from the options given below:",
+      "text": "Which of the following is/are related to Developmental screening Tests? (a) Gesell Developmental Schedule (b) Denver Developmental Screening Test (c) Holland Developmental Schedule (d) Bruner Developmental Screening Test Choose the most appropriate answer from the options given below:",
       "options": {
         "A": "(a), (c) only",
         "B": "(b), (d) only",
@@ -963,12 +978,12 @@
     },
     {
       "id": 90,
-      "text": "When a lighting flashes nearby, we wince and start to prepare ourselves for the thunder to follow.\nThis response to impending thunder is known as:",
+      "text": "When a lighting flashes nearby, we wince and start to prepare ourselves for the thunder to follow. This response to impending thunder is known as:",
       "options": {
         "A": "Unconditioned stimulus",
         "B": "Unconditioned response",
         "C": "Conditioned stimulus",
-        "D": "Conditioned response\n(91-95)\nA study was conducted to find out whether participation in meditation influences well-being in children.\nHence a group of children who have not participated in meditation before but are now planning to begin\nparticipating in meditation were given a well being scale before they began meditation. The children\nwere administered the same test again after 2 months of meditation. The well being was measured on an\n\n-- 95 of 202 --\n\ninternal scale, with higher scores indicating higher well being. The scores on the scale were normally\ndistributed. The scores are given below.\nBefore \tAfter\n4 \t6\n8 \t5\n10 \t11\n12 \t10\n14 \t15\n16 \t17\n18 \t16"
+        "D": "Conditioned response\n(91-95)\nA study was conducted to find out whether participation in meditation influences well-being in children.\nHence a group of children who have not participated in meditation before but are now planning to begin\nparticipating in meditation were given a well being scale before they began meditation. The children\nwere administered the same test again after 2 months of meditation. The well being was measured on an\ninternal scale, with higher scores indicating higher well being. The scores on the scale were normally\ndistributed. The scores are given below.\nBefore \tAfter\n4 \t6\n8 \t5\n10 \t11\n12 \t10\n14 \t15\n16 \t17\n18 \t16"
       },
       "correctAnswer": "D"
     },
@@ -1040,7 +1055,7 @@
     },
     {
       "id": 97,
-      "text": "The psychological tools and signs such as language, counting, mnemonics, algebric symbols, art and\nwriting that facilitate and direct thinking process is called by Vygotsky as:",
+      "text": "The psychological tools and signs such as language, counting, mnemonics, algebric symbols, art and writing that facilitate and direct thinking process is called by Vygotsky as:",
       "options": {
         "A": "Moderators",
         "B": "Mediators",
@@ -1073,12 +1088,12 @@
     },
     {
       "id": 100,
-      "text": "The instructional process in which the more knowledgeable partner adjusts the amount and type of\nsupport he offers to fit with the child's learning needs over the course of interaction is called:",
+      "text": "The instructional process in which the more knowledgeable partner adjusts the amount and type of support he offers to fit with the child's learning needs over the course of interaction is called:",
       "options": {
         "A": "Tacit knowledge",
         "B": "Social referencing",
         "C": "Pragmatics",
-        "D": "Scaffolding\n\n-- 97 of 202 --"
+        "D": "Scaffolding"
       },
       "correctAnswer": "D"
     }

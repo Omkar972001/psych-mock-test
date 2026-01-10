@@ -1,4 +1,4 @@
-const CACHE_NAME = 'psych-prep-v14';
+const CACHE_NAME = 'skinner-box-v1';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -13,7 +13,8 @@ const ASSETS_TO_CACHE = [
     './psych_test_03.json',
     './psych_test_04.json',
     './psych_test_05.json',
-    './psych_test_06.json'
+    './psych_test_06.json',
+    './images/logo_new.png'
 ];
 
 // Install Event: Cache everything

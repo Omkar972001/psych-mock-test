@@ -118,8 +118,12 @@ const app = {
                 }
             }
 
-            const retakeHtml = (cName === 'completed')
-                ? `<div style="text-align:center; margin-top:0.5rem; font-size:0.85rem; text-decoration:underline; color:#94a3b8; z-index:10; position:relative;" onclick="event.stopPropagation(); app.state.currentTestId=${t.id}; app.retakeTest()">Retake</div>`
+            const isCompleted = cName === 'completed';
+            const showRestart = cName === 'completed' || cName === 'in-progress';
+            const restartLabel = isCompleted ? 'Retake' : 'Restart';
+
+            const retakeHtml = showRestart
+                ? `<div style="text-align:center; margin-top:0.5rem; font-size:0.85rem; text-decoration:underline; color:#94a3b8; z-index:10; position:relative; cursor:pointer;" onclick="event.stopPropagation(); app.state.currentTestId=${t.id}; app.retakeTest()">${restartLabel}</div>`
                 : '';
 
             // Highlight Last Active
@@ -453,7 +457,7 @@ const app = {
         const pBox = document.getElementById('passageBox');
         if (q.passageId && app.state.data.passages[q.passageId]) {
             pBox.classList.remove('hidden');
-            document.getElementById('passageContent').innerText = app.state.data.passages[q.passageId];
+            document.getElementById('passageContent').innerHTML = app.state.data.passages[q.passageId];
         } else {
             pBox.classList.add('hidden');
         }
@@ -604,7 +608,10 @@ const app = {
             if (!userAns) {
                 unanswered++;
             } else {
-                const correctAnswers = q.answer ? q.answer.split(',').map(s => s.trim()) : [];
+                // BUG FIX: Support both keys
+                const rawAnswer = q.correctAnswer || q.answer || '';
+                const correctAnswers = rawAnswer.split(',').map(s => s.trim());
+
                 if (correctAnswers.includes(userAns)) {
                     correct++;
                 } else {
@@ -613,21 +620,32 @@ const app = {
             }
         });
 
+        console.log("Submitting Test. Score:", correct * 2);
+
+        // VISUAL CONFIRMATION FOR USER
+        alert(`Calculated Score: ${correct * 2} / ${app.state.data.questions.length * 2}\nSaving results...`);
+
         // Save Attempt to Storage
-        Storage.saveAttempt({
-            testId: app.state.currentTestId,
-            score: correct * 2,
-            totalQuestions: app.state.data.questions.length,
-            correct,
-            incorrect,
-            unanswered,
-            timeTaken: 7200 - app.state.timeLeft // Approximate
-        });
+        try {
+            Storage.saveAttempt({
+                testId: app.state.currentTestId,
+                score: correct * 2,
+                totalQuestions: app.state.data.questions.length,
+                correct,
+                incorrect,
+                unanswered,
+                timeTaken: 7200 - app.state.timeLeft // Approximate
+            });
+        } catch (e) {
+            console.error("Save Attempt Failed", e);
+        }
 
         // Update State
         app.state.isReviewMode = true;
         app.state.lastScore = correct * 2;
+        console.log("Persisting State as Completed...");
         app.persistState(); // This saves as completed
+
 
         // Navigate to result
         window.location.hash = '#result';

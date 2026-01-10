@@ -57,10 +57,10 @@
             "id": 5,
             "question": "Which one is the correct formula for variance?",
             "options": [
-                "Variance = ( ∑ 𝑋𝑋−∑ 𝑋𝑋 � ) 2 𝑁𝑁",
-                "Variance = ∑ ( 𝑋𝑋−𝑋𝑋 � ) 2 𝑁𝑁",
-                "Variance = ( ∑ 𝑋𝑋−𝑋𝑋 � ) 2 𝑁𝑁 2",
-                "Variance = �∑ 𝑋𝑋 2 −𝑋𝑋 � 2 � 𝑁𝑁"
+                "Variance = ( ΣX - ΣX̄ )² / N",
+                "Variance = Σ(X - X̄)² / N",
+                "Variance = ( ΣX - X̄ )² / N²",
+                "Variance = ( ΣX² - X̄² ) / N"
             ],
             "answer": "B",
             "passage": null
@@ -487,7 +487,7 @@
         },
         {
             "id": 41,
-            "question": "Which of the following is correct about cognitive perspective? (a) Thinking and understanding about the world (b) Information processing (c) Overt behaviour only (d) Similarity of thinking and working of a computer Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following is correct about cognitive perspective? (a) Thinking and understanding about the world (b) Information processing (c) Overt behaviour only (d) Similarity of thinking and working of a computer \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (d) only",
                 "(c) and (d) only",
@@ -499,7 +499,7 @@
         },
         {
             "id": 42,
-            "question": "According to Indian concept of Self, elements of Psychological self include: (a) Manas (b) Buddhi (c) Anthakarna (d) Dhyana. Choose the correct answer from the options given below:",
+            "question": "According to Indian concept of Self, elements of Psychological self include: (a) Manas (b) Buddhi (c) Anthakarna (d) Dhyana. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b) and (d) only",
                 "(b), (c) and (d) only",
@@ -511,7 +511,7 @@
         },
         {
             "id": 43,
-            "question": "Which of the following can be used to determine the number of factors to be extracted in factor analysis? (a) Scree-plot (b) Orthogonal rotation (c) Eigen value (d) Factor Loading. Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following can be used to determine the number of factors to be extracted in factor analysis? (a) Scree-plot (b) Orthogonal rotation (c) Eigen value (d) Factor Loading. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) only",
                 "(b) and (c) only",
@@ -523,7 +523,7 @@
         },
         {
             "id": 44,
-            "question": "Which of the following are the types of probability sample? (a) Simple Random sampling (b) Proportionate stratified sampling (c) Disproportionate stratified sampling (d) Saturation sampling Choose the correct answer from the options given below:",
+            "question": "Which of the following are the types of probability sample? (a) Simple Random sampling (b) Proportionate stratified sampling (c) Disproportionate stratified sampling (d) Saturation sampling \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(b), (c) and (d) only",
@@ -535,7 +535,7 @@
         },
         {
             "id": 45,
-            "question": "Which of the following statements are true of aptitude? (a) They are acquired (b) They are innate (c) Training ensures optimal performance (d) Aptitudes and interests are positively related. Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following statements are true of aptitude? (a) They are acquired (b) They are innate (c) Training ensures optimal performance (d) Aptitudes and interests are positively related. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(b) and (c) only",
@@ -547,7 +547,7 @@
         },
         {
             "id": 46,
-            "question": "What is true about norm in Psychological Test? (a) Norm helps as comparative device (b) 'Percentage' is a type of norm used by some psychometricians (c) T-score is a type of standard score norm (d) Raw score is converted to derived score for norm interpretation. Choose the most appropriate answer from the options given below:",
+            "question": "What is true about norm in Psychological Test? (a) Norm helps as comparative device (b) 'Percentage' is a type of norm used by some psychometricians (c) T-score is a type of standard score norm (d) Raw score is converted to derived score for norm interpretation. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (d) only",
                 "(a), (b) and (d) only",
@@ -559,7 +559,7 @@
         },
         {
             "id": 47,
-            "question": "True description about Differential Aptitude Test (DAT) are: (a) It has eight sub tests (b) Meant for students from grade 8 to grade 12 (c) Meant for students in the age of 8 to 12 years (d) It has also been adapted by Indian Psychologists. Choose the most appropriate answer from the options given below:",
+            "question": "True description about Differential Aptitude Test (DAT) are: (a) It has eight sub tests (b) Meant for students from grade 8 to grade 12 (c) Meant for students in the age of 8 to 12 years (d) It has also been adapted by Indian Psychologists. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(a) and (c) only",
@@ -571,7 +571,7 @@
         },
         {
             "id": 48,
-            "question": "Which of the following domains are assessed by Neuropsychological tests? (a) Language (b) Opinion (c) Memory (d) Executive Functioning (e) Reaction Choose the correct answer from the options given below:",
+            "question": "Which of the following domains are assessed by Neuropsychological tests? (a) Language (b) Opinion (c) Memory (d) Executive Functioning (e) Reaction \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(b), (c) and (e) only",
                 "(a), (c) and (d) only",
@@ -583,7 +583,7 @@
         },
         {
             "id": 49,
-            "question": "Which of the following statements are True of Biofeedback? (a) It is accurate (b) Behaviour can be modified through biofeedback (c) It helps in bringing involuntary actions to voluntary actions (d) It is one of the components of polygraphy. Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following statements are True of Biofeedback? (a) It is accurate (b) Behaviour can be modified through biofeedback (c) It helps in bringing involuntary actions to voluntary actions (d) It is one of the components of polygraphy. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(a) and (b) only",
@@ -595,7 +595,7 @@
         },
         {
             "id": 50,
-            "question": "Which of the following are the motivating factors in learning: (a) Intelligence (b) Nature of task (c) Knowledge of result (d) Reinforcement Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following are the motivating factors in learning: (a) Intelligence (b) Nature of task (c) Knowledge of result (d) Reinforcement \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(b), (c) and (d) only",
@@ -607,7 +607,7 @@
         },
         {
             "id": 51,
-            "question": "Which one is not correct about classical conditioning (a) Classical conditioning is also known as respondent conditioning. (b) A previously natural stimulus comes to elicit a response after it is paired with a stimulus that automatically elicits that response. (c) It is based on the fact that certain stimuli automatically elicit certain response without learning (d) Classical Conditioning is also known as Instrumental Conditioning. (e) In Classical conditioning there is no association between stimulus and response Choose the correct answer from the options given below :",
+            "question": "Which one is not correct about classical conditioning (a) Classical conditioning is also known as respondent conditioning. (b) A previously natural stimulus comes to elicit a response after it is paired with a stimulus that automatically elicits that response. (c) It is based on the fact that certain stimuli automatically elicit certain response without learning (d) Classical Conditioning is also known as Instrumental Conditioning. (e) In Classical conditioning there is no association between stimulus and response \n\nChoose the correct answer from the options given below :",
             "options": [
                 "(a) and (d) only",
                 "(a), (c) and (d) only",
@@ -619,7 +619,7 @@
         },
         {
             "id": 52,
-            "question": "Which of the following are true of perceptual constancy? (a) Shape (b) Illumination (c) Colour (d) Distance Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following are true of perceptual constancy? (a) Shape (b) Illumination (c) Colour (d) Distance \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (c) only",
                 "(a) and (b) only",
@@ -631,7 +631,7 @@
         },
         {
             "id": 53,
-            "question": "Which of the following are the types of long term memory? (a) Declarative Memory (b) Flash Bulb memory (c) Episodic memory (d) Sensory Memory Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following are the types of long term memory? (a) Declarative Memory (b) Flash Bulb memory (c) Episodic memory (d) Sensory Memory \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(b), (c) and (d) only",
@@ -643,7 +643,7 @@
         },
         {
             "id": 54,
-            "question": "Which of the following statements are true? (a) All intelligent persons are creative (b) Creativity is also known as divergent thinking (c) Creativity is genetically determined (d) Research is not conclusive about the relationship between intelligence and creativity. Choose the correct answer from the options given below:",
+            "question": "Which of the following statements are true? (a) All intelligent persons are creative (b) Creativity is also known as divergent thinking (c) Creativity is genetically determined (d) Research is not conclusive about the relationship between intelligence and creativity. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(b) and (c) only",
@@ -655,7 +655,7 @@
         },
         {
             "id": 55,
-            "question": "Which of the following indicate aspects of language development? (a) Pragmatics (b) Syntax (c) Imprinting (d) Semantics Choose the correct answer from the options given below:",
+            "question": "Which of the following indicate aspects of language development? (a) Pragmatics (b) Syntax (c) Imprinting (d) Semantics \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(a) and (b) only",
@@ -667,7 +667,7 @@
         },
         {
             "id": 56,
-            "question": "Which of the following is true about linguistic-relativity hypothesis? (a) Thought produces language (b) Language shapes perception and understanding (c) Language determines thought (d) Thinking and language interact Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following is true about linguistic-relativity hypothesis? (a) Thought produces language (b) Language shapes perception and understanding (c) Language determines thought (d) Thinking and language interact \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (d) only",
                 "(b) and (c) only",
@@ -679,7 +679,7 @@
         },
         {
             "id": 57,
-            "question": "Which of the following statements related to stress are correct? (a) Anthropogenic stress refers to stressors such as crowding (b) The impact of earth energies on human well being is called 'Geopathic Stress' (c) Stress due to the efforts of the individual to fit oneself into the design of man made objects is called ‘Energetic stress' (d) 'Ergonomic Stress' refers to the stress induced due to exposure to radioactive rays. Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following statements related to stress are correct? (a) Anthropogenic stress refers to stressors such as crowding (b) The impact of earth energies on human well being is called 'Geopathic Stress' (c) Stress due to the efforts of the individual to fit oneself into the design of man made objects is called ‘Energetic stress' (d) 'Ergonomic Stress' refers to the stress induced due to exposure to radioactive rays. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(b) and (c) only",
@@ -691,7 +691,7 @@
         },
         {
             "id": 58,
-            "question": "Which of the following is true with reference to psychological stress ? (a) Stress is a temporary phenomenon (b) Stress is a subjective perception (c) Personality and stress are not related (d) A certain degree of stress is needed for optimal performance. Choose the correct answer from the options given below:",
+            "question": "Which of the following is true with reference to psychological stress ? (a) Stress is a temporary phenomenon (b) Stress is a subjective perception (c) Personality and stress are not related (d) A certain degree of stress is needed for optimal performance. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(b), (c) and (d) only",
@@ -703,7 +703,7 @@
         },
         {
             "id": 59,
-            "question": "Which of the following is true about leadership? (a) Leaders influence followers (b) Situation is not important in leadership (c) All managers are leaders (d) Transactional leaders are different from transformational leaders. Choose the correct answer from the options given below:",
+            "question": "Which of the following is true about leadership? (a) Leaders influence followers (b) Situation is not important in leadership (c) All managers are leaders (d) Transactional leaders are different from transformational leaders. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a) and (d) only",
                 "(a), (b) and (d) only",
@@ -715,7 +715,7 @@
         },
         {
             "id": 60,
-            "question": "Which of the following is applicable to Fiedler's contingency model of leadership effectiveness? (a) The leader's position power (b) The degree of task structure (c) The leader-member relationship (d) The inborn traits of the leader Choose the most appropriate answer from the options given below:",
+            "question": "Which of the following is applicable to Fiedler's contingency model of leadership effectiveness? (a) The leader's position power (b) The degree of task structure (c) The leader-member relationship (d) The inborn traits of the leader \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(a), (b) and (c) only",
@@ -727,7 +727,7 @@
         },
         {
             "id": 61,
-            "question": "Transactional Analysis refers to the ego states such as: (a) Critical Parent, Adult (b) Parent, Child, Adult (c) Nurturant Parent, Little Professor (d) Adapted child, Deviant child Choose the correct answer from the options given below:",
+            "question": "Transactional Analysis refers to the ego states such as: (a) Critical Parent, Adult (b) Parent, Child, Adult (c) Nurturant Parent, Little Professor (d) Adapted child, Deviant child \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b) and (c) only",
                 "(c) and (d) only",
@@ -739,7 +739,7 @@
         },
         {
             "id": 62,
-            "question": "In force-field analysis the counselee analyses: (a) The force one has to apply in the field to assert oneself (b) The forces that constitute one's resources (c) The force applied by the counsellor in initiating action (d) Facilitating factors and restraining factors in the situation. Choose the most appropriate answer from the options given below:",
+            "question": "In force-field analysis the counselee analyses: (a) The force one has to apply in the field to assert oneself (b) The forces that constitute one's resources (c) The force applied by the counsellor in initiating action (d) Facilitating factors and restraining factors in the situation. \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) only",
                 "(a) and (c) only",
@@ -751,7 +751,7 @@
         },
         {
             "id": 63,
-            "question": "In counselling, 'advanced empathy' includes: (a) Connecting islands and identifying themes (b) Identifying themes and brain storming (c) Making the implicit explicit and identifying themes (d) Connecting islands and paraphrasing. Choose the correct answer from the options given below:",
+            "question": "In counselling, 'advanced empathy' includes: (a) Connecting islands and identifying themes (b) Identifying themes and brain storming (c) Making the implicit explicit and identifying themes (d) Connecting islands and paraphrasing. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(a) and (c) only",
@@ -763,7 +763,7 @@
         },
         {
             "id": 64,
-            "question": "The principle of Classical Conditioning is used in: (a) Token economy (b) Systematic desensitization (c) Electro convulsion therapy (d) Aversion therapy Choose the correct answer from the options given below:",
+            "question": "The principle of Classical Conditioning is used in: (a) Token economy (b) Systematic desensitization (c) Electro convulsion therapy (d) Aversion therapy \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a) and (b) only",
                 "(a) and (c) only",
@@ -775,7 +775,7 @@
         },
         {
             "id": 65,
-            "question": "In the Transactional Analysis, Ego State Analysis involves analyzing (a) Id, Ego, Super Ego (b) Alter Ego (c) Parent, Adult, child (d) Voluntary and Involuntary Ego Choose the most appropriate answer from the options given below:",
+            "question": "In the Transactional Analysis, Ego State Analysis involves analyzing (a) Id, Ego, Super Ego (b) Alter Ego (c) Parent, Adult, child (d) Voluntary and Involuntary Ego \n\nChoose the most appropriate answer from the options given below:",
             "options": [
                 "(a) and (c) only",
                 "(b) only",
@@ -787,7 +787,7 @@
         },
         {
             "id": 66,
-            "question": "Match List I with List II List I List II (a) An inferential test used to determine effect size for a chi-square test; the correlation used when both measured variables are dichotomous and nominal (I) Point-biserial correlation coefficient (b) The correlation used when one of its variables is measured on a dichotomous nominal scale and the other is measured on an interval or ratio scale (II) Regression analysis (c) A procedure that allows to predict an individual's score on one variable based on knowing one or more variable (III) Partial correlation (d) A correlational technique that involves measuring three variables and then statistically removing the effect of the third variable from the correlation of the (IV) Phi-coefficient remaining t wo variables Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) An inferential test used to determine effect size for a chi-square test; the correlation used when both measured variables are dichotomous and nominal (I) Point-biserial correlation coefficient (b) The correlation used when one of its variables is measured on a dichotomous nominal scale and the other is measured on an interval or ratio scale (II) Regression analysis (c) A procedure that allows to predict an individual's score on one variable based on knowing one or more variable (III) Partial correlation (d) A correlational technique that involves measuring three variables and then statistically removing the effect of the third variable from the correlation of the (IV) Phi-coefficient remaining t wo variables \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(IV), (b)-(II), (c)-(III), (d)-(I)",
                 "(a)-(III), (b)-(II), (c)-(IV), (d)-(I)",
@@ -799,7 +799,7 @@
         },
         {
             "id": 67,
-            "question": "Match List I with List II List I List II (a) Phenomenology (I) Constructionist Approach (b) Narrative analysis (II) Social media (c) Grounded theory (III) Eidectic variation (d) Netnographic Analysis (IV) Theoretical coding Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Phenomenology (I) Constructionist Approach (b) Narrative analysis (II) Social media (c) Grounded theory (III) Eidectic variation (d) Netnographic Analysis (IV) Theoretical coding \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(I), (b)-(III), (c)-(IV), (d)-(II)",
                 "(a)-(II), (b)-(IV), (c)-(III), (d)-(I)",
@@ -811,7 +811,7 @@
         },
         {
             "id": 68,
-            "question": "Match List I with List II List I List II (a) Non-parametric test used to determine differences between three or more groups on a ranked variable for between subjects design. (I) Mann-Whitney Test (b) Non-parametric test for seeing whether the number of times scores from one sample are ranked significantly higher than scores from another unrelated sample. (II) Wilcoxon Signed Rank Test (c) Non-parametric test for assessing whether the scores from two samples that come from the same or similar cases differ significantly. (III) Kruskal Wallis Test (d) Non-panometric test for determining whether the mean ranks of three or more related samples under two factors differ significantly (IV) Friedman's Test Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Non-parametric test used to determine differences between three or more groups on a ranked variable for between subjects design. (I) Mann-Whitney Test (b) Non-parametric test for seeing whether the number of times scores from one sample are ranked significantly higher than scores from another unrelated sample. (II) Wilcoxon Signed Rank Test (c) Non-parametric test for assessing whether the scores from two samples that come from the same or similar cases differ significantly. (III) Kruskal Wallis Test (d) Non-panometric test for determining whether the mean ranks of three or more related samples under two factors differ significantly (IV) Friedman's Test \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(III), (b)-(II), (c)-(IV), (d)-(I)",
                 "(a)-(III), (b)-(I), (c)-(II), (d)-(IV)",
@@ -823,7 +823,7 @@
         },
         {
             "id": 69,
-            "question": "Match List I with List II List I (Attitude Scales) List II (Psychologists) (a) Summated Rating scale (I) Thurstone (b) Semantic differential scale (II) Guttman (c) Equal Appearing Interval Scale (III) Likert (d) Cumulative scale (IV) Osgood Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I (Attitude Scales) List II (Psychologists) (a) Summated Rating scale (I) Thurstone (b) Semantic differential scale (II) Guttman (c) Equal Appearing Interval Scale (III) Likert (d) Cumulative scale (IV) Osgood \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(IV), (b)-(I), (c)-(II), (d)-(III)",
                 "(a)-(III), (b)-(IV), (c)-(I), (d)-(II)",
@@ -835,7 +835,7 @@
         },
         {
             "id": 70,
-            "question": "Match List I with List II List I List II (a) Turner's Syndrome (I) An imbalance in X chromosome where two X from the ovum combine with a Y-sperm (b) Fragile-X Syndrome (II) An extra 21st chromosome (c) Down's syndrome (III) Ovum containing no X chromosome is fertilized by an ‘X’ bearing sperm (d) Klinefelter syndrome (IV) The X chromosome is compressed or broken Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Turner's Syndrome (I) An imbalance in X chromosome where two X from the ovum combine with a Y-sperm (b) Fragile-X Syndrome (II) An extra 21st chromosome (c) Down's syndrome (III) Ovum containing no X chromosome is fertilized by an ‘X’ bearing sperm (d) Klinefelter syndrome (IV) The X chromosome is compressed or broken \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(I), (b)-(III), (c)-(II), (d)-(IV)",
                 "(a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
@@ -847,7 +847,7 @@
         },
         {
             "id": 71,
-            "question": "Match List I with List II List I List II (a) Semantic Memory (I) Memory for general knowledge and facts about the world as well as memory for the rules of logic that are used to deduce other facts. (b) Episodic Memory (II) Memory centered on a specific important event that are vivid as if they represented a snapshot of the event (c) Flashbulb Memory (III) Memory for skills and habits (d) Procedural Memory (IV) Memory for events that occur in a particular time, place or context Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Semantic Memory (I) Memory for general knowledge and facts about the world as well as memory for the rules of logic that are used to deduce other facts. (b) Episodic Memory (II) Memory centered on a specific important event that are vivid as if they represented a snapshot of the event (c) Flashbulb Memory (III) Memory for skills and habits (d) Procedural Memory (IV) Memory for events that occur in a particular time, place or context \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(I), (b)-(II), (c)-(IV), (d)-(III)",
                 "(a)-(I), (b)-(II), (c)-(III),(d)-(IV)",
@@ -859,7 +859,7 @@
         },
         {
             "id": 72,
-            "question": "Match List I with List II List I List II (a) Thurstone (I) Triarchic Theory (b) Gardner (II) Set of seven primary mental abilities (c) Sternberg (III) Multiple intelligence (d) J.P. Das (IV) Pass Model Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Thurstone (I) Triarchic Theory (b) Gardner (II) Set of seven primary mental abilities (c) Sternberg (III) Multiple intelligence (d) J.P. Das (IV) Pass Model \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(IV), (b)-(I), (c)- ( II), (d)-(III)",
                 "(a)-(II), (b)-(I), (c)-(III), (d)-(IV)",
@@ -871,7 +871,7 @@
         },
         {
             "id": 73,
-            "question": "Match List I with List II List I List II (a) Inductive reasoning (I) Inferring specific instances from general principles or rules. (b) Deductive reasoning (II) Cognitive short-cuts that provide adequately accurate inferences for most of the time (c) Heuristics (III)Inferring general principles or rules from specific facts (d) Algorithm (IV) A procedure that consists of a series of steps to solve a problem Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Inductive reasoning (I) Inferring specific instances from general principles or rules. (b) Deductive reasoning (II) Cognitive short-cuts that provide adequately accurate inferences for most of the time (c) Heuristics (III)Inferring general principles or rules from specific facts (d) Algorithm (IV) A procedure that consists of a series of steps to solve a problem \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
                 "(a)-(I), (b)-(II), (c)-(IV), (d)-(III)",
@@ -883,7 +883,7 @@
         },
         {
             "id": 74,
-            "question": "Match List I with List II List I List II (a) Emotions are largely innate reactions to certain stimuli (I) Cannon-Bard theory (b) Emotions result from perception of autonomic arousal (II) Schachter's two-factor theory (c) Emotion is inferred from arousal and then labelling it after interpretation (III) Evolutionary theories (d) Emotions originate in sub-cortical areas of the brain. (IV) James-Lange theory Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Emotions are largely innate reactions to certain stimuli (I) Cannon-Bard theory (b) Emotions result from perception of autonomic arousal (II) Schachter's two-factor theory (c) Emotion is inferred from arousal and then labelling it after interpretation (III) Evolutionary theories (d) Emotions originate in sub-cortical areas of the brain. (IV) James-Lange theory \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(II), (b)-(I), (c)-(IV), (d)-(III)",
                 "(a)-(III), (b)-(IV), (c)-(II), (d)-(I)",
@@ -895,7 +895,7 @@
         },
         {
             "id": 75,
-            "question": "Match List I with List II List I List II (a) Snyder (I) Bottom-up Theories vs Top-down theories of happiness (b) Diener (II) Broaden and Build Model (c) Antonovsky (III) Hope theory (d) Fredrickson (IV) Salutogenic Model Choose the correct answer from the options given below:",
+            "question": "Match List I with List II List I List II (a) Snyder (I) Bottom-up Theories vs Top-down theories of happiness (b) Diener (II) Broaden and Build Model (c) Antonovsky (III) Hope theory (d) Fredrickson (IV) Salutogenic Model \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a)-(III), (b)-(I), (c)-(IV), (d)-(II)",
                 "(a)-(III), (b)-(II), (c)-(I), (d)-(IV)",
@@ -907,7 +907,7 @@
         },
         {
             "id": 76,
-            "question": "Arrange in sequence the following scales of measurement Ordinal, Nominal, Ratio and Interval according to properties of scale (a) Identity (b) Identity and Magnitude (c) Identity, magnitude and equal unit size (d) Identity, magnitude, equal unit size and absolute Zero Choose the correct answer from the options given below:",
+            "question": "Arrange in sequence the following scales of measurement Ordinal, Nominal, Ratio and Interval according to properties of scale (a) Identity (b) Identity and Magnitude (c) Identity, magnitude and equal unit size (d) Identity, magnitude, equal unit size and absolute Zero \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(b),(a), (d), (c)",
                 "(b), (c), (d), (a)",
@@ -919,7 +919,7 @@
         },
         {
             "id": 77,
-            "question": "What is the correct sequence in development of a psychological tool? (a) Establishing reliability (b) Item analysis (c) Developing norm (d) Establishing validity. Choose the correct answer from the options given below:",
+            "question": "What is the correct sequence in development of a psychological tool? (a) Establishing reliability (b) Item analysis (c) Developing norm (d) Establishing validity. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b), (d), (c)",
                 "(b), (a), (d), (c)",
@@ -931,7 +931,7 @@
         },
         {
             "id": 78,
-            "question": "What is the sequence of steps involved in conducting Radio Frequency lesion by using stereotoxic apparatus? (a) Drill a hole in the skull of the rat using coordinates from the stereotoxic atlas. (b) Pass on radio frequency current through the tip of the insulated electrode to the brain area. (c) Close the hole on the skull of the rat and provide appropriate medical treatment. (d) Fix the head of the rat on the stereotoxic apparatus (e) Push an electrode to the appropriate depth of the brain till it touches the specified brain area. Choose the correct answer from the options given below:",
+            "question": "What is the sequence of steps involved in conducting Radio Frequency lesion by using stereotoxic apparatus? (a) Drill a hole in the skull of the rat using coordinates from the stereotoxic atlas. (b) Pass on radio frequency current through the tip of the insulated electrode to the brain area. (c) Close the hole on the skull of the rat and provide appropriate medical treatment. (d) Fix the head of the rat on the stereotoxic apparatus (e) Push an electrode to the appropriate depth of the brain till it touches the specified brain area. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (b), (d), (e), (c)",
                 "(c), (a), (b), (d), (e)",
@@ -943,7 +943,7 @@
         },
         {
             "id": 79,
-            "question": "Arrange the following in order of their occurrence in observational learning. (a) Retention (b) Attention (c) Reproduction (d) Motivation Choose the correct answer from the options given below:",
+            "question": "Arrange the following in order of their occurrence in observational learning. (a) Retention (b) Attention (c) Reproduction (d) Motivation \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(d), (b), (a), (c)",
                 "(a), (b), (c), (d)",
@@ -955,7 +955,7 @@
         },
         {
             "id": 80,
-            "question": "Arrange the bodily consequences of stress in the order as proposed by Hans Selye (a) Exhaustion (b) Alarm (c) Resistance (d) Hardiness Choose the correct answer from the options given below:",
+            "question": "Arrange the bodily consequences of stress in the order as proposed by Hans Selye (a) Exhaustion (b) Alarm (c) Resistance (d) Hardiness \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(d), (b), (c), (a)",
                 "(b), (c), (a), (d)",
@@ -967,7 +967,7 @@
         },
         {
             "id": 81,
-            "question": "The Four Stage theory of creativity was proposed by Joseph Wallas. Arrange these stages in a sequence. (a) Preparation (b) Incubation (c) Illumination (d) Verification Choose the correct answer from the options given below:",
+            "question": "The Four Stage theory of creativity was proposed by Joseph Wallas. Arrange these stages in a sequence. (a) Preparation (b) Incubation (c) Illumination (d) Verification \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (c), (b), (d)",
                 "(a), (b), (c), (d)",
@@ -979,7 +979,7 @@
         },
         {
             "id": 82,
-            "question": "Arrange in order the Hierarchy of Needs by Maslow. (a) Physiological (b) Esteem (c) Affiliation (d) Safety (e) Self-actualization Choose the correct answer from the options given below:",
+            "question": "Arrange in order the Hierarchy of Needs by Maslow. (a) Physiological (b) Esteem (c) Affiliation (d) Safety (e) Self-actualization \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (e), (c), (b), (d)",
                 "(a), (d), (c), (b), (e)",
@@ -991,7 +991,7 @@
         },
         {
             "id": 83,
-            "question": "The correct sequence of a person who is hungry in terms of motivational cycle is: (a) Disequilibrium (b) Reaching goal (c) Instrumental behaviour (d) Homeostasis (e) Consumption of food. Choose the correct answer from the options given below:",
+            "question": "The correct sequence of a person who is hungry in terms of motivational cycle is: (a) Disequilibrium (b) Reaching goal (c) Instrumental behaviour (d) Homeostasis (e) Consumption of food. \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (c), (b), (e),(d)",
                 "(d), (a), (b), (e), (c)",
@@ -1003,7 +1003,7 @@
         },
         {
             "id": 84,
-            "question": "As per Tuckman's group development model, identify the correct sequence (a) Norming (b) Storming (c) Performing (d) Forming (e) Adjourning Choose the correct answer from the options given below:",
+            "question": "As per Tuckman's group development model, identify the correct sequence (a) Norming (b) Storming (c) Performing (d) Forming (e) Adjourning \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (c), (b), (d), (e)",
                 "(a), (d), (b), (c), (e)",
@@ -1015,7 +1015,7 @@
         },
         {
             "id": 85,
-            "question": "Arrange the following from early to later development (a) Autonomy versus shame and doubt (b) Identity versus role confusion (c) Industry versus inferiority (d) Initiative versus guilt Choose the correct answer from the options given below:",
+            "question": "Arrange the following from early to later development (a) Autonomy versus shame and doubt (b) Identity versus role confusion (c) Industry versus inferiority (d) Initiative versus guilt \n\nChoose the correct answer from the options given below:",
             "options": [
                 "(a), (c), (d), (b)",
                 "(d), (c), (a), (b)",

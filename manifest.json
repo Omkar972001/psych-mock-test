@@ -1,6 +1,6 @@
 {
-    "name": "PsychPrep",
-    "short_name": "PsychPrep",
+    "name": "Skinner Box",
+    "short_name": "Skinner Box",
     "description": "UGC NET Psychology Mock Test Platform",
     "start_url": "./index.html",
     "display": "standalone",

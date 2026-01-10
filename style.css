@@ -64,7 +64,17 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 1.25rem;
+    display: none;
+    /* Hidden in favor of image */
 }
+
+.brand-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
 
 .nav-menu {
     flex: 1;

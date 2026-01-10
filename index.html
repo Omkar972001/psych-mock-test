@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psychology Mock Platform</title>
+    <title>Skinner Box</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,8 +23,8 @@
         <header class="mobile-header">
             <button class="menu-toggle" onclick="app.toggleSidebar()">☰</button>
             <div class="logo-area-mobile">
-                <div class="logo-icon-sm">Ψ</div>
-                <h1>PsychPrep</h1>
+                <img src="images/logo_new.png" alt="Logo" class="brand-logo" style="height: 32px; border-radius: 4px;">
+                <h1 style="font-size: 1.2rem; margin: 0;">Skinner Box</h1>
             </div>
         </header>
 
@@ -32,8 +32,8 @@
         <aside class="sidebar" id="mainSidebar">
             <button class="close-sidebar" onclick="app.toggleSidebar()">×</button>
             <div class="logo-area">
-                <div class="logo-icon">Ψ</div>
-                <h1>PsychPrep</h1>
+                <img src="images/logo_new.png" alt="Logo" class="brand-logo" style="height: 40px; border-radius: 6px;">
+                <h1>Skinner Box</h1>
             </div>
 
             <nav class="nav-menu">
@@ -218,7 +218,7 @@
     </div>
 
     <script src="storage.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js?v=3"></script>
     <script>
         // PWA Registration
         if (false && 'serviceWorker' in navigator) {

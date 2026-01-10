@@ -153,7 +153,7 @@ const app = {
         app.isLoading = true;
 
         console.log("Loading Test ID:", id, typeof id);
-        const test = app.tests.find(t => t.id == id);
+        const test = app.tests.find(t => parseInt(t.id) === parseInt(id));
         console.log("Found Test:", test);
 
         if (!test) {
@@ -665,7 +665,7 @@ const app = {
             const userAns = app.state.answers[q.id];
             if (!userAns) unanswered++;
             else {
-                const correctAnswers = q.answer ? q.answer.split(',').map(s => s.trim()) : [];
+                const correctAnswers = (q.correctAnswer || q.answer || '').split(',').map(s => s.trim());
                 if (correctAnswers.includes(userAns)) correct++;
                 else incorrect++;
             }
@@ -803,15 +803,16 @@ const app = {
     parseMatchQuestion: (text) => {
         if (!text) return null;
         // Basic check if it looks like a Match List question
-        if (!text.includes("List I") || !text.includes("List II")) return null;
+        if (!/List\s*-?\s*I/i.test(text) || !/List\s*-?\s*II/i.test(text)) return null;
 
         try {
             // Regex to find the lists section. 
-            // It assumes "List I" and "List II" headers exist.
+            // It assumes "List I" or "List - I" or "List-I" headers exist.
             // Items are like (a) ... (I) ...
 
             // Extract Header (text before List I)
-            const headerMatch = text.match(/^(.*?)List I/i);
+            // allow optional space and hyphen: List\s*-?\s*I
+            const headerMatch = text.match(/^(.*?)List\s*-?\s*I/i);
             const header = headerMatch ? headerMatch[1].trim() : "Match List I with List II";
 
             // Extract Footer (usually "Choose the correct...")

@@ -1080,3 +1080,32 @@ body {
 .modal-btn.confirm:hover {
     background: var(--primary-hover);
 }
+
+/* Auth Modal Styles */
+.auth-modal {
+    max-width: 400px;
+    padding: 2.5rem;
+}
+
+.auth-form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.auth-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}

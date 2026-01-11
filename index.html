@@ -15,6 +15,8 @@
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link rel="icon" type="image/png" href="icons/icon-192.png">
     <meta name="theme-color" content="#4f46e5">
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 
 <body>
@@ -47,12 +49,7 @@
             </nav>
 
             <div class="user-profile">
-                <!-- Placeholder -->
-                <div class="avatar">U</div>
-                <div class="user-info">
-                    <span class="name">User</span>
-                    <span class="status">Basic Plan</span>
-                </div>
+                <!-- Dynamically filled by auth.js -->
             </div>
         </aside>
 
@@ -217,12 +214,39 @@
         You are offline. Offline mode active. 📡
     </div>
 
+    <!-- Auth Modal -->
+    <div class="modal-overlay hidden" id="authModal">
+        <div class="modal-content auth-modal">
+            <h3>Login or Create Account</h3>
+            <p>Save your progress and access your history anywhere.</p>
+            <div class="auth-form">
+                <input type="email" id="authEmail" placeholder="Email Address" class="auth-input">
+                <input type="password" id="authPassword" placeholder="Password" class="auth-input">
+                <div id="authError" style="color: #ef4444; font-size: 0.85rem; margin-bottom: 1rem;"></div>
+                <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
+                    <button class="modal-btn confirm" style="width: 100%;"
+                        onclick="handleAuthAction('login')">Login</button>
+                    <button class="modal-btn"
+                        style="width: 100%; border: 1px solid var(--primary); color: var(--primary);"
+                        onclick="handleAuthAction('signup')">Sign Up</button>
+                    <button class="modal-btn cancel" style="width: 100%;"
+                        onclick="Auth.closeLoginModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="supabase-config.js"></script>
+    <script src="auth.js"></script>
     <script src="storage.js"></script>
     <script src="app.js?v=3"></script>
     <script>
         // PWA Registration
         if (true && 'serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
+            window.addEventListener('load', async () => {
+                // Initialize Auth
+                if (window.Auth) await Auth.init();
+
                 navigator.serviceWorker.register('./service-worker.js')
                     .then(reg => console.log('SW registered:', reg))
                     .catch(err => console.log('SW registration failed:', err));

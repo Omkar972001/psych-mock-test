@@ -27,9 +27,6 @@ const Storage = {
                 }
 
                 // Store 2: Responses (Per Question Data)
-                // Key: Composite or just unique ID. Let's use auto-increment to keep it simple, 
-                // but query by [testId, qId] via index would be nice. 
-                // Actually, let's just log every interaction.
                 if (!db.objectStoreNames.contains('responses')) {
                     const respStore = db.createObjectStore('responses', { keyPath: 'id', autoIncrement: true });
                     respStore.createIndex('testId', 'testId', { unique: false });
@@ -87,38 +84,102 @@ const Storage = {
         return parseInt(localStorage.getItem('psych_user_streak') || 0);
     },
 
-    // --- IndexedDB Helpers ---
+    // --- Combined Helpers (Local + Supabase) ---
 
-    saveAttempt: (data) => {
+    saveAttempt: async (data) => {
         // data: { testId, score, totalQuestions, correct, incorrect, unanswered, timeTaken }
-        if (!Storage.db) return;
 
-        const tx = Storage.db.transaction(['attempts'], 'readwrite');
-        const store = tx.objectStore('attempts');
-        const payload = {
-            ...data,
-            timestamp: Date.now(),
-            date: new Date().toISOString()
-        };
-        store.add(payload);
+        // 1. Save Locally (IndexedDB)
+        if (Storage.db) {
+            const tx = Storage.db.transaction(['attempts'], 'readwrite');
+            const store = tx.objectStore('attempts');
+            store.add({
+                ...data,
+                timestamp: Date.now(),
+                date: new Date().toISOString()
+            });
+        }
+
+        // 2. Save to Supabase (if logged in)
+        if (typeof Auth !== 'undefined' && Auth.user && typeof supabase !== 'undefined' && supabase) {
+            try {
+                const { error } = await supabase.from('attempts').insert({
+                    user_id: Auth.user.id,
+                    test_id: data.testId,
+                    score: data.score,
+                    total_questions: data.totalQuestions,
+                    correct: data.correct,
+                    incorrect: data.incorrect,
+                    unanswered: data.unanswered,
+                    time_taken: data.timeTaken,
+                    timestamp: new Date().toISOString()
+                });
+                if (error) console.error("Supabase Save Error:", error);
+                else console.log("Storage: Attempt synced to Supabase");
+            } catch (err) {
+                console.error("Supabase unreachable:", err);
+            }
+        }
     },
 
-    saveResponse: (data) => {
+    getHistory: async () => {
+        let history = [];
+
+        // 1. Fetch Local History
+        if (Storage.db) {
+            const localHistory = await new Promise((resolve) => {
+                const tx = Storage.db.transaction(['attempts'], 'readonly');
+                const store = tx.objectStore('attempts');
+                const request = store.getAll();
+                request.onsuccess = () => resolve(request.result);
+            });
+            history = [...localHistory];
+        }
+
+        // 2. Fetch Supabase History (if logged in)
+        if (typeof Auth !== 'undefined' && Auth.user && typeof supabase !== 'undefined' && supabase) {
+            try {
+                const { data, error } = await supabase
+                    .from('attempts')
+                    .select('*')
+                    .eq('user_id', Auth.user.id);
+
+                if (data && !error) {
+                    // Map Supabase fields to local fields if different
+                    const remoteHistory = data.map(item => ({
+                        ...item,
+                        testId: item.test_id,
+                        totalQuestions: item.total_questions,
+                        timeTaken: item.time_taken,
+                        timestamp: new Date(item.timestamp).getTime()
+                    }));
+
+                    // Merge and de-duplicate (simple merge by timestamp for now)
+                    history = [...history, ...remoteHistory];
+                }
+            } catch (err) {
+                console.error("Supabase fetch failed, using local history only.");
+            }
+        }
+
+        // Sort reverse chronological
+        return history.sort((a, b) => b.timestamp - a.timestamp);
+    },
+
+    saveResponse: async (data) => {
         // data: { testId, qId, selectedOption, isCorrect, timeSpent }
-        if (!Storage.db) return;
+        if (Storage.db) {
+            const tx = Storage.db.transaction(['responses'], 'readwrite');
+            const store = tx.objectStore('responses');
+            store.add({
+                ...data,
+                timestamp: Date.now()
+            });
+        }
 
-        const tx = Storage.db.transaction(['responses'], 'readwrite');
-        const store = tx.objectStore('responses');
-        const payload = {
-            ...data,
-            timestamp: Date.now()
-        };
-        store.add(payload);
+        // Detailed response tracking in Supabase could be added here
     },
 
-    // Update or Add time spent on a question
-    // This is tricky because we might have multiple entries for the same question if visited multiple times.
-    // For now, we will just log a "visit" entry with time spent. Analysis can aggregate it.
     logQuestionTime: (testId, qId, timeSpent) => {
         if (!Storage.db || !timeSpent) return;
 
@@ -130,19 +191,6 @@ const Storage = {
             qId,
             timeSpent,
             timestamp: Date.now()
-        });
-    },
-
-    getHistory: async () => {
-        if (!Storage.db) return [];
-        return new Promise((resolve) => {
-            const tx = Storage.db.transaction(['attempts'], 'readonly');
-            const store = tx.objectStore('attempts');
-            const request = store.getAll();
-            request.onsuccess = () => {
-                // Return reverse chronological order
-                resolve(request.result.sort((a, b) => b.timestamp - a.timestamp));
-            };
         });
     },
 

@@ -1,10 +1,12 @@
-const CACHE_NAME = 'skinner-box-v2';
+const CACHE_NAME = 'skinner-box-v4';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
     './app.js',
     './storage.js',
+    './auth.js',
+    './supabase-config.js',
     './manifest.json',
     './icons/icon-192.png',
     './icons/icon-512.png',
@@ -20,6 +22,7 @@ const ASSETS_TO_CACHE = [
 // Install Event: Cache everything
 self.addEventListener('install', (event) => {
     console.log('[Service Worker] Install');
+    self.skipWaiting(); // Force activation
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
             console.log('[Service Worker] Caching all assets');

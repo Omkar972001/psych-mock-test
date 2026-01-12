@@ -20,7 +20,44 @@
 </head>
 
 <body>
-    <div class="app-container">
+    <!-- Login View (Visible by default until auth check) -->
+    <div id="loginView" class="login-view">
+        <div class="login-card">
+            <div class="login-header">
+                <img src="images/logo_new.png" alt="Logo" class="login-logo">
+                <h1>Skinner Box</h1>
+                <p>Psychology Mock Test Platform</p>
+            </div>
+
+            <div class="auth-form-container">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" onclick="Auth.switchTab('login')">Login</button>
+                    <button class="auth-tab" onclick="Auth.switchTab('signup')">Sign Up</button>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" id="authEmail" placeholder="name@example.com">
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="authPassword" placeholder="••••••••">
+                </div>
+
+                <div id="authError" class="auth-error"></div>
+
+                <button class="auth-btn" onclick="handleAuthAction()" id="authActionBtn">Login</button>
+
+                <div class="auth-footer">
+                    <p>Protected by Supabase Auth</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App Container (Hidden by default) -->
+    <div class="app-container hidden" id="appContainer">
         <!-- Mobile Header (Visible only on mobile) -->
         <header class="mobile-header">
             <button class="menu-toggle" onclick="app.toggleSidebar()">☰</button>
@@ -214,27 +251,7 @@
         You are offline. Offline mode active. 📡
     </div>
 
-    <!-- Auth Modal -->
-    <div class="modal-overlay hidden" id="authModal">
-        <div class="modal-content auth-modal">
-            <h3>Login or Create Account</h3>
-            <p>Save your progress and access your history anywhere.</p>
-            <div class="auth-form">
-                <input type="email" id="authEmail" placeholder="Email Address" class="auth-input">
-                <input type="password" id="authPassword" placeholder="Password" class="auth-input">
-                <div id="authError" style="color: #ef4444; font-size: 0.85rem; margin-bottom: 1rem;"></div>
-                <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
-                    <button class="modal-btn confirm" style="width: 100%;"
-                        onclick="handleAuthAction('login')">Login</button>
-                    <button class="modal-btn"
-                        style="width: 100%; border: 1px solid var(--primary); color: var(--primary);"
-                        onclick="handleAuthAction('signup')">Sign Up</button>
-                    <button class="modal-btn cancel" style="width: 100%;"
-                        onclick="Auth.closeLoginModal()">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Auth Info Modal (Legacy / Not Used) -->
 
     <script src="supabase-config.js"></script>
     <script src="auth.js"></script>

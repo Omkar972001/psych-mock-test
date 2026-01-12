@@ -246,17 +246,6 @@
             </div>
         </div>
     </div>
-    <div id="offlineIndicator" class="hidden" style="position:fixed; bottom:0; left:0; right:0; background:#334155; color:white; text-align:center;
-    padding:0.5rem; font-size:0.9rem; z-index:9999;">
-        You are offline. Offline mode active. 📡
-    </div>
-
-    <!-- Auth Info Modal (Legacy / Not Used) -->
-
-    <script src="supabase-config.js"></script>
-    <script src="auth.js"></script>
-    <script src="storage.js"></script>
-    <script src="app.js?v=3"></script>
     <script>
         // PWA Registration
         if (true && 'serviceWorker' in navigator) {
@@ -269,20 +258,6 @@
                     .catch(err => console.log('SW registration failed:', err));
             });
         }
-
-        // Offline Detection
-        function updateOnlineStatus() {
-            const indicator = document.getElementById('offlineIndicator');
-            if (navigator.onLine) {
-                indicator.classList.add('hidden');
-            } else {
-                indicator.classList.remove('hidden');
-            }
-        }
-
-        window.addEventListener('online', updateOnlineStatus);
-        window.addEventListener('offline', updateOnlineStatus);
-        updateOnlineStatus(); // Check on load
     </script>
 </body>
 

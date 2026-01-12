@@ -84,9 +84,19 @@ window.Auth = {
     },
 
     signOut: async () => {
-        const { error } = await window.supabase.auth.signOut();
-        if (error) throw error;
-        window.location.reload(); // Clean state reset
+        try {
+            const { error } = await window.supabase.auth.signOut();
+            if (error) throw error;
+        } catch (err) {
+            console.error("Sign out error:", err);
+            // Even if API fails, we should clear local state
+        }
+
+        Auth.user = null;
+        Auth.showLoginView();
+
+        // Optional: Reload to ensure clean state, but UI should be correct now.
+        // window.location.reload(); 
     },
 
     updateUserProfile: () => {

@@ -62,6 +62,10 @@ const app = {
 
     // Navigation Triggers (Actions)
     goToDashboard: () => {
+        // Ensure state is saved before leaving
+        if (app.state.currentTestId && !app.state.isReviewMode) {
+            app.persistState();
+        }
         window.location.hash = '#dashboard';
     },
 
@@ -260,6 +264,12 @@ const app = {
 
             app.loadQuestion(app.state.currentQIndex);
             app.renderPalette();
+
+            // Force save immediate state so "Resume" is available even if they exit immediately
+            if (!isCompleted) {
+                console.log("Initial state persist for Test", id);
+                app.persistState();
+            }
         } catch (e) {
             console.error(e);
             alert("Error loading test data: " + e.message);
@@ -313,6 +323,7 @@ const app = {
 
     persistState: () => {
         if (!app.state.currentTestId) return;
+        console.log(`Persisting state for Test ${app.state.currentTestId}`);
         const key = `psych_test_${app.state.currentTestId}_state`;
         const payload = {
             answers: app.state.answers,

@@ -92,10 +92,23 @@ window.Auth = {
             // Even if API fails, we should clear local state
         }
 
+        // FORCE CLEAR LOCAL STORAGE
+        // This fixes the issue where mobile browsers might persist the session key
+        // even after signOut() is called depending on the Supabase client state.
+        Object.keys(localStorage).forEach(key => {
+            if (key.startsWith('sb-') || key === 'supabase.auth.token') {
+                localStorage.removeItem(key);
+            }
+        });
+
+        // Also clear our app specific prefs just in case, or leave them?
+        // Let's leave user prefs (streak/lastActive) but clear auth.
+        // Actually, for a clean logout, maybe we should't rely on persisted state heavily.
+
         Auth.user = null;
         Auth.showLoginView();
 
-        // Optional: Reload to ensure clean state, but UI should be correct now.
+        // Reloading is often the safest way to clear memory state too
         // window.location.reload(); 
     },
 

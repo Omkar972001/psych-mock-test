@@ -75,7 +75,8 @@ const app = {
     },
 
     // View Renderers (Called by Router)
-    renderDashboardView: () => {
+    // View Renderers (Called by Router)
+    renderDashboardView: async () => {
         if (app.timerId) clearInterval(app.timerId);
         document.getElementById('dashboardView').classList.remove('hidden');
         document.getElementById('testInterface').classList.add('hidden');
@@ -87,10 +88,15 @@ const app = {
 
 
         // Render Streak Info
-        const streak = Storage.getStreak();
-        const streakEl = document.getElementById('streakValue');
-        if (streakEl) {
-            streakEl.innerText = streak;
+        // Streak is now async
+        try {
+            const streak = await Storage.getStreak();
+            const streakEl = document.getElementById('streakValue');
+            if (streakEl) {
+                streakEl.innerText = streak;
+            }
+        } catch (e) {
+            console.error("Streak Render Error", e);
         }
 
         app.renderDashboard();
